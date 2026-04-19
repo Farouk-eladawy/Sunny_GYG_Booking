@@ -357,6 +357,18 @@ class AirtableManager:
                         if not str_new or str_new == "None":
                             continue
                             
+                        # Special handling for arrays/lists (like Add - Ons, Options)
+                        if isinstance(new_val, list) or isinstance(old_val, list):
+                            try:
+                                import json
+                                list_old = old_val if isinstance(old_val, list) else (json.loads(old_val) if old_val else [])
+                                list_new = new_val if isinstance(new_val, list) else (json.loads(new_val) if new_val else [])
+                                # Convert to sorted strings for comparison to ignore order
+                                if sorted([str(x) for x in list_old]) == sorted([str(x) for x in list_new]):
+                                    continue
+                            except Exception:
+                                pass
+                                
                         if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
                             if str_old[:10] == str_new[:10]:
                                 continue
@@ -505,6 +517,18 @@ class AirtableManager:
                             if not str_new or str_new == "None":
                                 continue
                                 
+                            # Special handling for arrays/lists (like Add - Ons, Options)
+                            if isinstance(new_val, list) or isinstance(old_val, list):
+                                try:
+                                    import json
+                                    list_old = old_val if isinstance(old_val, list) else (json.loads(old_val) if old_val else [])
+                                    list_new = new_val if isinstance(new_val, list) else (json.loads(new_val) if new_val else [])
+                                    # Convert to sorted strings for comparison to ignore order
+                                    if sorted([str(x) for x in list_old]) == sorted([str(x) for x in list_new]):
+                                        continue
+                                except Exception:
+                                    pass
+
                             # Special handling for dates (compare only the first 10 chars YYYY-MM-DD if applicable)
                             if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
                                 if str_old[:10] == str_new[:10]:

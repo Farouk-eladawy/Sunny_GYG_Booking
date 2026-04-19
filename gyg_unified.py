@@ -500,6 +500,7 @@ class AirtableManager:
                         
                         # Compare incoming fields with mirror base fields
                         is_identical = True
+                        changed_fields = {}
                         for k, v in fields.items():
                             old_val = existing_m_record.get(k)
                             new_val = v
@@ -528,8 +529,9 @@ class AirtableManager:
                                         continue
                                     else:
                                         self.logger.debug(f"Mirror mismatch on {k} (List): {list_old} != {list_new}")
+                                        changed_fields[k] = new_val
                                         is_identical = False
-                                        break
+                                        continue
                                 except Exception:
                                     pass
 
@@ -541,8 +543,9 @@ class AirtableManager:
                                     continue
                                 else:
                                     self.logger.debug(f"Mirror mismatch on {k} (String List): {addons_old} != {addons_new}")
+                                    changed_fields[k] = new_val
                                     is_identical = False
-                                    break
+                                    continue
 
                             # Special handling for dates (compare only the first 10 chars YYYY-MM-DD if applicable)
                             if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
@@ -555,22 +558,38 @@ class AirtableManager:
                                     f_old = float(old_val) if old_val != "" else 0.0
                                     f_new = float(new_val)
                                     if abs(f_old - f_new) > 0.001:
+                                        changed_fields[k] = new_val
                                         is_identical = False
                                         self.logger.debug(f"Mirror mismatch on {k}: {f_old} != {f_new}")
-                                        break
                                     continue
                                 except ValueError:
                                     pass # Fallback to string comparison
                                     
                             if str_new != str_old:
+                                # We only consider it a mismatch if it's not a missing value issue
+                                # e.g. If mirror has a valid value and the new value is empty, we don't overwrite it
+                                # to preserve data unless it's genuinely changed.
+                                # Actually, for the mirror base, we just want to know what changed.
+                                # Let's collect the exact fields that changed instead of just breaking.
+                                changed_fields[k] = new_val
                                 is_identical = False
                                 self.logger.debug(f"Mirror mismatch on {k}: Old='{str_old}' ({type(old_val)}) != New='{str_new}' ({type(new_val)})")
-                                break
                                 
                         if is_identical:
                             self.logger.info(f"Skipping Main Base update for {booking.get('booking_nr')} - Matches Mirror Base perfectly (No new changes from GYG).")
                             # Even though we skipped Airtable, we return success so local DB is marked synced
                             return {"success": True, "record_id": m_rid, "skipped": True}
+                        else:
+                            # We only want to send the fields that actually changed to the Main Base
+                            # However, we must ensure force_update_fields are always included
+                            for f_forced in force_update_fields:
+                                if f_forced in fields:
+                                    changed_fields[f_forced] = fields[f_forced]
+                            
+                            self.logger.info(f"Delta detected for {booking.get('booking_nr')}. Only updating changed fields: {list(changed_fields.keys())}")
+                            # Replace the original fields payload with ONLY the changed fields
+                            # This is the magic step that prevents overwriting manual edits in other columns
+                            fields = changed_fields
             # ----------------------------------
 
             

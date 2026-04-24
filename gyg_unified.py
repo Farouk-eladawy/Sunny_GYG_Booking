@@ -159,6 +159,14 @@ class BookingsDatabase:
             else:
                 s_new = normalize_val(v_new)
                 s_old = normalize_val(v_old)
+                
+                # Special handling for arrays/lists like add_ons that are stored as strings
+                if k == "add_ons":
+                    addons_old = sorted([x.strip() for x in s_old.split(';')]) if s_old else []
+                    addons_new = sorted([x.strip() for x in s_new.split(';')]) if s_new else []
+                    if addons_old == addons_new:
+                        continue
+                        
                 if s_new != s_old:
                     try:
                         f1 = float(s_new)
@@ -397,6 +405,8 @@ class AirtableManager:
                 else:
                     self.logger.info(f"Creating record in Mirror Base for {booking_nr}")
                     requests.post(self.mirror_api_url, headers=headers, json={"fields": fields, "typecast": True}, timeout=30)
+            else:
+                self.logger.error(f"Failed to fetch Mirror Base for {booking_nr} during sync. Status Code: {mirror_find.status_code}. Response: {mirror_find.text}")
         except Exception as e:
             self.logger.warning(f"Failed to sync to mirror base for {booking_nr}: {e}")
 
@@ -491,6 +501,13 @@ class AirtableManager:
             # We skip the main base update to preserve manual edits in the main base.
             if self.mirror_api_url:
                 mirror_find = requests.get(self.mirror_api_url, headers=headers, params=params, timeout=30)
+                
+                if mirror_find.status_code == 429:
+                    self.logger.warning(f"Rate limit hit when checking Mirror Base for {booking.get('booking_nr')}. Waiting 2 seconds.")
+                    import time
+                    time.sleep(2)
+                    mirror_find = requests.get(self.mirror_api_url, headers=headers, params=params, timeout=30)
+                    
                 if mirror_find.status_code == 200:
                     m_data = mirror_find.json() or {}
                     m_records = m_data.get("records") or []
@@ -535,10 +552,17 @@ class AirtableManager:
                                 except Exception:
                                     pass
 
-                            # Handle strings that look like semicolon separated lists (like Add - Ons text)
+                            # Handle strings that look like semicolon or comma separated lists (like Add - Ons text)
                             if k == "Add - Ons":
-                                addons_old = sorted([x.strip() for x in str_old.split(';')]) if str_old else []
-                                addons_new = sorted([x.strip() for x in str_new.split(';')]) if str_new else []
+                                # Sometimes separated by ';' and sometimes by ',' depending on the source
+                                addons_old = sorted([x.strip() for x in str_old.replace(',', ';').split(';')]) if str_old else []
+                                addons_new = sorted([x.strip() for x in str_new.replace(',', ';').split(';')]) if str_new else []
+                                
+                                # Clean up common prefix like '2 x ' or '1 x ' before comparison
+                                import re
+                                addons_old = sorted([re.sub(r'^\d+\s*x\s*', '', x) for x in addons_old if x])
+                                addons_new = sorted([re.sub(r'^\d+\s*x\s*', '', x) for x in addons_new if x])
+                                
                                 if addons_old == addons_new:
                                     continue
                                 else:
@@ -551,7 +575,12 @@ class AirtableManager:
                             if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
                                 if str_old[:10] == str_new[:10]:
                                     continue
-
+                                else:
+                                    changed_fields[k] = new_val
+                                    is_identical = False
+                                    self.logger.debug(f"Mirror mismatch on {k} (Date): {str_old[:10]} != {str_new[:10]}")
+                                    continue
+                                    
                             # Special handling for floats/numbers
                             if isinstance(new_val, (int, float)) or (isinstance(old_val, (int, float)) and old_val != ""):
                                 try:
@@ -567,29 +596,24 @@ class AirtableManager:
                                     
                             if str_new != str_old:
                                 # We only consider it a mismatch if it's not a missing value issue
-                                # e.g. If mirror has a valid value and the new value is empty, we don't overwrite it
-                                # to preserve data unless it's genuinely changed.
-                                # Actually, for the mirror base, we just want to know what changed.
-                                # Let's collect the exact fields that changed instead of just breaking.
                                 changed_fields[k] = new_val
                                 is_identical = False
                                 self.logger.debug(f"Mirror mismatch on {k}: Old='{str_old}' ({type(old_val)}) != New='{str_new}' ({type(new_val)})")
                                 
                         if is_identical:
                             self.logger.info(f"Skipping Main Base update for {booking.get('booking_nr')} - Matches Mirror Base perfectly (No new changes from GYG).")
-                            # Even though we skipped Airtable, we return success so local DB is marked synced
                             return {"success": True, "record_id": m_rid, "skipped": True}
                         else:
-                            # We only want to send the fields that actually changed to the Main Base
-                            # However, we must ensure force_update_fields are always included
                             for f_forced in force_update_fields:
                                 if f_forced in fields:
                                     changed_fields[f_forced] = fields[f_forced]
                             
                             self.logger.info(f"Delta detected for {booking.get('booking_nr')}. Only updating changed fields: {list(changed_fields.keys())}")
-                            # Replace the original fields payload with ONLY the changed fields
-                            # This is the magic step that prevents overwriting manual edits in other columns
                             fields = changed_fields
+                    else:
+                        self.logger.info(f"Record {booking.get('booking_nr')} not found in Mirror Base. Proceeding with full update.")
+                else:
+                    self.logger.error(f"Failed to fetch Mirror Base for {booking.get('booking_nr')}. Status Code: {mirror_find.status_code}. Response: {mirror_find.text}")
             # ----------------------------------
 
             
@@ -2182,8 +2206,11 @@ class GYGUnifiedSystem:
         if previous_record:
             old_date = str(previous_record.get("date_trip")) if previous_record.get("date_trip") else None
             new_date = str(booking.get("date_trip")) if booking.get("date_trip") else None
+            # Only force update if the actual date has changed in DB
             if old_date and new_date and old_date != new_date:
                 force_update_fields.append("Date Trip")
+                # When Date Trip changes, also force update Real Date Trip
+                force_update_fields.append("Real Date Trip")
 
             old_trip_name = previous_record.get("trip_name")
             new_trip_name = booking.get("trip_name")
@@ -2896,6 +2923,16 @@ def _norm_region(s: Optional[str]) -> Optional[str]:
     return None
 
 def extract_region(trip_name: Optional[str], option_selected: Optional[str], card_text: str) -> Optional[str]:
+    # Specific overrides as requested
+    des_overrides = {
+        "Sahl Hasheesh Elite Beach Dive & Coral Reef Experience": "Hurghada",
+        "Marsa Mubarak Sea Turtles Trip with Optional Diving": "Marsa Alam"
+    }
+    
+    trip_name_clean = (trip_name or "").strip()
+    if trip_name_clean in des_overrides:
+        return des_overrides[trip_name_clean]
+
     if trip_name and ":" in trip_name:
         r = trip_name.split(":", 1)[0].strip()
         n = _norm_region(r)

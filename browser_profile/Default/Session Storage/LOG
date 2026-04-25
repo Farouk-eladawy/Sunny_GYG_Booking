@@ -1,45 +1,29 @@
-2026/04/25-09:09:36.039 96d Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/04/25-09:14:07.062 96f Level-0 table #73177: started
-2026/04/25-09:14:07.075 96f Level-0 table #73177: 556247 bytes OK
-2026/04/25-09:14:07.076 96f Delete type=0 #73175
-2026/04/25-09:24:02.549 96d Level-0 table #73179: started
-2026/04/25-09:24:02.554 96d Level-0 table #73179: 12409 bytes OK
-2026/04/25-09:24:02.556 96d Delete type=0 #73176
-2026/04/25-09:24:02.556 96d Compacting 4@0 + 3@1 files
-2026/04/25-09:24:02.617 96d Generated table #73180@0: 75377 keys, 2150269 bytes
-2026/04/25-09:24:02.669 96d Generated table #73181@0: 75436 keys, 2150250 bytes
-2026/04/25-09:24:02.688 96d Generated table #73182@0: 22886 keys, 652875 bytes
-2026/04/25-09:24:02.689 96d Compacted 4@0 + 3@1 files => 4953394 bytes
-2026/04/25-09:24:02.689 96d compacted to: files[ 0 5 23 0 0 0 0 ]
-2026/04/25-09:24:02.690 96d Delete type=2 #73177
-2026/04/25-09:24:02.690 96d Delete type=2 #73179
-2026/04/25-09:24:02.690 96d Delete type=2 #73167
-2026/04/25-09:24:02.690 96d Delete type=2 #73171
-2026/04/25-09:24:02.690 96d Delete type=2 #73166
-2026/04/25-09:24:02.690 96d Delete type=2 #73173
-2026/04/25-09:24:02.690 96d Delete type=2 #73165
-2026/04/25-09:26:39.337 96f Level-0 table #73184: started
-2026/04/25-09:26:39.342 96f Level-0 table #73184: 10662 bytes OK
-2026/04/25-09:26:39.343 96f Delete type=0 #73178
-2026/04/25-09:31:13.327 96f Level-0 table #73186: started
-2026/04/25-09:31:13.332 96f Level-0 table #73186: 12175 bytes OK
-2026/04/25-09:31:13.334 96f Delete type=0 #73183
-2026/04/25-09:41:25.155 96f Level-0 table #73188: started
-2026/04/25-09:41:25.156 96f Level-0 table #73188: 12025 bytes OK
-2026/04/25-09:41:25.157 96f Delete type=0 #73185
-2026/04/25-09:42:38.098 96f Level-0 table #73190: started
-2026/04/25-09:42:38.112 96f Level-0 table #73190: 553344 bytes OK
-2026/04/25-09:42:38.114 96f Delete type=0 #73187
-2026/04/25-09:42:38.114 96f Compacting 4@0 + 3@1 files
-2026/04/25-09:42:38.155 96f Generated table #73191@0: 55520 keys, 2135878 bytes
-2026/04/25-09:42:38.200 96f Generated table #73192@0: 75502 keys, 2151290 bytes
-2026/04/25-09:42:38.220 96f Generated table #73193@0: 42885 keys, 1223682 bytes
-2026/04/25-09:42:38.220 96f Compacted 4@0 + 3@1 files => 5510850 bytes
-2026/04/25-09:42:38.220 96f compacted to: files[ 0 5 23 0 0 0 0 ]
-2026/04/25-09:42:38.221 96f Delete type=2 #73186
-2026/04/25-09:42:38.221 96f Delete type=2 #73184
-2026/04/25-09:42:38.221 96f Delete type=2 #73181
-2026/04/25-09:42:38.221 96f Delete type=2 #73188
-2026/04/25-09:42:38.221 96f Delete type=2 #73182
-2026/04/25-09:42:38.221 96f Delete type=2 #73180
-2026/04/25-09:42:38.221 96f Delete type=2 #73190
+2026/04/25-09:57:02.332 96e Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/04/25-10:06:44.766 970 Level-0 table #73197: started
+2026/04/25-10:06:44.768 970 Level-0 table #73197: 11733 bytes OK
+2026/04/25-10:06:44.769 970 Delete type=0 #73195
+2026/04/25-10:10:50.885 96e Level-0 table #73199: started
+2026/04/25-10:10:50.890 96e Level-0 table #73199: 13148 bytes OK
+2026/04/25-10:10:50.891 96e Delete type=0 #73196
+2026/04/25-10:11:55.085 970 Level-0 table #73201: started
+2026/04/25-10:11:55.098 970 Level-0 table #73201: 558959 bytes OK
+2026/04/25-10:11:55.099 970 Delete type=0 #73198
+2026/04/25-10:15:43.881 96e Level-0 table #73203: started
+2026/04/25-10:15:43.891 96e Level-0 table #73203: 14301 bytes OK
+2026/04/25-10:15:43.893 96e Delete type=0 #73200
+2026/04/25-10:15:43.893 970 Compacting 4@0 + 3@1 files
+2026/04/25-10:15:43.950 970 Generated table #73204@0: 55491 keys, 2136316 bytes
+2026/04/25-10:15:43.987 970 Generated table #73205@0: 75442 keys, 2150649 bytes
+2026/04/25-10:15:44.009 970 Generated table #73206@0: 43177 keys, 1230986 bytes
+2026/04/25-10:15:44.009 970 Compacted 4@0 + 3@1 files => 5517951 bytes
+2026/04/25-10:15:44.010 970 compacted to: files[ 0 5 23 0 0 0 0 ]
+2026/04/25-10:15:44.010 970 Delete type=2 #73201
+2026/04/25-10:15:44.010 970 Delete type=2 #73193
+2026/04/25-10:15:44.010 970 Delete type=2 #73191
+2026/04/25-10:15:44.010 970 Delete type=2 #73203
+2026/04/25-10:15:44.010 970 Delete type=2 #73199
+2026/04/25-10:15:44.010 970 Delete type=2 #73197
+2026/04/25-10:15:44.010 970 Delete type=2 #73192
+2026/04/25-10:18:56.221 96e Level-0 table #73208: started
+2026/04/25-10:18:56.228 96e Level-0 table #73208: 12374 bytes OK
+2026/04/25-10:18:56.228 96e Delete type=0 #73202

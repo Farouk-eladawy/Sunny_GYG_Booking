@@ -1,17 +1,19 @@
-2026/04/29-00:06:55.954 941 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/29-00:06:55.965 941 Delete type=2 #5850
-2026/04/29-00:16:56.869 940 Level-0 table #5852: started
-2026/04/29-00:16:56.870 940 Level-0 table #5852: 16638 bytes OK
-2026/04/29-00:16:56.871 940 Delete type=0 #5850
-2026/04/29-00:16:56.871 940 Compacting 4@0 + 1@1 files
-2026/04/29-00:16:56.872 940 Generated table #5853@0: 80 keys, 10955 bytes
-2026/04/29-00:16:56.872 940 Compacted 4@0 + 1@1 files => 10955 bytes
-2026/04/29-00:16:56.873 940 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/04/29-00:16:56.873 940 Delete type=2 #5852
-2026/04/29-00:16:56.873 940 Delete type=2 #5848
-2026/04/29-00:16:56.873 940 Delete type=2 #5842
-2026/04/29-00:16:56.873 940 Delete type=2 #5844
-2026/04/29-00:16:56.873 940 Delete type=2 #5838
-2026/04/29-00:23:56.869 940 Level-0 table #5855: started
-2026/04/29-00:23:56.871 940 Level-0 table #5855: 15461 bytes OK
-2026/04/29-00:23:56.872 940 Delete type=0 #5851
+2026/04/29-01:42:05.660 923 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/29-01:51:06.678 925 Level-0 table #5859: started
+2026/04/29-01:51:06.681 925 Level-0 table #5859: 15286 bytes OK
+2026/04/29-01:51:06.682 925 Delete type=0 #5857
+2026/04/29-01:58:07.247 925 Level-0 table #5861: started
+2026/04/29-01:58:07.252 925 Level-0 table #5861: 14922 bytes OK
+2026/04/29-01:58:07.253 925 Delete type=0 #5858
+2026/04/29-02:10:06.679 929 Level-0 table #5863: started
+2026/04/29-02:10:06.685 929 Level-0 table #5863: 16216 bytes OK
+2026/04/29-02:10:06.686 929 Delete type=0 #5860
+2026/04/29-02:10:06.687 929 Compacting 4@0 + 1@1 files
+2026/04/29-02:10:06.688 929 Generated table #5864@0: 82 keys, 10856 bytes
+2026/04/29-02:10:06.688 929 Compacted 4@0 + 1@1 files => 10856 bytes
+2026/04/29-02:10:06.688 929 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/29-02:10:06.688 929 Delete type=2 #5863
+2026/04/29-02:10:06.688 929 Delete type=2 #5855
+2026/04/29-02:10:06.689 929 Delete type=2 #5861
+2026/04/29-02:10:06.689 929 Delete type=2 #5859
+2026/04/29-02:10:06.689 929 Delete type=2 #5853

@@ -1,7 +1,16 @@
-2026/04/29-02:56:59.584 97a Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/29-03:07:00.109 97c Level-0 table #5868: started
-2026/04/29-03:07:00.110 97c Level-0 table #5868: 15537 bytes OK
-2026/04/29-03:07:00.111 97c Delete type=0 #5866
-2026/04/29-03:14:00.108 97c Level-0 table #5870: started
-2026/04/29-03:14:00.112 97c Level-0 table #5870: 13757 bytes OK
-2026/04/29-03:14:00.113 97c Delete type=0 #5867
+2026/04/29-04:02:30.873 975 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/29-04:11:24.787 975 Level-0 table #5874: started
+2026/04/29-04:11:24.793 975 Level-0 table #5874: 13511 bytes OK
+2026/04/29-04:11:24.795 975 Delete type=0 #5872
+2026/04/29-04:20:14.296 975 Level-0 table #5876: started
+2026/04/29-04:20:14.298 975 Level-0 table #5876: 15129 bytes OK
+2026/04/29-04:20:14.300 975 Delete type=0 #5873
+2026/04/29-04:20:14.300 975 Compacting 4@0 + 1@1 files
+2026/04/29-04:20:14.302 975 Generated table #5877@0: 86 keys, 10917 bytes
+2026/04/29-04:20:14.302 975 Compacted 4@0 + 1@1 files => 10917 bytes
+2026/04/29-04:20:14.302 975 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/29-04:20:14.303 975 Delete type=2 #5870
+2026/04/29-04:20:14.303 975 Delete type=2 #5874
+2026/04/29-04:20:14.303 975 Delete type=2 #5868
+2026/04/29-04:20:14.303 975 Delete type=2 #5876
+2026/04/29-04:20:14.303 975 Delete type=2 #5864

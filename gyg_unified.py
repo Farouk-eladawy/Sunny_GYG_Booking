@@ -377,7 +377,10 @@ class AirtableManager:
                             except Exception:
                                 pass
                                 
-                        if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
+                        if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 16 and len(str_new) >= 16:
+                            if str_old[:16] == str_new[:16]:
+                                continue
+                        elif k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
                             if str_old[:10] == str_new[:10]:
                                 continue
                                 
@@ -572,7 +575,20 @@ class AirtableManager:
                                     continue
 
                             # Special handling for dates (compare only the first 10 chars YYYY-MM-DD if applicable)
-                            if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
+                            if k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 16 and len(str_new) >= 16:
+                                # Sometimes Airtable appends 'Z' to floating times in the API response
+                                # We only want to compare the actual numbers YYYY-MM-DDTHH:MM
+                                str_old_time = str_old[:16]
+                                str_new_time = str_new[:16]
+                                if str_old_time == str_new_time:
+                                    continue
+                                else:
+                                    changed_fields[k] = new_val
+                                    is_identical = False
+                                    self.logger.debug(f"Mirror mismatch on {k} (Date/Time): {str_old_time} != {str_new_time}")
+                                    continue
+                            elif k in ["Date Trip", "Real Date Trip"] and len(str_old) >= 10 and len(str_new) >= 10:
+                                # Fallback to Date only comparison if time is missing
                                 if str_old[:10] == str_new[:10]:
                                     continue
                                 else:

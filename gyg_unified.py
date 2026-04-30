@@ -2971,25 +2971,13 @@ def _parse_date_text(s: Optional[str]) -> Optional[str]:
     else:
         h = 12 if h == 12 else h + 12
     try:
-        # Create a timezone-aware datetime using the local offset
+        # If GYG says 20:30, we want it to display EXACTLY as 20:30 in Airtable.
+        # Since Airtable field "Date Trip" is configured to show "Local Time" (EEST/UTC+3 or UTC+2),
+        # the most foolproof way to bypass all Airtable timezone conversions is to format the date
+        # as a raw ISO string without ANY timezone indicator (no 'Z', no offset).
+        # This forces Airtable to treat it as "floating local time" and display it exactly as string.
         dt = datetime(int(year), mi, int(day), h, int(mm))
-        
-        # Actually, let's fix it properly:
-        # If GYG says 20:30, and Airtable shows 21:30 EEST, it means Airtable is applying a timezone correction 
-        # based on its internal settings (EEST is UTC+3).
-        # We should read the offset from env, subtract it from the local time to get true UTC, then append Z.
-        # This way Airtable converts it back correctly.
-        tz_offset_str = os.getenv("AIRTABLE_TZ_OFFSET", "+02:00")
-        
-        # Parse the offset (e.g. +02:00 or -05:00)
-        sign = 1 if tz_offset_str.startswith('+') else -1
-        offset_hours = int(tz_offset_str[1:3])
-        offset_mins = int(tz_offset_str[4:6])
-        total_offset_delta = timedelta(hours=offset_hours, minutes=offset_mins) * sign
-        
-        # Convert local GYG time to UTC time before sending to Airtable
-        utc_dt = dt - total_offset_delta
-        return utc_dt.strftime('%Y-%m-%dT%H:%M:00.000Z')
+        return dt.strftime('%Y-%m-%dT%H:%M:00')
     except Exception:
         return None
 

@@ -1,19 +1,16 @@
-2026/04/30-01:48:57.064 965 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/30-01:58:11.400 969 Level-0 table #6028: started
-2026/04/30-01:58:11.405 969 Level-0 table #6028: 16301 bytes OK
-2026/04/30-01:58:11.406 969 Delete type=0 #6026
-2026/04/30-01:58:11.406 969 Compacting 4@0 + 1@1 files
-2026/04/30-01:58:11.408 969 Generated table #6029@0: 131 keys, 11814 bytes
-2026/04/30-01:58:11.408 969 Compacted 4@0 + 1@1 files => 11814 bytes
-2026/04/30-01:58:11.408 969 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/04/30-01:58:11.408 969 Delete type=2 #6024
-2026/04/30-01:58:11.408 969 Delete type=2 #6020
-2026/04/30-01:58:11.408 969 Delete type=2 #6022
-2026/04/30-01:58:11.408 969 Delete type=2 #6016
-2026/04/30-01:58:11.408 969 Delete type=2 #6028
-2026/04/30-02:07:19.132 969 Level-0 table #6031: started
-2026/04/30-02:07:19.134 969 Level-0 table #6031: 15616 bytes OK
-2026/04/30-02:07:19.136 969 Delete type=0 #6027
-2026/04/30-02:15:57.664 969 Level-0 table #6033: started
-2026/04/30-02:15:57.669 969 Level-0 table #6033: 14608 bytes OK
-2026/04/30-02:15:57.669 969 Delete type=0 #6030
+2026/04/30-03:01:31.242 980 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/30-03:10:33.053 984 Level-0 table #6037: started
+2026/04/30-03:10:33.056 984 Level-0 table #6037: 15112 bytes OK
+2026/04/30-03:10:33.056 984 Delete type=0 #6035
+2026/04/30-03:20:13.048 980 Level-0 table #6039: started
+2026/04/30-03:20:13.050 980 Level-0 table #6039: 15426 bytes OK
+2026/04/30-03:20:13.051 980 Delete type=0 #6036
+2026/04/30-03:20:13.051 980 Compacting 4@0 + 1@1 files
+2026/04/30-03:20:13.057 980 Generated table #6040@0: 133 keys, 11901 bytes
+2026/04/30-03:20:13.057 980 Compacted 4@0 + 1@1 files => 11901 bytes
+2026/04/30-03:20:13.058 980 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/30-03:20:13.058 980 Delete type=2 #6039
+2026/04/30-03:20:13.058 980 Delete type=2 #6031
+2026/04/30-03:20:13.058 980 Delete type=2 #6033
+2026/04/30-03:20:13.058 980 Delete type=2 #6029
+2026/04/30-03:20:13.059 980 Delete type=2 #6037

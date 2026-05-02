@@ -1,19 +1,16 @@
-2026/05/02-18:02:37.105 8e9 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/02-18:09:35.083 8e9 Level-0 table #6391: started
-2026/05/02-18:09:35.085 8e9 Level-0 table #6391: 14550 bytes OK
-2026/05/02-18:09:35.086 8e9 Delete type=0 #6389
-2026/05/02-18:09:35.087 8e9 Compacting 4@0 + 1@1 files
-2026/05/02-18:09:35.091 8e9 Generated table #6392@0: 222 keys, 12980 bytes
-2026/05/02-18:09:35.091 8e9 Compacted 4@0 + 1@1 files => 12980 bytes
-2026/05/02-18:09:35.093 8e9 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/02-18:09:35.093 8e9 Delete type=2 #6387
-2026/05/02-18:09:35.093 8e9 Delete type=2 #6391
-2026/05/02-18:09:35.093 8e9 Delete type=2 #6379
-2026/05/02-18:09:35.093 8e9 Delete type=2 #6383
-2026/05/02-18:09:35.093 8e9 Delete type=2 #6385
-2026/05/02-18:14:37.619 8ed Level-0 table #6394: started
-2026/05/02-18:14:37.630 8ed Level-0 table #6394: 14313 bytes OK
-2026/05/02-18:14:37.630 8ed Delete type=0 #6390
-2026/05/02-18:25:37.619 8ed Level-0 table #6396: started
-2026/05/02-18:25:37.735 8ed Level-0 table #6396: 14911 bytes OK
-2026/05/02-18:25:37.736 8ed Delete type=0 #6393
+2026/05/02-19:04:26.915 92b Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/02-19:13:20.891 92b Level-0 table #6400: started
+2026/05/02-19:13:20.897 92b Level-0 table #6400: 15837 bytes OK
+2026/05/02-19:13:20.898 92b Delete type=0 #6398
+2026/05/02-19:21:10.793 92b Level-0 table #6402: started
+2026/05/02-19:21:10.800 92b Level-0 table #6402: 14518 bytes OK
+2026/05/02-19:21:10.804 92b Delete type=0 #6399
+2026/05/02-19:21:10.804 92f Compacting 4@0 + 1@1 files
+2026/05/02-19:21:10.806 92f Generated table #6403@0: 224 keys, 13876 bytes
+2026/05/02-19:21:10.806 92f Compacted 4@0 + 1@1 files => 13876 bytes
+2026/05/02-19:21:10.807 92f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/02-19:21:10.807 92f Delete type=2 #6402
+2026/05/02-19:21:10.807 92f Delete type=2 #6400
+2026/05/02-19:21:10.807 92f Delete type=2 #6394
+2026/05/02-19:21:10.807 92f Delete type=2 #6392
+2026/05/02-19:21:10.807 92f Delete type=2 #6396

@@ -1741,7 +1741,8 @@ class GYGUnifiedSystem:
                     v = int(nm.group(1)) if nm else 0
                     
                     # Safety: Ignore numbers > 50 (likely prices, ages, or percentages)
-                    if v > 50: 
+                    # Also ignore if it's the price of an add-on (e.g. €20.00)
+                    if v > 50 or (v >= 10 and not re.search(r'^\s*\d+', t)): 
                         v = 0
                     
                     is_participant = False
@@ -1752,7 +1753,10 @@ class GYGUnifiedSystem:
                     if v > 0:
                         if 'total:' in tl:
                              is_participant = False # Ignore total lines
-                        elif 'adult' in tl: adt = v; is_participant = True
+                        elif 'adult' in tl: 
+                            # If we already set adults from another line, don't overwrite it unless we're combining
+                            if adt == 0: adt = v
+                            is_participant = True
                         elif 'student' in tl: std = v; is_participant = True
                         elif 'children' in tl or 'child' in tl: chd = v; is_participant = True
                         elif 'infant' in tl: inf = v; is_participant = True
@@ -1760,12 +1764,23 @@ class GYGUnifiedSystem:
                         
                         # Fix for "Total: 4 people" confusion
                         elif ('people' in tl or 'person' in tl):
-                             # Only use generic "people" if it's NOT a total line (already handled above)
-                             # But wait, the user says "Total: 4 people" appears at the end.
-                             # We should generally ignore "people" if it comes from a "Total" line.
-                             # The check 'total:' in tl handles that.
-                             # What if it's just "4 people"? Then treat as Adult.
-                             adt = v; is_participant = True
+                             pass # Handled below
+                        
+                        if not is_participant and ('people' in tl or 'person' in tl) and 'total:' not in tl:
+                             if adt == 0: adt = v
+                             is_participant = True
+                             
+                        # Prevent extracting price (e.g. €20.00) as participant count of 20
+                        # Usually participant counts are at the START of the string, e.g. "2 Adults"
+                        # If the regex found the number but it's not at the very beginning, and it's a large number, reject it
+                        if is_participant and not re.search(r'^\s*\d+', t) and v >= 10:
+                             is_participant = False
+                             if 'adult' in tl: adt = 0
+                             elif 'student' in tl: std = 0
+                             elif 'children' in tl or 'child' in tl: chd = 0
+                             elif 'infant' in tl: inf = 0
+                             elif 'youth' in tl: youth = 0
+                             elif ('people' in tl or 'person' in tl) and 'total:' not in tl: adt = 0
                     
                     # If not a standard participant, treat as add-on
                     if not is_participant and t and 'total:' not in tl:

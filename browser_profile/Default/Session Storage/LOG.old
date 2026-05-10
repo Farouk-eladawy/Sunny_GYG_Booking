@@ -1,10 +1,28 @@
-2026/05/10-20:55:23.936 93b Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/05/10-21:06:43.671 93b Level-0 table #81068: started
-2026/05/10-21:06:43.676 93b Level-0 table #81068: 11044 bytes OK
-2026/05/10-21:06:43.678 93b Delete type=0 #81066
-2026/05/10-21:09:36.059 93f Level-0 table #81070: started
-2026/05/10-21:09:36.070 93f Level-0 table #81070: 574553 bytes OK
-2026/05/10-21:09:36.071 93f Delete type=0 #81067
-2026/05/10-21:12:30.037 93b Level-0 table #81072: started
-2026/05/10-21:12:30.042 93b Level-0 table #81072: 11624 bytes OK
-2026/05/10-21:12:30.043 93b Delete type=0 #81069
+2026/05/10-22:09:13.007 9ef Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/05/10-22:12:31.654 9ef Level-0 table #81076: started
+2026/05/10-22:12:31.660 9ef Level-0 table #81076: 10237 bytes OK
+2026/05/10-22:12:31.663 9ef Delete type=0 #81074
+2026/05/10-22:12:31.663 9ef Compacting 4@0 + 4@1 files
+2026/05/10-22:12:31.708 9ef Generated table #81077@0: 14484 keys, 2108218 bytes
+2026/05/10-22:12:31.751 9ef Generated table #81078@0: 75273 keys, 2150557 bytes
+2026/05/10-22:12:31.786 9ef Generated table #81079@0: 75239 keys, 2149614 bytes
+2026/05/10-22:12:31.815 9ef Generated table #81080@0: 65668 keys, 1876844 bytes
+2026/05/10-22:12:31.815 9ef Compacted 4@0 + 4@1 files => 8285233 bytes
+2026/05/10-22:12:31.815 9ef compacted to: files[ 0 4 48 0 0 0 0 ]
+2026/05/10-22:12:31.816 9ef Delete type=2 #81063
+2026/05/10-22:12:31.816 9ef Delete type=2 #81068
+2026/05/10-22:12:31.816 9ef Delete type=2 #81076
+2026/05/10-22:12:31.816 9ef Delete type=2 #81062
+2026/05/10-22:12:31.816 9ef Delete type=2 #81064
+2026/05/10-22:12:31.816 9ef Delete type=2 #81070
+2026/05/10-22:12:31.816 9ef Delete type=2 #81061
+2026/05/10-22:12:31.816 9ef Delete type=2 #81072
+2026/05/10-22:16:55.905 9ef Level-0 table #81082: started
+2026/05/10-22:16:55.911 9ef Level-0 table #81082: 10922 bytes OK
+2026/05/10-22:16:55.913 9ef Delete type=0 #81075
+2026/05/10-22:27:37.613 9f3 Level-0 table #81084: started
+2026/05/10-22:27:37.627 9f3 Level-0 table #81084: 575002 bytes OK
+2026/05/10-22:27:37.628 9f3 Delete type=0 #81081
+2026/05/10-22:41:11.838 9f3 Level-0 table #81086: started
+2026/05/10-22:41:11.848 9f3 Level-0 table #81086: 12507 bytes OK
+2026/05/10-22:41:11.850 9f3 Delete type=0 #81083

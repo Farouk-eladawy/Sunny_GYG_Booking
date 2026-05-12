@@ -1,13 +1,22 @@
-2026/05/12-11:05:31.291 924 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/12-11:14:31.774 928 Level-0 table #7353: started
-2026/05/12-11:14:31.777 928 Level-0 table #7353: 16284 bytes OK
-2026/05/12-11:14:31.777 928 Delete type=0 #7351
-2026/05/12-11:14:31.778 928 Compacting 4@0 + 1@1 files
-2026/05/12-11:14:31.779 928 Generated table #7354@0: 460 keys, 20236 bytes
-2026/05/12-11:14:31.779 928 Compacted 4@0 + 1@1 files => 20236 bytes
-2026/05/12-11:14:31.780 928 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/12-11:14:31.780 928 Delete type=2 #7343
-2026/05/12-11:14:31.780 928 Delete type=2 #7353
-2026/05/12-11:14:31.780 928 Delete type=2 #7345
-2026/05/12-11:14:31.780 928 Delete type=2 #7347
-2026/05/12-11:14:31.780 928 Delete type=2 #7349
+2026/05/12-12:19:30.051 989 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/12-12:26:20.592 98d Level-0 table #7358: started
+2026/05/12-12:26:20.599 98d Level-0 table #7358: 16387 bytes OK
+2026/05/12-12:26:20.600 98d Delete type=0 #7356
+2026/05/12-12:30:30.511 98d Level-0 table #7360: started
+2026/05/12-12:30:30.512 98d Level-0 table #7360: 17085 bytes OK
+2026/05/12-12:30:30.512 98d Delete type=0 #7357
+2026/05/12-12:38:30.511 98d Level-0 table #7362: started
+2026/05/12-12:38:30.515 98d Level-0 table #7362: 16257 bytes OK
+2026/05/12-12:38:30.515 98d Delete type=0 #7359
+2026/05/12-12:45:30.403 989 Level-0 table #7364: started
+2026/05/12-12:45:30.407 989 Level-0 table #7364: 16376 bytes OK
+2026/05/12-12:45:30.409 989 Delete type=0 #7361
+2026/05/12-12:45:30.409 989 Compacting 4@0 + 1@1 files
+2026/05/12-12:45:30.411 989 Generated table #7365@0: 462 keys, 21351 bytes
+2026/05/12-12:45:30.411 989 Compacted 4@0 + 1@1 files => 21351 bytes
+2026/05/12-12:45:30.412 989 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/12-12:45:30.412 989 Delete type=2 #7358
+2026/05/12-12:45:30.412 989 Delete type=2 #7354
+2026/05/12-12:45:30.412 989 Delete type=2 #7362
+2026/05/12-12:45:30.412 989 Delete type=2 #7360
+2026/05/12-12:45:30.412 989 Delete type=2 #7364

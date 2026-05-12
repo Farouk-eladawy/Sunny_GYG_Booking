@@ -1,10 +1,22 @@
-2026/05/12-08:37:54.651 978 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/12-08:46:19.654 97e Level-0 table #7334: started
-2026/05/12-08:46:19.658 97e Level-0 table #7334: 17509 bytes OK
-2026/05/12-08:46:19.659 97e Delete type=0 #7332
-2026/05/12-08:50:55.126 97c Level-0 table #7336: started
-2026/05/12-08:50:55.130 97c Level-0 table #7336: 15802 bytes OK
-2026/05/12-08:50:55.130 97c Delete type=0 #7333
-2026/05/12-09:00:55.126 97c Level-0 table #7338: started
-2026/05/12-09:00:55.130 97c Level-0 table #7338: 16565 bytes OK
-2026/05/12-09:00:55.130 97c Delete type=0 #7335
+2026/05/12-09:51:48.696 9ae Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/12-09:59:01.507 9af Level-0 table #7342: started
+2026/05/12-09:59:01.514 9af Level-0 table #7342: 16356 bytes OK
+2026/05/12-09:59:01.516 9af Delete type=0 #7340
+2026/05/12-09:59:01.516 9af Compacting 4@0 + 1@1 files
+2026/05/12-09:59:01.518 9af Generated table #7343@0: 458 keys, 21351 bytes
+2026/05/12-09:59:01.518 9af Compacted 4@0 + 1@1 files => 21351 bytes
+2026/05/12-09:59:01.519 9af compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/12-09:59:01.519 9af Delete type=2 #7338
+2026/05/12-09:59:01.519 9af Delete type=2 #7334
+2026/05/12-09:59:01.519 9af Delete type=2 #7336
+2026/05/12-09:59:01.519 9af Delete type=2 #7342
+2026/05/12-09:59:01.519 9af Delete type=2 #7330
+2026/05/12-10:02:49.677 9ae Level-0 table #7345: started
+2026/05/12-10:02:49.678 9ae Level-0 table #7345: 17020 bytes OK
+2026/05/12-10:02:49.679 9ae Delete type=0 #7341
+2026/05/12-10:10:49.677 9ae Level-0 table #7347: started
+2026/05/12-10:10:49.681 9ae Level-0 table #7347: 16262 bytes OK
+2026/05/12-10:10:49.682 9ae Delete type=0 #7344
+2026/05/12-10:17:49.677 9ae Level-0 table #7349: started
+2026/05/12-10:17:49.682 9ae Level-0 table #7349: 16126 bytes OK
+2026/05/12-10:17:49.682 9ae Delete type=0 #7346

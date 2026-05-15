@@ -1,16 +1,22 @@
-2026/05/15-18:53:15.978 94c Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/15-18:59:52.593 951 Level-0 table #8020: started
-2026/05/15-18:59:52.594 951 Level-0 table #8020: 16259 bytes OK
-2026/05/15-18:59:52.596 951 Delete type=0 #8018
-2026/05/15-18:59:52.596 94c Compacting 4@0 + 1@1 files
-2026/05/15-18:59:52.621 94c Generated table #8021@0: 580 keys, 23661 bytes
-2026/05/15-18:59:52.621 94c Compacted 4@0 + 1@1 files => 23661 bytes
-2026/05/15-18:59:52.621 94c compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/15-18:59:52.622 94c Delete type=2 #8012
-2026/05/15-18:59:52.622 94c Delete type=2 #8016
-2026/05/15-18:59:52.622 94c Delete type=2 #8014
-2026/05/15-18:59:52.622 94c Delete type=2 #8010
-2026/05/15-18:59:52.622 94c Delete type=2 #8020
-2026/05/15-19:05:16.533 950 Level-0 table #8023: started
-2026/05/15-19:05:16.537 950 Level-0 table #8023: 13831 bytes OK
-2026/05/15-19:05:16.537 950 Delete type=0 #8019
+2026/05/15-20:07:10.341 92c Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/15-20:15:14.947 930 Level-0 table #8027: started
+2026/05/15-20:15:14.950 930 Level-0 table #8027: 16322 bytes OK
+2026/05/15-20:15:14.951 930 Delete type=0 #8025
+2026/05/15-20:19:03.721 92c Level-0 table #8029: started
+2026/05/15-20:19:03.729 92c Level-0 table #8029: 16233 bytes OK
+2026/05/15-20:19:03.732 92c Delete type=0 #8026
+2026/05/15-20:25:14.947 930 Level-0 table #8031: started
+2026/05/15-20:25:14.950 930 Level-0 table #8031: 15548 bytes OK
+2026/05/15-20:25:14.951 930 Delete type=0 #8028
+2026/05/15-20:25:14.951 930 Compacting 4@0 + 1@1 files
+2026/05/15-20:25:14.952 930 Generated table #8032@0: 582 keys, 24762 bytes
+2026/05/15-20:25:14.952 930 Compacted 4@0 + 1@1 files => 24762 bytes
+2026/05/15-20:25:14.953 930 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/15-20:25:14.953 930 Delete type=2 #8029
+2026/05/15-20:25:14.953 930 Delete type=2 #8031
+2026/05/15-20:25:14.953 930 Delete type=2 #8023
+2026/05/15-20:25:14.953 930 Delete type=2 #8027
+2026/05/15-20:25:14.953 930 Delete type=2 #8021
+2026/05/15-20:34:14.946 930 Level-0 table #8034: started
+2026/05/15-20:34:14.950 930 Level-0 table #8034: 16739 bytes OK
+2026/05/15-20:34:14.951 930 Delete type=0 #8030

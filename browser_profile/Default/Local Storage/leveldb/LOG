@@ -1,16 +1,28 @@
-2026/05/16-12:06:37.472 89e Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/16-12:15:37.900 8a2 Level-0 table #8156: started
-2026/05/16-12:15:37.901 8a2 Level-0 table #8156: 16589 bytes OK
-2026/05/16-12:15:37.901 8a2 Delete type=0 #8154
-2026/05/16-12:15:37.902 8a2 Compacting 4@0 + 1@1 files
-2026/05/16-12:15:37.903 8a2 Generated table #8157@0: 606 keys, 26565 bytes
-2026/05/16-12:15:37.903 8a2 Compacted 4@0 + 1@1 files => 26565 bytes
-2026/05/16-12:15:37.904 8a2 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/16-12:15:37.904 8a2 Delete type=2 #8152
-2026/05/16-12:15:37.904 8a2 Delete type=2 #8150
-2026/05/16-12:15:37.904 8a2 Delete type=2 #8144
-2026/05/16-12:15:37.904 8a2 Delete type=2 #8156
-2026/05/16-12:15:37.904 8a2 Delete type=2 #8146
-2026/05/16-12:22:37.899 8a2 Level-0 table #8159: started
-2026/05/16-12:22:37.902 8a2 Level-0 table #8159: 15042 bytes OK
-2026/05/16-12:22:37.902 8a2 Delete type=0 #8155
+2026/05/16-13:20:31.859 972 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/16-13:27:26.023 976 Level-0 table #8163: started
+2026/05/16-13:27:26.025 976 Level-0 table #8163: 15999 bytes OK
+2026/05/16-13:27:26.027 976 Delete type=0 #8161
+2026/05/16-13:59:14.707 972 Level-0 table #8165: started
+2026/05/16-13:59:14.708 972 Level-0 table #8165: 14854 bytes OK
+2026/05/16-13:59:14.709 972 Delete type=0 #8162
+2026/05/16-14:03:13.358 976 Level-0 table #8167: started
+2026/05/16-14:03:13.363 976 Level-0 table #8167: 14085 bytes OK
+2026/05/16-14:03:13.363 976 Delete type=0 #8164
+2026/05/16-14:03:13.363 976 Compacting 4@0 + 1@1 files
+2026/05/16-14:03:13.365 976 Generated table #8168@0: 609 keys, 25401 bytes
+2026/05/16-14:03:13.365 976 Compacted 4@0 + 1@1 files => 25401 bytes
+2026/05/16-14:03:13.365 976 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/16-14:03:13.366 976 Delete type=2 #8163
+2026/05/16-14:03:13.366 976 Delete type=2 #8165
+2026/05/16-14:03:13.366 976 Delete type=2 #8167
+2026/05/16-14:03:13.366 976 Delete type=2 #8157
+2026/05/16-14:03:13.366 976 Delete type=2 #8159
+2026/05/16-14:04:32.712 976 Level-0 table #8170: started
+2026/05/16-14:04:32.716 976 Level-0 table #8170: 14527 bytes OK
+2026/05/16-14:04:32.716 976 Delete type=0 #8166
+2026/05/16-14:09:22.580 976 Level-0 table #8172: started
+2026/05/16-14:09:22.586 976 Level-0 table #8172: 14952 bytes OK
+2026/05/16-14:09:22.588 976 Delete type=0 #8169
+2026/05/16-14:16:32.930 976 Level-0 table #8174: started
+2026/05/16-14:16:32.934 976 Level-0 table #8174: 15367 bytes OK
+2026/05/16-14:16:32.935 976 Delete type=0 #8171

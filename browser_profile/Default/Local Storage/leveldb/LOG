@@ -1,16 +1,22 @@
-2026/05/16-04:43:51.373 89b Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/16-04:50:25.041 89b Level-0 table #8097: started
-2026/05/16-04:50:25.201 89b Level-0 table #8097: 16290 bytes OK
-2026/05/16-04:50:25.203 89b Delete type=0 #8095
-2026/05/16-04:57:51.873 89b Level-0 table #8099: started
-2026/05/16-04:57:51.874 89b Level-0 table #8099: 17024 bytes OK
-2026/05/16-04:57:51.875 89b Delete type=0 #8096
-2026/05/16-04:57:51.875 89b Compacting 4@0 + 1@1 files
-2026/05/16-04:57:51.877 89b Generated table #8100@0: 595 keys, 26450 bytes
-2026/05/16-04:57:51.877 89b Compacted 4@0 + 1@1 files => 26450 bytes
-2026/05/16-04:57:51.877 89b compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/16-04:57:51.877 89b Delete type=2 #8093
-2026/05/16-04:57:51.877 89b Delete type=2 #8089
-2026/05/16-04:57:51.877 89b Delete type=2 #8099
-2026/05/16-04:57:51.877 89b Delete type=2 #8097
-2026/05/16-04:57:51.877 89b Delete type=2 #8091
+2026/05/16-05:57:38.693 987 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/16-06:05:39.190 98b Level-0 table #8104: started
+2026/05/16-06:05:39.193 98b Level-0 table #8104: 15408 bytes OK
+2026/05/16-06:05:39.194 98b Delete type=0 #8102
+2026/05/16-06:10:34.204 987 Level-0 table #8106: started
+2026/05/16-06:10:34.214 987 Level-0 table #8106: 16293 bytes OK
+2026/05/16-06:10:34.216 987 Delete type=0 #8103
+2026/05/16-06:18:39.190 98b Level-0 table #8108: started
+2026/05/16-06:18:39.194 98b Level-0 table #8108: 16594 bytes OK
+2026/05/16-06:18:39.195 98b Delete type=0 #8105
+2026/05/16-06:27:39.189 98b Level-0 table #8110: started
+2026/05/16-06:27:39.192 98b Level-0 table #8110: 17047 bytes OK
+2026/05/16-06:27:39.193 98b Delete type=0 #8107
+2026/05/16-06:27:39.193 98b Compacting 4@0 + 1@1 files
+2026/05/16-06:27:39.195 98b Generated table #8111@0: 597 keys, 25230 bytes
+2026/05/16-06:27:39.195 98b Compacted 4@0 + 1@1 files => 25230 bytes
+2026/05/16-06:27:39.195 98b compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/16-06:27:39.195 98b Delete type=2 #8106
+2026/05/16-06:27:39.195 98b Delete type=2 #8108
+2026/05/16-06:27:39.195 98b Delete type=2 #8100
+2026/05/16-06:27:39.195 98b Delete type=2 #8110
+2026/05/16-06:27:39.195 98b Delete type=2 #8104

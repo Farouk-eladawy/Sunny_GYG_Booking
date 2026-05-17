@@ -1,19 +1,16 @@
-2026/05/17-02:52:18.948 980 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/17-02:58:51.740 984 Level-0 table #8261: started
-2026/05/17-02:58:51.743 984 Level-0 table #8261: 16361 bytes OK
-2026/05/17-02:58:51.744 984 Delete type=0 #8259
-2026/05/17-02:58:51.744 984 Compacting 4@0 + 1@1 files
-2026/05/17-02:58:51.746 984 Generated table #8262@0: 629 keys, 24374 bytes
-2026/05/17-02:58:51.746 984 Compacted 4@0 + 1@1 files => 24374 bytes
-2026/05/17-02:58:51.746 984 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/17-02:58:51.747 984 Delete type=2 #8251
-2026/05/17-02:58:51.747 984 Delete type=2 #8253
-2026/05/17-02:58:51.747 984 Delete type=2 #8255
-2026/05/17-02:58:51.747 984 Delete type=2 #8257
-2026/05/17-02:58:51.747 984 Delete type=2 #8261
-2026/05/17-03:02:20.627 984 Level-0 table #8264: started
-2026/05/17-03:02:20.629 984 Level-0 table #8264: 16730 bytes OK
-2026/05/17-03:02:20.630 984 Delete type=0 #8260
-2026/05/17-03:11:34.669 985 Level-0 table #8266: started
-2026/05/17-03:11:34.670 985 Level-0 table #8266: 14489 bytes OK
-2026/05/17-03:11:34.671 985 Delete type=0 #8263
+2026/05/17-04:06:13.215 96c Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/17-04:15:14.048 970 Level-0 table #8270: started
+2026/05/17-04:15:14.049 970 Level-0 table #8270: 16581 bytes OK
+2026/05/17-04:15:14.050 970 Delete type=0 #8268
+2026/05/17-04:20:58.141 96c Level-0 table #8272: started
+2026/05/17-04:20:58.146 96c Level-0 table #8272: 14971 bytes OK
+2026/05/17-04:20:58.147 96c Delete type=0 #8269
+2026/05/17-04:20:58.147 96c Compacting 4@0 + 1@1 files
+2026/05/17-04:20:58.149 96c Generated table #8273@0: 631 keys, 25484 bytes
+2026/05/17-04:20:58.149 96c Compacted 4@0 + 1@1 files => 25484 bytes
+2026/05/17-04:20:58.149 96c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/17-04:20:58.149 96c Delete type=2 #8272
+2026/05/17-04:20:58.149 96c Delete type=2 #8264
+2026/05/17-04:20:58.149 96c Delete type=2 #8266
+2026/05/17-04:20:58.149 96c Delete type=2 #8262
+2026/05/17-04:20:58.149 96c Delete type=2 #8270

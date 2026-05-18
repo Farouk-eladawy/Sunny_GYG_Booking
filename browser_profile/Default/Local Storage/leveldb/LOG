@@ -1,13 +1,22 @@
-2026/05/18-20:43:52.653 98f Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/18-20:52:53.318 98f Level-0 table #8617: started
-2026/05/18-20:52:53.322 98f Level-0 table #8617: 16565 bytes OK
-2026/05/18-20:52:53.323 98f Delete type=0 #8615
-2026/05/18-20:52:53.323 98f Compacting 4@0 + 1@1 files
-2026/05/18-20:52:53.324 98f Generated table #8618@0: 692 keys, 28299 bytes
-2026/05/18-20:52:53.324 98f Compacted 4@0 + 1@1 files => 28299 bytes
-2026/05/18-20:52:53.324 98f compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/18-20:52:53.324 98f Delete type=2 #8605
-2026/05/18-20:52:53.324 98f Delete type=2 #8609
-2026/05/18-20:52:53.324 98f Delete type=2 #8613
-2026/05/18-20:52:53.324 98f Delete type=2 #8617
-2026/05/18-20:52:53.324 98f Delete type=2 #8611
+2026/05/18-21:57:43.330 97a Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/18-22:05:53.241 97c Level-0 table #8622: started
+2026/05/18-22:05:53.244 97c Level-0 table #8622: 16855 bytes OK
+2026/05/18-22:05:53.245 97c Delete type=0 #8620
+2026/05/18-22:09:44.278 97a Level-0 table #8624: started
+2026/05/18-22:09:44.280 97a Level-0 table #8624: 16343 bytes OK
+2026/05/18-22:09:44.281 97a Delete type=0 #8621
+2026/05/18-22:15:44.278 97a Level-0 table #8626: started
+2026/05/18-22:15:44.280 97a Level-0 table #8626: 15464 bytes OK
+2026/05/18-22:15:44.280 97a Delete type=0 #8623
+2026/05/18-22:24:44.278 97a Level-0 table #8628: started
+2026/05/18-22:24:44.282 97a Level-0 table #8628: 16886 bytes OK
+2026/05/18-22:24:44.283 97a Delete type=0 #8625
+2026/05/18-22:24:44.283 97a Compacting 4@0 + 1@1 files
+2026/05/18-22:24:44.285 97a Generated table #8629@0: 694 keys, 29419 bytes
+2026/05/18-22:24:44.285 97a Compacted 4@0 + 1@1 files => 29419 bytes
+2026/05/18-22:24:44.285 97a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/18-22:24:44.285 97a Delete type=2 #8628
+2026/05/18-22:24:44.285 97a Delete type=2 #8622
+2026/05/18-22:24:44.285 97a Delete type=2 #8626
+2026/05/18-22:24:44.285 97a Delete type=2 #8624
+2026/05/18-22:24:44.285 97a Delete type=2 #8618

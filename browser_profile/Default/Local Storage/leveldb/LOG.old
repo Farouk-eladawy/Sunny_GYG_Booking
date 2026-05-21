@@ -1,7 +1,25 @@
-2026/05/20-23:15:33.503 937 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/20-23:23:34.061 936 Level-0 table #9072: started
-2026/05/20-23:23:34.065 936 Level-0 table #9072: 15550 bytes OK
-2026/05/20-23:23:34.066 936 Delete type=0 #9070
-2026/05/20-23:32:34.061 936 Level-0 table #9074: started
-2026/05/20-23:32:34.065 936 Level-0 table #9074: 17986 bytes OK
-2026/05/20-23:32:34.066 936 Delete type=0 #9071
+2026/05/21-00:29:26.619 9ab Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/21-00:35:53.260 9af Level-0 table #9078: started
+2026/05/21-00:35:53.264 9af Level-0 table #9078: 17600 bytes OK
+2026/05/21-00:35:53.265 9af Delete type=0 #9076
+2026/05/21-00:38:01.461 9af Level-0 table #9080: started
+2026/05/21-00:38:01.467 9af Level-0 table #9080: 16524 bytes OK
+2026/05/21-00:38:01.467 9af Delete type=0 #9077
+2026/05/21-00:38:01.467 9af Compacting 4@0 + 1@1 files
+2026/05/21-00:38:01.470 9af Generated table #9081@0: 772 keys, 30087 bytes
+2026/05/21-00:38:01.470 9af Compacted 4@0 + 1@1 files => 30087 bytes
+2026/05/21-00:38:01.470 9af compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/21-00:38:01.470 9af Delete type=2 #9080
+2026/05/21-00:38:01.470 9af Delete type=2 #9074
+2026/05/21-00:38:01.470 9af Delete type=2 #9068
+2026/05/21-00:38:01.471 9af Delete type=2 #9072
+2026/05/21-00:38:01.471 9af Delete type=2 #9078
+2026/05/21-00:43:27.254 9af Level-0 table #9083: started
+2026/05/21-00:43:27.258 9af Level-0 table #9083: 15706 bytes OK
+2026/05/21-00:43:27.259 9af Delete type=0 #9079
+2026/05/21-00:51:27.254 9af Level-0 table #9085: started
+2026/05/21-00:51:27.258 9af Level-0 table #9085: 17547 bytes OK
+2026/05/21-00:51:27.259 9af Delete type=0 #9082
+2026/05/21-00:59:45.977 9af Level-0 table #9087: started
+2026/05/21-00:59:45.980 9af Level-0 table #9087: 16916 bytes OK
+2026/05/21-00:59:45.981 9af Delete type=0 #9084

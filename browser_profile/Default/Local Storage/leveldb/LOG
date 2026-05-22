@@ -1,16 +1,25 @@
-2026/05/22-09:45:40.337 9a8 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/22-09:52:41.166 9a8 Level-0 table #9395: started
-2026/05/22-09:52:41.172 9a8 Level-0 table #9395: 15909 bytes OK
-2026/05/22-09:52:41.174 9a8 Delete type=0 #9393
-2026/05/22-09:52:41.175 9a8 Compacting 4@0 + 1@1 files
-2026/05/22-09:52:41.180 9a8 Generated table #9396@0: 826 keys, 32378 bytes
-2026/05/22-09:52:41.180 9a8 Compacted 4@0 + 1@1 files => 32378 bytes
-2026/05/22-09:52:41.181 9a8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/22-09:52:41.182 9a8 Delete type=2 #9389
-2026/05/22-09:52:41.182 9a8 Delete type=2 #9387
-2026/05/22-09:52:41.182 9a8 Delete type=2 #9395
-2026/05/22-09:52:41.182 9a8 Delete type=2 #9383
-2026/05/22-09:52:41.182 9a8 Delete type=2 #9391
-2026/05/22-09:58:40.776 9a8 Level-0 table #9398: started
-2026/05/22-09:58:40.780 9a8 Level-0 table #9398: 16217 bytes OK
-2026/05/22-09:58:40.780 9a8 Delete type=0 #9394
+2026/05/22-10:59:36.459 92e Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/22-11:06:24.288 932 Level-0 table #9402: started
+2026/05/22-11:06:24.290 932 Level-0 table #9402: 15105 bytes OK
+2026/05/22-11:06:24.291 932 Delete type=0 #9400
+2026/05/22-11:09:02.651 92e Level-0 table #9404: started
+2026/05/22-11:09:02.657 92e Level-0 table #9404: 17065 bytes OK
+2026/05/22-11:09:02.659 92e Delete type=0 #9401
+2026/05/22-11:14:36.971 932 Level-0 table #9406: started
+2026/05/22-11:14:36.972 932 Level-0 table #9406: 16291 bytes OK
+2026/05/22-11:14:36.973 932 Delete type=0 #9403
+2026/05/22-11:14:36.973 932 Compacting 4@0 + 1@1 files
+2026/05/22-11:14:36.974 932 Generated table #9407@0: 828 keys, 32541 bytes
+2026/05/22-11:14:36.975 932 Compacted 4@0 + 1@1 files => 32541 bytes
+2026/05/22-11:14:36.975 932 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/22-11:14:36.975 932 Delete type=2 #9396
+2026/05/22-11:14:36.975 932 Delete type=2 #9406
+2026/05/22-11:14:36.975 932 Delete type=2 #9398
+2026/05/22-11:14:36.975 932 Delete type=2 #9404
+2026/05/22-11:14:36.975 932 Delete type=2 #9402
+2026/05/22-11:22:36.970 932 Level-0 table #9409: started
+2026/05/22-11:22:36.972 932 Level-0 table #9409: 15400 bytes OK
+2026/05/22-11:22:36.972 932 Delete type=0 #9405
+2026/05/22-11:26:37.511 92e Level-0 table #9411: started
+2026/05/22-11:26:37.515 92e Level-0 table #9411: 16042 bytes OK
+2026/05/22-11:26:37.515 92e Delete type=0 #9408

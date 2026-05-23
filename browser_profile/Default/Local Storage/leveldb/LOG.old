@@ -1,7 +1,25 @@
-2026/05/23-10:23:38.250 962 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/23-10:30:24.865 966 Level-0 table #9607: started
-2026/05/23-10:30:24.868 966 Level-0 table #9607: 15076 bytes OK
-2026/05/23-10:30:24.869 966 Delete type=0 #9605
-2026/05/23-10:37:38.637 966 Level-0 table #9609: started
-2026/05/23-10:37:38.640 966 Level-0 table #9609: 14902 bytes OK
-2026/05/23-10:37:38.640 966 Delete type=0 #9606
+2026/05/23-11:37:28.028 965 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/23-11:43:53.643 961 Level-0 table #9613: started
+2026/05/23-11:43:53.647 961 Level-0 table #9613: 17127 bytes OK
+2026/05/23-11:43:53.648 961 Delete type=0 #9611
+2026/05/23-11:47:33.302 965 Level-0 table #9615: started
+2026/05/23-11:47:33.303 965 Level-0 table #9615: 15629 bytes OK
+2026/05/23-11:47:33.304 965 Delete type=0 #9612
+2026/05/23-11:47:33.304 965 Compacting 4@0 + 1@1 files
+2026/05/23-11:47:33.305 965 Generated table #9616@0: 866 keys, 33328 bytes
+2026/05/23-11:47:33.305 965 Compacted 4@0 + 1@1 files => 33328 bytes
+2026/05/23-11:47:33.306 965 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/23-11:47:33.306 965 Delete type=2 #9609
+2026/05/23-11:47:33.306 965 Delete type=2 #9603
+2026/05/23-11:47:33.306 965 Delete type=2 #9613
+2026/05/23-11:47:33.306 965 Delete type=2 #9607
+2026/05/23-11:47:33.306 965 Delete type=2 #9615
+2026/05/23-11:54:33.302 965 Level-0 table #9618: started
+2026/05/23-11:54:33.304 965 Level-0 table #9618: 16793 bytes OK
+2026/05/23-11:54:33.305 965 Delete type=0 #9614
+2026/05/23-12:02:33.301 965 Level-0 table #9620: started
+2026/05/23-12:02:33.306 965 Level-0 table #9620: 15428 bytes OK
+2026/05/23-12:02:33.307 965 Delete type=0 #9617
+2026/05/23-12:07:33.303 965 Level-0 table #9622: started
+2026/05/23-12:07:33.307 965 Level-0 table #9622: 15876 bytes OK
+2026/05/23-12:07:33.308 965 Delete type=0 #9619

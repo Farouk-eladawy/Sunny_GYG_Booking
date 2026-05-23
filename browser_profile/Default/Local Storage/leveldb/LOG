@@ -1,46 +1,22 @@
-2026/05/23-03:00:27.970 961 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/23-03:06:29.065 965 Level-0 table #9545: started
-2026/05/23-03:06:29.068 965 Level-0 table #9545: 15064 bytes OK
-2026/05/23-03:06:29.069 965 Delete type=0 #9543
-2026/05/23-03:09:05.969 966 Level-0 table #9547: started
-2026/05/23-03:09:05.974 966 Level-0 table #9547: 16133 bytes OK
-2026/05/23-03:09:05.974 966 Delete type=0 #9544
-2026/05/23-03:43:26.011 965 Level-0 table #9549: started
-2026/05/23-03:43:26.013 965 Level-0 table #9549: 15865 bytes OK
-2026/05/23-03:43:26.014 965 Delete type=0 #9546
-2026/05/23-03:43:26.014 965 Compacting 4@0 + 1@1 files
-2026/05/23-03:43:26.015 965 Generated table #9550@0: 854 keys, 33119 bytes
-2026/05/23-03:43:26.015 965 Compacted 4@0 + 1@1 files => 33119 bytes
-2026/05/23-03:43:26.016 965 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/23-03:43:26.016 965 Delete type=2 #9539
-2026/05/23-03:43:26.016 965 Delete type=2 #9541
-2026/05/23-03:43:26.016 965 Delete type=2 #9547
-2026/05/23-03:43:26.016 965 Delete type=2 #9545
-2026/05/23-03:43:26.016 965 Delete type=2 #9549
-2026/05/23-03:44:45.030 965 Level-0 table #9552: started
-2026/05/23-03:44:45.034 965 Level-0 table #9552: 15597 bytes OK
-2026/05/23-03:44:45.034 965 Delete type=0 #9548
-2026/05/23-03:48:29.065 965 Level-0 table #9554: started
-2026/05/23-03:48:29.067 965 Level-0 table #9554: 16723 bytes OK
-2026/05/23-03:48:29.068 965 Delete type=0 #9551
-2026/05/23-03:53:28.503 965 Level-0 table #9556: started
-2026/05/23-03:53:28.507 965 Level-0 table #9556: 15040 bytes OK
-2026/05/23-03:53:28.507 965 Delete type=0 #9553
-2026/05/23-03:59:15.059 965 Level-0 table #9558: started
-2026/05/23-03:59:15.065 965 Level-0 table #9558: 14921 bytes OK
-2026/05/23-03:59:15.068 965 Delete type=0 #9555
-2026/05/23-03:59:15.068 965 Compacting 4@0 + 1@1 files
-2026/05/23-03:59:15.070 965 Generated table #9559@0: 854 keys, 33146 bytes
-2026/05/23-03:59:15.070 965 Compacted 4@0 + 1@1 files => 33146 bytes
-2026/05/23-03:59:15.071 965 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/23-03:59:15.071 965 Delete type=2 #9556
-2026/05/23-03:59:15.071 965 Delete type=2 #9554
-2026/05/23-03:59:15.071 965 Delete type=2 #9550
-2026/05/23-03:59:15.071 965 Delete type=2 #9558
-2026/05/23-03:59:15.071 965 Delete type=2 #9552
-2026/05/23-04:03:47.571 965 Level-0 table #9561: started
-2026/05/23-04:03:47.575 965 Level-0 table #9561: 15810 bytes OK
-2026/05/23-04:03:47.575 965 Delete type=0 #9557
-2026/05/23-04:10:28.503 965 Level-0 table #9563: started
-2026/05/23-04:10:28.505 965 Level-0 table #9563: 15449 bytes OK
-2026/05/23-04:10:28.506 965 Delete type=0 #9560
+2026/05/23-05:28:04.387 97a Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/23-05:34:37.315 97a Level-0 table #9567: started
+2026/05/23-05:34:37.318 97a Level-0 table #9567: 15182 bytes OK
+2026/05/23-05:34:37.318 97a Delete type=0 #9565
+2026/05/23-05:39:04.832 97e Level-0 table #9569: started
+2026/05/23-05:39:04.833 97e Level-0 table #9569: 17644 bytes OK
+2026/05/23-05:39:04.834 97e Delete type=0 #9566
+2026/05/23-05:39:04.834 97e Compacting 4@0 + 1@1 files
+2026/05/23-05:39:04.835 97e Generated table #9570@0: 856 keys, 31698 bytes
+2026/05/23-05:39:04.836 97e Compacted 4@0 + 1@1 files => 31698 bytes
+2026/05/23-05:39:04.836 97e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/23-05:39:04.836 97e Delete type=2 #9567
+2026/05/23-05:39:04.836 97e Delete type=2 #9561
+2026/05/23-05:39:04.836 97e Delete type=2 #9569
+2026/05/23-05:39:04.836 97e Delete type=2 #9559
+2026/05/23-05:39:04.836 97e Delete type=2 #9563
+2026/05/23-05:43:04.833 97e Level-0 table #9572: started
+2026/05/23-05:43:04.835 97e Level-0 table #9572: 15748 bytes OK
+2026/05/23-05:43:04.836 97e Delete type=0 #9568
+2026/05/23-05:51:04.832 97a Level-0 table #9574: started
+2026/05/23-05:51:04.836 97a Level-0 table #9574: 15432 bytes OK
+2026/05/23-05:51:04.838 97a Delete type=0 #9571

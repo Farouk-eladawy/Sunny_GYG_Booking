@@ -1,19 +1,22 @@
-2026/05/26-00:02:24.115 9ac Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/26-00:09:23.223 9b0 Level-0 table #10163: started
-2026/05/26-00:09:23.230 9b0 Level-0 table #10163: 17142 bytes OK
-2026/05/26-00:09:23.231 9b0 Delete type=0 #10161
-2026/05/26-00:09:23.232 9b2 Compacting 4@0 + 1@1 files
-2026/05/26-00:09:23.235 9b2 Generated table #10164@0: 964 keys, 33437 bytes
-2026/05/26-00:09:23.235 9b2 Compacted 4@0 + 1@1 files => 33437 bytes
-2026/05/26-00:09:23.235 9b2 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/26-00:09:23.235 9b2 Delete type=2 #10153
-2026/05/26-00:09:23.235 9b2 Delete type=2 #10159
-2026/05/26-00:09:23.235 9b2 Delete type=2 #10163
-2026/05/26-00:09:23.235 9b2 Delete type=2 #10157
-2026/05/26-00:09:23.235 9b2 Delete type=2 #10155
-2026/05/26-00:13:24.638 9b0 Level-0 table #10166: started
-2026/05/26-00:13:24.642 9b0 Level-0 table #10166: 16031 bytes OK
-2026/05/26-00:13:24.643 9b0 Delete type=0 #10162
-2026/05/26-00:21:24.638 9b0 Level-0 table #10168: started
-2026/05/26-00:21:24.642 9b0 Level-0 table #10168: 15423 bytes OK
-2026/05/26-00:21:24.643 9b0 Delete type=0 #10165
+2026/05/26-01:16:19.092 997 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/26-01:23:09.710 991 Level-0 table #10172: started
+2026/05/26-01:23:09.713 991 Level-0 table #10172: 17586 bytes OK
+2026/05/26-01:23:09.714 991 Delete type=0 #10170
+2026/05/26-01:27:20.048 991 Level-0 table #10174: started
+2026/05/26-01:27:20.050 991 Level-0 table #10174: 15706 bytes OK
+2026/05/26-01:27:20.054 991 Delete type=0 #10171
+2026/05/26-01:27:20.055 991 Compacting 4@0 + 1@1 files
+2026/05/26-01:27:20.057 991 Generated table #10175@0: 966 keys, 34796 bytes
+2026/05/26-01:27:20.057 991 Compacted 4@0 + 1@1 files => 34796 bytes
+2026/05/26-01:27:20.058 991 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/26-01:27:20.058 991 Delete type=2 #10166
+2026/05/26-01:27:20.058 991 Delete type=2 #10168
+2026/05/26-01:27:20.058 991 Delete type=2 #10164
+2026/05/26-01:27:20.058 991 Delete type=2 #10174
+2026/05/26-01:27:20.058 991 Delete type=2 #10172
+2026/05/26-01:33:44.754 991 Level-0 table #10177: started
+2026/05/26-01:33:44.758 991 Level-0 table #10177: 14928 bytes OK
+2026/05/26-01:33:44.759 991 Delete type=0 #10173
+2026/05/26-01:40:20.045 995 Level-0 table #10179: started
+2026/05/26-01:40:20.049 995 Level-0 table #10179: 15011 bytes OK
+2026/05/26-01:40:20.050 995 Delete type=0 #10176

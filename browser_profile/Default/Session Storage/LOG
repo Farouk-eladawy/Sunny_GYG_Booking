@@ -1,21 +1,43 @@
-2026/05/27-01:55:00.090 96b Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
-2026/05/27-02:07:20.124 96b Level-0 table #92162: started
-2026/05/27-02:07:20.128 96b Level-0 table #92162: 11492 bytes OK
-2026/05/27-02:07:20.130 96b Delete type=0 #92160
-2026/05/27-02:07:20.130 96b Compacting 4@0 + 5@1 files
-2026/05/27-02:07:20.174 96b Generated table #92163@0: 13977 keys, 2108057 bytes
-2026/05/27-02:07:20.225 96b Generated table #92164@0: 75307 keys, 2150851 bytes
-2026/05/27-02:07:20.285 96b Generated table #92165@0: 75341 keys, 2150451 bytes
-2026/05/27-02:07:20.342 96b Generated table #92166@0: 75275 keys, 2149813 bytes
-2026/05/27-02:07:20.402 96b Generated table #92167@0: 64696 keys, 1846936 bytes
-2026/05/27-02:07:20.402 96b Compacted 4@0 + 5@1 files => 10406108 bytes
-2026/05/27-02:07:20.402 96b compacted to: files[ 0 5 48 34 0 0 0 ]
-2026/05/27-02:07:20.404 96b Delete type=2 #92149
-2026/05/27-02:07:20.404 96b Delete type=2 #92156
-2026/05/27-02:07:20.404 96b Delete type=2 #92158
-2026/05/27-02:07:20.404 96b Delete type=2 #92154
-2026/05/27-02:07:20.404 96b Delete type=2 #92147
-2026/05/27-02:07:20.404 96b Delete type=2 #92150
-2026/05/27-02:07:20.404 96b Delete type=2 #92162
-2026/05/27-02:07:20.404 96b Delete type=2 #92146
-2026/05/27-02:07:20.404 96b Delete type=2 #92148
+2026/05/27-03:08:54.504 96d Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-067695
+2026/05/27-03:13:10.123 971 Level-0 table #92171: started
+2026/05/27-03:13:10.137 971 Level-0 table #92171: 572913 bytes OK
+2026/05/27-03:13:10.140 971 Delete type=0 #92169
+2026/05/27-03:27:38.264 96d Level-0 table #92173: started
+2026/05/27-03:27:38.279 96d Level-0 table #92173: 582388 bytes OK
+2026/05/27-03:27:38.282 96d Delete type=0 #92170
+2026/05/27-03:30:48.610 971 Level-0 table #92175: started
+2026/05/27-03:30:48.613 971 Level-0 table #92175: 14399 bytes OK
+2026/05/27-03:30:48.614 971 Delete type=0 #92172
+2026/05/27-03:32:10.727 971 Level-0 table #92177: started
+2026/05/27-03:32:10.742 971 Level-0 table #92177: 574239 bytes OK
+2026/05/27-03:32:10.744 971 Delete type=0 #92174
+2026/05/27-03:32:10.745 96d Compacting 4@0 + 5@1 files
+2026/05/27-03:32:10.780 96d Generated table #92178@0: 59 keys, 2279740 bytes
+2026/05/27-03:32:10.817 96d Generated table #92179@0: 75277 keys, 2149951 bytes
+2026/05/27-03:32:10.850 96d Generated table #92180@0: 75303 keys, 2151160 bytes
+2026/05/27-03:32:10.884 96d Generated table #92181@0: 75272 keys, 2150777 bytes
+2026/05/27-03:32:10.919 96d Generated table #92182@0: 75318 keys, 2149833 bytes
+2026/05/27-03:32:10.921 96d Generated table #92183@0: 3548 keys, 101832 bytes
+2026/05/27-03:32:10.921 96d Compacted 4@0 + 5@1 files => 10983293 bytes
+2026/05/27-03:32:10.922 96d compacted to: files[ 0 6 48 34 0 0 0 ]
+2026/05/27-03:32:10.923 96d Delete type=2 #92167
+2026/05/27-03:32:10.923 96d Delete type=2 #92166
+2026/05/27-03:32:10.923 96d Delete type=2 #92164
+2026/05/27-03:32:10.923 96d Delete type=2 #92171
+2026/05/27-03:32:10.923 96d Delete type=2 #92173
+2026/05/27-03:32:10.923 96d Delete type=2 #92175
+2026/05/27-03:32:10.923 96d Delete type=2 #92165
+2026/05/27-03:32:10.923 96d Delete type=2 #92163
+2026/05/27-03:32:10.923 96d Delete type=2 #92177
+2026/05/27-03:32:10.925 96d Compacting 1@1 + 1@2 files
+2026/05/27-03:32:10.960 96d Generated table #92184@1: 54 keys, 2279635 bytes
+2026/05/27-03:32:10.961 96d Compacted 1@1 + 1@2 files => 2279635 bytes
+2026/05/27-03:32:10.961 96d compacted to: files[ 0 5 48 34 0 0 0 ]
+2026/05/27-03:32:10.962 96d Delete type=2 #92178
+2026/05/27-03:32:10.962 96d Delete type=2 #91794
+2026/05/27-03:36:09.220 971 Level-0 table #92186: started
+2026/05/27-03:36:09.225 971 Level-0 table #92186: 12571 bytes OK
+2026/05/27-03:36:09.227 971 Delete type=0 #92176
+2026/05/27-03:42:54.641 971 Level-0 table #92188: started
+2026/05/27-03:42:54.658 971 Level-0 table #92188: 579960 bytes OK
+2026/05/27-03:42:54.660 971 Delete type=0 #92185

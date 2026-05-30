@@ -162,16 +162,9 @@ class BookingsDatabase:
                 
                 # Special handling for arrays/lists like add_ons that are stored as strings
                 if k == "add_ons":
-                    import re
-                    addons_old = sorted([x.strip() for x in s_old.replace(',', ';').split(';')]) if s_old else []
-                    addons_new = sorted([x.strip() for x in s_new.replace(',', ';').split(';')]) if s_new else []
-                    addons_old = sorted([re.sub(r'^\d+\s*x\s*', '', x) for x in addons_old if x])
-                    addons_new = sorted([re.sub(r'^\d+\s*x\s*', '', x) for x in addons_new if x])
+                    addons_old = sorted([x.strip() for x in s_old.split(';')]) if s_old else []
+                    addons_new = sorted([x.strip() for x in s_new.split(';')]) if s_new else []
                     if addons_old == addons_new:
-                        continue
-                        
-                if k == "date_trip":
-                    if s_old[:16] == s_new[:16]:
                         continue
                         
                 if s_new != s_old:
@@ -604,35 +597,18 @@ class AirtableManager:
                                     self.logger.debug(f"Mirror mismatch on {k} (Date): {str_old[:10]} != {str_new[:10]}")
                                     continue
                                     
-                            # Special handling for floats/numbers (even if they are strings)
-                            is_num_new = False
-                            is_num_old = False
-                            f_new = 0.0
-                            f_old = 0.0
-                            
-                            try:
-                                if str_new != "":
-                                    f_new = float(str_new)
-                                    is_num_new = True
-                            except ValueError:
-                                pass
-                                
-                            try:
-                                if str_old != "":
-                                    f_old = float(str_old)
-                                    is_num_old = True
-                            except ValueError:
-                                pass
-
-                            if is_num_new and is_num_old:
-                                if abs(f_old - f_new) > 0.001:
-                                    changed_fields[k] = new_val
-                                    is_identical = False
-                                    self.logger.debug(f"Mirror mismatch on {k}: {f_old} != {f_new}")
-                                continue
-                            elif is_num_new != is_num_old and (str_new != "" and str_old != ""):
-                                # One is a number, the other is not (e.g. string with text)
-                                pass # Fallback to string comparison
+                            # Special handling for floats/numbers
+                            if isinstance(new_val, (int, float)) or (isinstance(old_val, (int, float)) and old_val != ""):
+                                try:
+                                    f_old = float(old_val) if old_val != "" else 0.0
+                                    f_new = float(new_val)
+                                    if abs(f_old - f_new) > 0.001:
+                                        changed_fields[k] = new_val
+                                        is_identical = False
+                                        self.logger.debug(f"Mirror mismatch on {k}: {f_old} != {f_new}")
+                                    continue
+                                except ValueError:
+                                    pass # Fallback to string comparison
                                     
                             if str_new != str_old:
                                 # We only consider it a mismatch if it's not a missing value issue
@@ -640,6 +616,20 @@ class AirtableManager:
                                 is_identical = False
                                 self.logger.debug(f"Mirror mismatch on {k}: Old='{str_old}' ({type(old_val)}) != New='{str_new}' ({type(new_val)})")
                                 
+                        # Cross-field check to protect manual edits
+                        if "Real Date Trip" in fields and "Real Date Trip" not in changed_fields:
+                            if "Date Trip" in changed_fields:
+                                del changed_fields["Date Trip"]
+                                self.logger.info(f"Protecting manual edit on 'Date Trip' for {booking.get('booking_nr')}")
+                                
+                        if "Real Product Name" in fields and "Real Product Name" not in changed_fields:
+                            if "trip Name" in changed_fields:
+                                del changed_fields["trip Name"]
+                                self.logger.info(f"Protecting manual edit on 'trip Name' for {booking.get('booking_nr')}")
+                                
+                        if len(changed_fields) == 0:
+                            is_identical = True
+
                         if is_identical:
                             self.logger.info(f"Skipping Main Base update for {booking.get('booking_nr')} - Matches Mirror Base perfectly (No new changes from GYG).")
                             return {"success": True, "record_id": m_rid, "skipped": True}
@@ -3026,13 +3016,13 @@ def _parse_date_text(s: Optional[str]) -> Optional[str]:
     else:
         h = 12 if h == 12 else h + 12
     try:
-        # If GYG says 20:30, we want it to display EXACTLY as 20:30 in Airtable.
-        # Since Airtable field "Date Trip" is configured to show "Local Time" (EEST/UTC+3 or UTC+2),
-        # the most foolproof way to bypass all Airtable timezone conversions is to format the date
-        # as a raw ISO string without ANY timezone indicator (no 'Z', no offset).
-        # This forces Airtable to treat it as "floating local time" and display it exactly as string.
-        dt = datetime(int(year), mi, int(day), h, int(mm))
-        return dt.strftime('%Y-%m-%dT%H:%M:00')
+        from zoneinfo import ZoneInfo
+        # Localize GYG time to Africa/Cairo, then convert to UTC and append 'Z'
+        # This prevents Airtable API from misinterpreting floating times and causing delta loops.
+        dt_naive = datetime(int(year), mi, int(day), h, int(mm))
+        dt_cairo = dt_naive.replace(tzinfo=ZoneInfo("Africa/Cairo"))
+        dt_utc = dt_cairo.astimezone(ZoneInfo("UTC"))
+        return dt_utc.strftime('%Y-%m-%dT%H:%M:00.000Z')
     except Exception:
         return None
 

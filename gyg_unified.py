@@ -162,9 +162,16 @@ class BookingsDatabase:
                 
                 # Special handling for arrays/lists like add_ons that are stored as strings
                 if k == "add_ons":
-                    addons_old = sorted([x.strip() for x in s_old.split(';')]) if s_old else []
-                    addons_new = sorted([x.strip() for x in s_new.split(';')]) if s_new else []
+                    import re
+                    addons_old = sorted([x.strip() for x in s_old.replace(',', ';').split(';')]) if s_old else []
+                    addons_new = sorted([x.strip() for x in s_new.replace(',', ';').split(';')]) if s_new else []
+                    addons_old = sorted([re.sub(r'^\d+\s*x\s*', '', x) for x in addons_old if x])
+                    addons_new = sorted([re.sub(r'^\d+\s*x\s*', '', x) for x in addons_new if x])
                     if addons_old == addons_new:
+                        continue
+                        
+                if k == "date_trip":
+                    if s_old[:16] == s_new[:16]:
                         continue
                         
                 if s_new != s_old:
@@ -597,18 +604,35 @@ class AirtableManager:
                                     self.logger.debug(f"Mirror mismatch on {k} (Date): {str_old[:10]} != {str_new[:10]}")
                                     continue
                                     
-                            # Special handling for floats/numbers
-                            if isinstance(new_val, (int, float)) or (isinstance(old_val, (int, float)) and old_val != ""):
-                                try:
-                                    f_old = float(old_val) if old_val != "" else 0.0
-                                    f_new = float(new_val)
-                                    if abs(f_old - f_new) > 0.001:
-                                        changed_fields[k] = new_val
-                                        is_identical = False
-                                        self.logger.debug(f"Mirror mismatch on {k}: {f_old} != {f_new}")
-                                    continue
-                                except ValueError:
-                                    pass # Fallback to string comparison
+                            # Special handling for floats/numbers (even if they are strings)
+                            is_num_new = False
+                            is_num_old = False
+                            f_new = 0.0
+                            f_old = 0.0
+                            
+                            try:
+                                if str_new != "":
+                                    f_new = float(str_new)
+                                    is_num_new = True
+                            except ValueError:
+                                pass
+                                
+                            try:
+                                if str_old != "":
+                                    f_old = float(str_old)
+                                    is_num_old = True
+                            except ValueError:
+                                pass
+
+                            if is_num_new and is_num_old:
+                                if abs(f_old - f_new) > 0.001:
+                                    changed_fields[k] = new_val
+                                    is_identical = False
+                                    self.logger.debug(f"Mirror mismatch on {k}: {f_old} != {f_new}")
+                                continue
+                            elif is_num_new != is_num_old and (str_new != "" and str_old != ""):
+                                # One is a number, the other is not (e.g. string with text)
+                                pass # Fallback to string comparison
                                     
                             if str_new != str_old:
                                 # We only consider it a mismatch if it's not a missing value issue

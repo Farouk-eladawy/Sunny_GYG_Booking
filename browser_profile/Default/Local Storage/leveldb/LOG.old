@@ -1,10 +1,22 @@
-2026/05/31-14:17:27.996 987 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/31-14:23:29.539 98b Level-0 table #11339: started
-2026/05/31-14:23:29.543 98b Level-0 table #11339: 21430 bytes OK
-2026/05/31-14:23:29.544 98b Delete type=0 #11337
-2026/05/31-14:28:29.539 98b Level-0 table #11341: started
-2026/05/31-14:28:29.541 98b Level-0 table #11341: 21932 bytes OK
-2026/05/31-14:28:29.541 98b Delete type=0 #11338
-2026/05/31-14:33:29.539 987 Level-0 table #11343: started
-2026/05/31-14:33:29.546 987 Level-0 table #11343: 22253 bytes OK
-2026/05/31-14:33:29.547 987 Delete type=0 #11340
+2026/05/31-15:31:14.941 95e Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/31-15:38:15.414 962 Level-0 table #11347: started
+2026/05/31-15:38:15.419 962 Level-0 table #11347: 23754 bytes OK
+2026/05/31-15:38:15.419 962 Delete type=0 #11345
+2026/05/31-15:38:15.419 962 Compacting 4@0 + 1@1 files
+2026/05/31-15:38:15.422 962 Generated table #11348@0: 1179 keys, 41300 bytes
+2026/05/31-15:38:15.422 962 Compacted 4@0 + 1@1 files => 41300 bytes
+2026/05/31-15:38:15.422 962 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/31-15:38:15.422 962 Delete type=2 #11341
+2026/05/31-15:38:15.422 962 Delete type=2 #11343
+2026/05/31-15:38:15.422 962 Delete type=2 #11339
+2026/05/31-15:38:15.422 962 Delete type=2 #11335
+2026/05/31-15:38:15.422 962 Delete type=2 #11347
+2026/05/31-15:41:15.414 962 Level-0 table #11350: started
+2026/05/31-15:41:15.419 962 Level-0 table #11350: 23239 bytes OK
+2026/05/31-15:41:15.420 962 Delete type=0 #11346
+2026/05/31-15:45:11.782 962 Level-0 table #11352: started
+2026/05/31-15:45:11.785 962 Level-0 table #11352: 22473 bytes OK
+2026/05/31-15:45:11.786 962 Delete type=0 #11349
+2026/05/31-15:48:15.413 962 Level-0 table #11354: started
+2026/05/31-15:48:15.419 962 Level-0 table #11354: 22206 bytes OK
+2026/05/31-15:48:15.419 962 Delete type=0 #11351

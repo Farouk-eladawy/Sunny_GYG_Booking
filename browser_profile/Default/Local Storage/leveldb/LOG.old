@@ -1,22 +1,16 @@
-2026/05/31-15:31:14.941 95e Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/31-15:38:15.414 962 Level-0 table #11347: started
-2026/05/31-15:38:15.419 962 Level-0 table #11347: 23754 bytes OK
-2026/05/31-15:38:15.419 962 Delete type=0 #11345
-2026/05/31-15:38:15.419 962 Compacting 4@0 + 1@1 files
-2026/05/31-15:38:15.422 962 Generated table #11348@0: 1179 keys, 41300 bytes
-2026/05/31-15:38:15.422 962 Compacted 4@0 + 1@1 files => 41300 bytes
-2026/05/31-15:38:15.422 962 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/31-15:38:15.422 962 Delete type=2 #11341
-2026/05/31-15:38:15.422 962 Delete type=2 #11343
-2026/05/31-15:38:15.422 962 Delete type=2 #11339
-2026/05/31-15:38:15.422 962 Delete type=2 #11335
-2026/05/31-15:38:15.422 962 Delete type=2 #11347
-2026/05/31-15:41:15.414 962 Level-0 table #11350: started
-2026/05/31-15:41:15.419 962 Level-0 table #11350: 23239 bytes OK
-2026/05/31-15:41:15.420 962 Delete type=0 #11346
-2026/05/31-15:45:11.782 962 Level-0 table #11352: started
-2026/05/31-15:45:11.785 962 Level-0 table #11352: 22473 bytes OK
-2026/05/31-15:45:11.786 962 Delete type=0 #11349
-2026/05/31-15:48:15.413 962 Level-0 table #11354: started
-2026/05/31-15:48:15.419 962 Level-0 table #11354: 22206 bytes OK
-2026/05/31-15:48:15.419 962 Delete type=0 #11351
+2026/05/31-16:45:04.853 967 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/31-16:52:05.535 967 Level-0 table #11358: started
+2026/05/31-16:52:05.539 967 Level-0 table #11358: 21950 bytes OK
+2026/05/31-16:52:05.540 967 Delete type=0 #11356
+2026/05/31-16:52:05.541 967 Compacting 4@0 + 1@1 files
+2026/05/31-16:52:05.543 967 Generated table #11359@0: 1181 keys, 41572 bytes
+2026/05/31-16:52:05.543 967 Compacted 4@0 + 1@1 files => 41572 bytes
+2026/05/31-16:52:05.543 967 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/31-16:52:05.543 967 Delete type=2 #11348
+2026/05/31-16:52:05.543 967 Delete type=2 #11358
+2026/05/31-16:52:05.543 967 Delete type=2 #11350
+2026/05/31-16:52:05.543 967 Delete type=2 #11354
+2026/05/31-16:52:05.543 967 Delete type=2 #11352
+2026/05/31-16:59:05.535 967 Level-0 table #11361: started
+2026/05/31-16:59:05.541 967 Level-0 table #11361: 21829 bytes OK
+2026/05/31-16:59:05.542 967 Delete type=0 #11357

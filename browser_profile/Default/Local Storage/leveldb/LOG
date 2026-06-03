@@ -1,16 +1,25 @@
-2026/06/03-07:34:51.254 999 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/03-07:41:51.860 999 Level-0 table #11971: started
-2026/06/03-07:41:51.864 999 Level-0 table #11971: 22842 bytes OK
-2026/06/03-07:41:51.865 999 Delete type=0 #11969
-2026/06/03-07:41:51.865 999 Compacting 4@0 + 1@1 files
-2026/06/03-07:41:51.867 999 Generated table #11972@0: 1281 keys, 43155 bytes
-2026/06/03-07:41:51.867 999 Compacted 4@0 + 1@1 files => 43155 bytes
-2026/06/03-07:41:51.867 999 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/03-07:41:51.867 999 Delete type=2 #11965
-2026/06/03-07:41:51.867 999 Delete type=2 #11967
-2026/06/03-07:41:51.867 999 Delete type=2 #11971
-2026/06/03-07:41:51.867 999 Delete type=2 #11963
-2026/06/03-07:41:51.867 999 Delete type=2 #11961
-2026/06/03-07:49:51.860 999 Level-0 table #11974: started
-2026/06/03-07:49:51.865 999 Level-0 table #11974: 22641 bytes OK
-2026/06/03-07:49:51.866 999 Delete type=0 #11970
+2026/06/03-08:48:46.942 971 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/03-08:55:33.109 96c Level-0 table #11978: started
+2026/06/03-08:55:33.111 96c Level-0 table #11978: 22795 bytes OK
+2026/06/03-08:55:33.111 96c Delete type=0 #11976
+2026/06/03-08:56:47.615 970 Level-0 table #11980: started
+2026/06/03-08:56:47.617 970 Level-0 table #11980: 21750 bytes OK
+2026/06/03-08:56:47.617 970 Delete type=0 #11977
+2026/06/03-09:00:47.615 96c Level-0 table #11982: started
+2026/06/03-09:00:47.619 96c Level-0 table #11982: 21351 bytes OK
+2026/06/03-09:00:47.620 96c Delete type=0 #11979
+2026/06/03-09:00:47.620 970 Compacting 4@0 + 1@1 files
+2026/06/03-09:00:47.623 970 Generated table #11983@0: 1283 keys, 43171 bytes
+2026/06/03-09:00:47.623 970 Compacted 4@0 + 1@1 files => 43171 bytes
+2026/06/03-09:00:47.623 970 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/03-09:00:47.623 970 Delete type=2 #11980
+2026/06/03-09:00:47.623 970 Delete type=2 #11982
+2026/06/03-09:00:47.623 970 Delete type=2 #11972
+2026/06/03-09:00:47.623 970 Delete type=2 #11974
+2026/06/03-09:00:47.624 970 Delete type=2 #11978
+2026/06/03-09:06:47.615 970 Level-0 table #11985: started
+2026/06/03-09:06:47.619 970 Level-0 table #11985: 23647 bytes OK
+2026/06/03-09:06:47.620 970 Delete type=0 #11981
+2026/06/03-09:13:47.615 970 Level-0 table #11987: started
+2026/06/03-09:13:47.616 970 Level-0 table #11987: 22699 bytes OK
+2026/06/03-09:13:47.617 970 Delete type=0 #11984

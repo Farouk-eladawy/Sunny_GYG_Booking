@@ -1,10 +1,34 @@
-2026/06/05-16:14:25.213 96c Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/05-16:20:25.723 96c Level-0 table #12561: started
-2026/06/05-16:20:25.725 96c Level-0 table #12561: 19850 bytes OK
-2026/06/05-16:20:25.726 96c Delete type=0 #12559
-2026/06/05-16:25:25.723 96c Level-0 table #12563: started
-2026/06/05-16:25:25.728 96c Level-0 table #12563: 23381 bytes OK
-2026/06/05-16:25:25.728 96c Delete type=0 #12560
-2026/06/05-16:32:25.723 96c Level-0 table #12565: started
-2026/06/05-16:32:25.728 96c Level-0 table #12565: 20003 bytes OK
-2026/06/05-16:32:25.728 96c Delete type=0 #12562
+2026/06/05-17:28:12.384 96d Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/05-17:34:12.949 96d Level-0 table #12569: started
+2026/06/05-17:34:12.950 96d Level-0 table #12569: 20410 bytes OK
+2026/06/05-17:34:12.951 96d Delete type=0 #12567
+2026/06/05-17:34:12.951 96d Compacting 4@0 + 1@1 files
+2026/06/05-17:34:12.953 96d Generated table #12570@0: 1374 keys, 45541 bytes
+2026/06/05-17:34:12.953 96d Compacted 4@0 + 1@1 files => 45541 bytes
+2026/06/05-17:34:12.953 96d compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/05-17:34:12.954 96d Delete type=2 #12563
+2026/06/05-17:34:12.954 96d Delete type=2 #12569
+2026/06/05-17:34:12.954 96d Delete type=2 #12565
+2026/06/05-17:34:12.954 96d Delete type=2 #12561
+2026/06/05-17:34:12.954 96d Delete type=2 #12557
+2026/06/05-17:37:12.949 96d Level-0 table #12572: started
+2026/06/05-17:37:12.951 96d Level-0 table #12572: 23152 bytes OK
+2026/06/05-17:37:12.951 96d Delete type=0 #12568
+2026/06/05-17:41:12.949 96d Level-0 table #12574: started
+2026/06/05-17:41:12.952 96d Level-0 table #12574: 22973 bytes OK
+2026/06/05-17:41:12.953 96d Delete type=0 #12571
+2026/06/05-17:44:12.950 96d Level-0 table #12576: started
+2026/06/05-17:44:12.951 96d Level-0 table #12576: 23353 bytes OK
+2026/06/05-17:44:12.952 96d Delete type=0 #12573
+2026/06/05-17:52:12.949 96d Level-0 table #12578: started
+2026/06/05-17:52:12.950 96d Level-0 table #12578: 22595 bytes OK
+2026/06/05-17:52:12.951 96d Delete type=0 #12575
+2026/06/05-17:52:12.951 96d Compacting 4@0 + 1@1 files
+2026/06/05-17:52:12.953 96d Generated table #12579@0: 1375 keys, 45453 bytes
+2026/06/05-17:52:12.953 96d Compacted 4@0 + 1@1 files => 45453 bytes
+2026/06/05-17:52:12.953 96d compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/05-17:52:12.953 96d Delete type=2 #12578
+2026/06/05-17:52:12.953 96d Delete type=2 #12574
+2026/06/05-17:52:12.953 96d Delete type=2 #12576
+2026/06/05-17:52:12.953 96d Delete type=2 #12570
+2026/06/05-17:52:12.953 96d Delete type=2 #12572

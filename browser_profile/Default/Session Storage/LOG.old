@@ -1,47 +1,24 @@
-2026/06/06-04:32:30.722 960 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
-2026/06/06-04:35:50.574 960 Level-0 table #95499: started
-2026/06/06-04:35:50.576 960 Level-0 table #95499: 11586 bytes OK
-2026/06/06-04:35:50.578 960 Delete type=0 #95497
-2026/06/06-04:38:57.690 964 Level-0 table #95501: started
-2026/06/06-04:38:57.694 964 Level-0 table #95501: 13501 bytes OK
-2026/06/06-04:38:57.695 964 Delete type=0 #95498
-2026/06/06-04:45:38.082 964 Level-0 table #95503: started
-2026/06/06-04:45:38.088 964 Level-0 table #95503: 12150 bytes OK
-2026/06/06-04:45:38.090 964 Delete type=0 #95500
-2026/06/06-04:49:52.260 964 Level-0 table #95505: started
-2026/06/06-04:49:52.269 964 Level-0 table #95505: 12237 bytes OK
-2026/06/06-04:49:52.271 964 Delete type=0 #95502
-2026/06/06-04:49:52.271 964 Compacting 4@0 + 2@1 files
-2026/06/06-04:49:52.308 964 Generated table #95506@0: 16010 keys, 2106173 bytes
-2026/06/06-04:49:52.322 964 Generated table #95507@0: 22218 keys, 619231 bytes
-2026/06/06-04:49:52.322 964 Compacted 4@0 + 2@1 files => 2725404 bytes
-2026/06/06-04:49:52.323 964 compacted to: files[ 0 5 48 43 0 0 0 ]
-2026/06/06-04:49:52.324 964 Delete type=2 #95499
-2026/06/06-04:49:52.324 964 Delete type=2 #95503
-2026/06/06-04:49:52.324 964 Delete type=2 #95494
-2026/06/06-04:49:52.324 964 Delete type=2 #95501
-2026/06/06-04:49:52.324 964 Delete type=2 #95495
-2026/06/06-04:49:52.324 964 Delete type=2 #95505
-2026/06/06-04:53:20.601 966 Level-0 table #95509: started
-2026/06/06-04:53:20.608 966 Level-0 table #95509: 11680 bytes OK
-2026/06/06-04:53:20.610 966 Delete type=0 #95504
-2026/06/06-04:54:11.209 964 Level-0 table #95511: started
-2026/06/06-04:54:11.220 964 Level-0 table #95511: 577261 bytes OK
-2026/06/06-04:54:11.222 964 Delete type=0 #95508
-2026/06/06-04:57:12.964 960 Level-0 table #95513: started
-2026/06/06-04:57:12.972 960 Level-0 table #95513: 12398 bytes OK
-2026/06/06-04:57:12.974 960 Delete type=0 #95510
-2026/06/06-05:00:06.532 964 Level-0 table #95515: started
-2026/06/06-05:00:06.535 964 Level-0 table #95515: 11180 bytes OK
-2026/06/06-05:00:06.537 964 Delete type=0 #95512
-2026/06/06-05:00:06.537 964 Compacting 4@0 + 2@1 files
-2026/06/06-05:00:06.576 964 Generated table #95516@0: 16151 keys, 2105667 bytes
-2026/06/06-05:00:06.589 964 Generated table #95517@0: 22475 keys, 626076 bytes
-2026/06/06-05:00:06.589 964 Compacted 4@0 + 2@1 files => 2731743 bytes
-2026/06/06-05:00:06.590 964 compacted to: files[ 0 5 48 43 0 0 0 ]
-2026/06/06-05:00:06.591 964 Delete type=2 #95515
-2026/06/06-05:00:06.591 964 Delete type=2 #95506
-2026/06/06-05:00:06.591 964 Delete type=2 #95507
-2026/06/06-05:00:06.591 964 Delete type=2 #95509
-2026/06/06-05:00:06.591 964 Delete type=2 #95511
-2026/06/06-05:00:06.591 964 Delete type=2 #95513
+2026/06/06-05:46:17.686 987 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
+2026/06/06-05:51:50.344 987 Level-0 table #95521: started
+2026/06/06-05:51:50.366 987 Level-0 table #95521: 578541 bytes OK
+2026/06/06-05:51:50.368 987 Delete type=0 #95519
+2026/06/06-05:56:01.562 98b Level-0 table #95523: started
+2026/06/06-05:56:01.568 98b Level-0 table #95523: 12546 bytes OK
+2026/06/06-05:56:01.570 98b Delete type=0 #95520
+2026/06/06-06:02:17.523 98b Level-0 table #95525: started
+2026/06/06-06:02:17.529 98b Level-0 table #95525: 11687 bytes OK
+2026/06/06-06:02:17.531 98b Delete type=0 #95522
+2026/06/06-06:05:46.044 98b Level-0 table #95527: started
+2026/06/06-06:05:46.049 98b Level-0 table #95527: 11687 bytes OK
+2026/06/06-06:05:46.051 98b Delete type=0 #95524
+2026/06/06-06:05:46.051 98b Compacting 4@0 + 2@1 files
+2026/06/06-06:05:46.104 98b Generated table #95528@0: 16443 keys, 2106572 bytes
+2026/06/06-06:05:46.120 98b Generated table #95529@0: 22793 keys, 634835 bytes
+2026/06/06-06:05:46.120 98b Compacted 4@0 + 2@1 files => 2741407 bytes
+2026/06/06-06:05:46.121 98b compacted to: files[ 0 5 48 43 0 0 0 ]
+2026/06/06-06:05:46.122 98b Delete type=2 #95516
+2026/06/06-06:05:46.122 98b Delete type=2 #95527
+2026/06/06-06:05:46.122 98b Delete type=2 #95521
+2026/06/06-06:05:46.122 98b Delete type=2 #95517
+2026/06/06-06:05:46.122 98b Delete type=2 #95523
+2026/06/06-06:05:46.122 98b Delete type=2 #95525

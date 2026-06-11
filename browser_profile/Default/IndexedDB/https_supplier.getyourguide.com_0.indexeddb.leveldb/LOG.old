@@ -1,13 +1,3 @@
-2026/06/11-21:08:31.234 936 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_supplier.getyourguide.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/06/11-21:16:16.536 936 Level-0 table #20024: started
-2026/06/11-21:16:16.538 936 Level-0 table #20024: 192758 bytes OK
-2026/06/11-21:16:16.538 936 Delete type=0 #20022
-2026/06/11-21:16:16.539 936 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2026/06/11-21:16:16.539 936 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x06\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 6285413 : 1
-2026/06/11-21:16:16.539 936 Compacting 1@1 + 1@2 files
-2026/06/11-21:16:16.540 936 Generated table #20025@1: 118 keys, 2283 bytes
-2026/06/11-21:16:16.540 936 Compacted 1@1 + 1@2 files => 2283 bytes
-2026/06/11-21:16:16.540 936 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/06/11-21:16:16.540 936 Delete type=2 #20020
-2026/06/11-21:16:16.540 936 Delete type=2 #20024
-2026/06/11-21:16:16.540 936 Manual compaction at level-1 from '\x00\x06\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 6285413 : 1 .. (end); will stop at (end)
+2026/06/11-21:16:17.998 932 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_supplier.getyourguide.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/11-21:16:18.001 932 Recovering log #20023
+2026/06/11-21:16:18.001 932 Reusing old log /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_supplier.getyourguide.com_0.indexeddb.leveldb/020023.log 

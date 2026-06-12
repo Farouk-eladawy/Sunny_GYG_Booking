@@ -1,30 +1,36 @@
-2026/06/12-13:08:48.345 925 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
-2026/06/12-13:12:35.547 925 Level-0 table #97592: started
-2026/06/12-13:12:35.554 925 Level-0 table #97592: 9593 bytes OK
-2026/06/12-13:12:35.556 925 Delete type=0 #97590
-2026/06/12-13:14:46.321 929 Level-0 table #97594: started
-2026/06/12-13:14:46.336 929 Level-0 table #97594: 578943 bytes OK
-2026/06/12-13:14:46.339 929 Delete type=0 #97591
-2026/06/12-13:18:13.963 929 Level-0 table #97596: started
-2026/06/12-13:18:13.968 929 Level-0 table #97596: 16597 bytes OK
-2026/06/12-13:18:13.969 929 Delete type=0 #97593
-2026/06/12-13:18:13.970 929 Compacting 4@0 + 2@1 files
-2026/06/12-13:18:14.000 929 Generated table #97597@0: 4317 keys, 2332037 bytes
-2026/06/12-13:18:14.031 929 Generated table #97598@0: 64682 keys, 1812658 bytes
-2026/06/12-13:18:14.031 929 Compacted 4@0 + 2@1 files => 4144695 bytes
-2026/06/12-13:18:14.048 929 compacted to: files[ 0 4 48 56 0 0 0 ]
-2026/06/12-13:18:14.049 929 Delete type=2 #97594
-2026/06/12-13:18:14.049 929 Delete type=2 #97586
-2026/06/12-13:18:14.049 929 Delete type=2 #97585
-2026/06/12-13:18:14.049 929 Delete type=2 #97596
-2026/06/12-13:18:14.049 929 Delete type=2 #97588
-2026/06/12-13:18:14.049 929 Delete type=2 #97592
-2026/06/12-13:24:46.816 925 Level-0 table #97600: started
-2026/06/12-13:24:46.821 925 Level-0 table #97600: 11880 bytes OK
-2026/06/12-13:24:46.826 925 Delete type=0 #97595
-2026/06/12-13:31:28.531 925 Level-0 table #97602: started
-2026/06/12-13:31:28.543 925 Level-0 table #97602: 580494 bytes OK
-2026/06/12-13:31:28.546 925 Delete type=0 #97599
-2026/06/12-13:42:10.317 925 Level-0 table #97604: started
-2026/06/12-13:42:10.325 925 Level-0 table #97604: 13556 bytes OK
-2026/06/12-13:42:10.327 925 Delete type=0 #97601
+2026/06/12-14:22:51.886 98d Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
+2026/06/12-14:29:02.527 98d Level-0 table #97608: started
+2026/06/12-14:29:02.538 98d Level-0 table #97608: 578252 bytes OK
+2026/06/12-14:29:02.540 98d Delete type=0 #97606
+2026/06/12-14:29:02.541 98d Compacting 4@0 + 1@1 files
+2026/06/12-14:29:02.586 98d Generated table #97609@0: 55944 keys, 2132750 bytes
+2026/06/12-14:29:02.592 98d Generated table #97610@0: 9401 keys, 263944 bytes
+2026/06/12-14:29:02.592 98d Compacted 4@0 + 1@1 files => 2396694 bytes
+2026/06/12-14:29:02.592 98d compacted to: files[ 0 5 48 56 0 0 0 ]
+2026/06/12-14:29:02.593 98d Delete type=2 #97600
+2026/06/12-14:29:02.593 98d Delete type=2 #97608
+2026/06/12-14:29:02.593 98d Delete type=2 #97602
+2026/06/12-14:29:02.594 98d Delete type=2 #97598
+2026/06/12-14:29:02.594 98d Delete type=2 #97604
+2026/06/12-14:39:48.416 98d Level-0 table #97612: started
+2026/06/12-14:39:48.423 98d Level-0 table #97612: 14240 bytes OK
+2026/06/12-14:39:48.426 98d Delete type=0 #97607
+2026/06/12-14:44:50.077 991 Level-0 table #97614: started
+2026/06/12-14:44:50.078 991 Level-0 table #97614: 13728 bytes OK
+2026/06/12-14:44:50.080 991 Delete type=0 #97611
+2026/06/12-14:44:58.723 98d Level-0 table #97616: started
+2026/06/12-14:44:58.740 98d Level-0 table #97616: 572952 bytes OK
+2026/06/12-14:44:58.743 98d Delete type=0 #97613
+2026/06/12-14:52:46.407 991 Level-0 table #97618: started
+2026/06/12-14:52:46.413 991 Level-0 table #97618: 12241 bytes OK
+2026/06/12-14:52:46.416 991 Delete type=0 #97615
+2026/06/12-14:52:46.416 991 Compacting 4@0 + 2@1 files
+2026/06/12-14:52:46.462 991 Generated table #97619@0: 65873 keys, 1830035 bytes
+2026/06/12-14:52:46.462 991 Compacted 4@0 + 2@1 files => 1830035 bytes
+2026/06/12-14:52:46.462 991 compacted to: files[ 0 4 48 56 0 0 0 ]
+2026/06/12-14:52:46.463 991 Delete type=2 #97609
+2026/06/12-14:52:46.463 991 Delete type=2 #97610
+2026/06/12-14:52:46.463 991 Delete type=2 #97614
+2026/06/12-14:52:46.463 991 Delete type=2 #97612
+2026/06/12-14:52:46.463 991 Delete type=2 #97616
+2026/06/12-14:52:46.463 991 Delete type=2 #97618

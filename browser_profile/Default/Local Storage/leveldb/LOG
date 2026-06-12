@@ -1,61 +1,7 @@
-2026/06/12-10:41:02.682 97d Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/12-10:47:03.215 981 Level-0 table #14423: started
-2026/06/12-10:47:03.221 981 Level-0 table #14423: 21253 bytes OK
-2026/06/12-10:47:03.222 981 Delete type=0 #14421
-2026/06/12-10:48:47.462 981 Level-0 table #14425: started
-2026/06/12-10:48:47.469 981 Level-0 table #14425: 23084 bytes OK
-2026/06/12-10:48:47.470 981 Delete type=0 #14422
-2026/06/12-10:48:47.470 981 Compacting 4@0 + 1@1 files
-2026/06/12-10:48:47.473 981 Generated table #14426@0: 1623 keys, 50174 bytes
-2026/06/12-10:48:47.473 981 Compacted 4@0 + 1@1 files => 50174 bytes
-2026/06/12-10:48:47.473 981 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/12-10:48:47.473 981 Delete type=2 #14425
-2026/06/12-10:48:47.473 981 Delete type=2 #14415
-2026/06/12-10:48:47.473 981 Delete type=2 #14423
-2026/06/12-10:48:47.473 981 Delete type=2 #14417
-2026/06/12-10:48:47.473 981 Delete type=2 #14419
-2026/06/12-11:21:20.415 981 Level-0 table #14428: started
-2026/06/12-11:21:20.424 981 Level-0 table #14428: 19813 bytes OK
-2026/06/12-11:21:20.425 981 Delete type=0 #14424
-2026/06/12-11:23:58.636 981 Level-0 table #14430: started
-2026/06/12-11:23:58.641 981 Level-0 table #14430: 22308 bytes OK
-2026/06/12-11:23:58.641 981 Delete type=0 #14427
-2026/06/12-11:24:56.861 981 Level-0 table #14432: started
-2026/06/12-11:24:56.866 981 Level-0 table #14432: 20646 bytes OK
-2026/06/12-11:24:56.866 981 Delete type=0 #14429
-2026/06/12-11:27:03.216 981 Level-0 table #14434: started
-2026/06/12-11:27:03.225 981 Level-0 table #14434: 22928 bytes OK
-2026/06/12-11:27:03.227 981 Delete type=0 #14431
-2026/06/12-11:27:03.227 981 Compacting 4@0 + 1@1 files
-2026/06/12-11:27:03.233 981 Generated table #14435@0: 1623 keys, 50149 bytes
-2026/06/12-11:27:03.233 981 Compacted 4@0 + 1@1 files => 50149 bytes
-2026/06/12-11:27:03.238 981 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/12-11:27:03.239 981 Delete type=2 #14426
-2026/06/12-11:27:03.239 981 Delete type=2 #14430
-2026/06/12-11:27:03.239 981 Delete type=2 #14428
-2026/06/12-11:27:03.239 981 Delete type=2 #14434
-2026/06/12-11:27:03.239 981 Delete type=2 #14432
-2026/06/12-11:30:25.699 982 Level-0 table #14437: started
-2026/06/12-11:30:25.708 982 Level-0 table #14437: 21680 bytes OK
-2026/06/12-11:30:25.708 982 Delete type=0 #14433
-2026/06/12-11:34:03.215 981 Level-0 table #14439: started
-2026/06/12-11:34:03.221 981 Level-0 table #14439: 20900 bytes OK
-2026/06/12-11:34:03.221 981 Delete type=0 #14436
-2026/06/12-11:38:34.276 981 Level-0 table #14441: started
-2026/06/12-11:38:34.280 981 Level-0 table #14441: 22570 bytes OK
-2026/06/12-11:38:34.281 981 Delete type=0 #14438
-2026/06/12-11:44:03.216 981 Level-0 table #14443: started
-2026/06/12-11:44:03.217 981 Level-0 table #14443: 22460 bytes OK
-2026/06/12-11:44:03.218 981 Delete type=0 #14440
-2026/06/12-11:44:03.218 981 Compacting 4@0 + 1@1 files
-2026/06/12-11:44:03.220 981 Generated table #14444@0: 1623 keys, 50152 bytes
-2026/06/12-11:44:03.220 981 Compacted 4@0 + 1@1 files => 50152 bytes
-2026/06/12-11:44:03.220 981 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/12-11:44:03.220 981 Delete type=2 #14437
-2026/06/12-11:44:03.220 981 Delete type=2 #14439
-2026/06/12-11:44:03.220 981 Delete type=2 #14441
-2026/06/12-11:44:03.220 981 Delete type=2 #14435
-2026/06/12-11:44:03.220 981 Delete type=2 #14443
-2026/06/12-11:51:03.216 981 Level-0 table #14446: started
-2026/06/12-11:51:03.219 981 Level-0 table #14446: 21134 bytes OK
-2026/06/12-11:51:03.220 981 Delete type=0 #14442
+2026/06/12-11:54:50.708 969 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/12-12:00:51.175 96d Level-0 table #14450: started
+2026/06/12-12:00:51.181 96d Level-0 table #14450: 20958 bytes OK
+2026/06/12-12:00:51.182 96d Delete type=0 #14448
+2026/06/12-12:07:51.176 96d Level-0 table #14452: started
+2026/06/12-12:07:51.178 96d Level-0 table #14452: 21087 bytes OK
+2026/06/12-12:07:51.179 96d Delete type=0 #14449

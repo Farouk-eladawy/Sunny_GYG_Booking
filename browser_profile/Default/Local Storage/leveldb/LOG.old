@@ -1,23 +1,52 @@
-2026/06/17-06:26:23.869 9a8 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/17-06:26:23.875 9a8 Delete type=2 #15830
-2026/06/17-06:32:24.334 9a6 Level-0 table #15832: started
-2026/06/17-06:32:24.339 9a6 Level-0 table #15832: 22628 bytes OK
-2026/06/17-06:32:24.340 9a6 Delete type=0 #15830
-2026/06/17-06:36:24.335 9a6 Level-0 table #15834: started
-2026/06/17-06:36:24.339 9a6 Level-0 table #15834: 23041 bytes OK
-2026/06/17-06:36:24.340 9a6 Delete type=0 #15831
-2026/06/17-06:43:24.335 9a6 Level-0 table #15836: started
-2026/06/17-06:43:24.337 9a6 Level-0 table #15836: 22044 bytes OK
-2026/06/17-06:43:24.337 9a6 Delete type=0 #15833
-2026/06/17-06:47:24.589 9a2 Level-0 table #15838: started
-2026/06/17-06:47:24.592 9a2 Level-0 table #15838: 21843 bytes OK
-2026/06/17-06:47:24.593 9a2 Delete type=0 #15835
-2026/06/17-06:47:24.593 9a2 Compacting 4@0 + 1@1 files
-2026/06/17-06:47:24.595 9a2 Generated table #15839@0: 1803 keys, 54046 bytes
-2026/06/17-06:47:24.595 9a2 Compacted 4@0 + 1@1 files => 54046 bytes
-2026/06/17-06:47:24.596 9a2 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/17-06:47:24.596 9a2 Delete type=2 #15828
-2026/06/17-06:47:24.596 9a2 Delete type=2 #15838
-2026/06/17-06:47:24.596 9a2 Delete type=2 #15832
-2026/06/17-06:47:24.596 9a2 Delete type=2 #15834
-2026/06/17-06:47:24.596 9a2 Delete type=2 #15836
+2026/06/17-07:40:22.296 9c6 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/17-07:46:22.875 9ca Level-0 table #15843: started
+2026/06/17-07:46:22.879 9ca Level-0 table #15843: 21206 bytes OK
+2026/06/17-07:46:22.880 9ca Delete type=0 #15841
+2026/06/17-07:47:52.088 9cb Level-0 table #15845: started
+2026/06/17-07:47:52.095 9cb Level-0 table #15845: 22613 bytes OK
+2026/06/17-07:47:52.095 9cb Delete type=0 #15842
+2026/06/17-07:49:34.507 9c6 Level-0 table #15847: started
+2026/06/17-07:49:34.508 9c6 Level-0 table #15847: 22605 bytes OK
+2026/06/17-07:49:34.509 9c6 Delete type=0 #15844
+2026/06/17-08:22:58.835 9ca Level-0 table #15849: started
+2026/06/17-08:22:58.843 9ca Level-0 table #15849: 21801 bytes OK
+2026/06/17-08:22:58.845 9ca Delete type=0 #15846
+2026/06/17-08:22:58.846 9ca Compacting 4@0 + 1@1 files
+2026/06/17-08:22:58.852 9ca Generated table #15850@0: 1805 keys, 53990 bytes
+2026/06/17-08:22:58.852 9ca Compacted 4@0 + 1@1 files => 53990 bytes
+2026/06/17-08:22:58.852 9ca compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/17-08:22:58.853 9ca Delete type=2 #15847
+2026/06/17-08:22:58.853 9ca Delete type=2 #15849
+2026/06/17-08:22:58.853 9ca Delete type=2 #15839
+2026/06/17-08:22:58.853 9ca Delete type=2 #15843
+2026/06/17-08:22:58.853 9ca Delete type=2 #15845
+2026/06/17-08:24:00.626 9ca Level-0 table #15852: started
+2026/06/17-08:24:00.630 9ca Level-0 table #15852: 20620 bytes OK
+2026/06/17-08:24:00.631 9ca Delete type=0 #15848
+2026/06/17-08:26:22.876 9ca Level-0 table #15854: started
+2026/06/17-08:26:22.878 9ca Level-0 table #15854: 20881 bytes OK
+2026/06/17-08:26:22.878 9ca Delete type=0 #15851
+2026/06/17-08:30:22.875 9ca Level-0 table #15856: started
+2026/06/17-08:30:22.881 9ca Level-0 table #15856: 21680 bytes OK
+2026/06/17-08:30:22.881 9ca Delete type=0 #15853
+2026/06/17-08:33:23.244 9ca Level-0 table #15858: started
+2026/06/17-08:33:23.250 9ca Level-0 table #15858: 21069 bytes OK
+2026/06/17-08:33:23.250 9ca Delete type=0 #15855
+2026/06/17-08:33:23.251 9ca Compacting 4@0 + 1@1 files
+2026/06/17-08:33:23.253 9ca Generated table #15859@0: 1805 keys, 53989 bytes
+2026/06/17-08:33:23.253 9ca Compacted 4@0 + 1@1 files => 53989 bytes
+2026/06/17-08:33:23.253 9ca compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/17-08:33:23.253 9ca Delete type=2 #15850
+2026/06/17-08:33:23.253 9ca Delete type=2 #15858
+2026/06/17-08:33:23.253 9ca Delete type=2 #15852
+2026/06/17-08:33:23.253 9ca Delete type=2 #15854
+2026/06/17-08:33:23.253 9ca Delete type=2 #15856
+2026/06/17-08:40:22.876 9ca Level-0 table #15861: started
+2026/06/17-08:40:22.879 9ca Level-0 table #15861: 21147 bytes OK
+2026/06/17-08:40:22.880 9ca Delete type=0 #15857
+2026/06/17-08:47:22.875 9ca Level-0 table #15863: started
+2026/06/17-08:47:22.880 9ca Level-0 table #15863: 21097 bytes OK
+2026/06/17-08:47:22.881 9ca Delete type=0 #15860
+2026/06/17-08:50:22.876 9ca Level-0 table #15865: started
+2026/06/17-08:50:22.880 9ca Level-0 table #15865: 22437 bytes OK
+2026/06/17-08:50:22.881 9ca Delete type=0 #15862

@@ -1,24 +1,41 @@
-2026/06/19-11:24:57.059 973 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
-2026/06/19-11:28:41.496 973 Level-0 table #100109: started
-2026/06/19-11:28:41.506 973 Level-0 table #100109: 9379 bytes OK
-2026/06/19-11:28:41.508 973 Delete type=0 #100107
-2026/06/19-11:31:56.569 977 Level-0 table #100111: started
-2026/06/19-11:31:56.577 977 Level-0 table #100111: 9855 bytes OK
-2026/06/19-11:31:56.580 977 Delete type=0 #100108
-2026/06/19-11:35:47.169 977 Level-0 table #100113: started
-2026/06/19-11:35:47.172 977 Level-0 table #100113: 9476 bytes OK
-2026/06/19-11:35:47.175 977 Delete type=0 #100110
-2026/06/19-11:44:09.533 977 Level-0 table #100115: started
-2026/06/19-11:44:09.538 977 Level-0 table #100115: 12709 bytes OK
-2026/06/19-11:44:09.542 977 Delete type=0 #100112
-2026/06/19-11:44:09.542 977 Compacting 4@0 + 2@1 files
-2026/06/19-11:44:09.587 977 Generated table #100116@0: 55944 keys, 2134274 bytes
-2026/06/19-11:44:09.606 977 Generated table #100117@0: 41566 keys, 1170044 bytes
-2026/06/19-11:44:09.606 977 Compacted 4@0 + 2@1 files => 3304318 bytes
-2026/06/19-11:44:09.606 977 compacted to: files[ 0 5 47 69 0 0 0 ]
-2026/06/19-11:44:09.607 977 Delete type=2 #100113
-2026/06/19-11:44:09.607 977 Delete type=2 #100115
-2026/06/19-11:44:09.607 977 Delete type=2 #100109
-2026/06/19-11:44:09.607 977 Delete type=2 #100111
-2026/06/19-11:44:09.607 977 Delete type=2 #100105
-2026/06/19-11:44:09.607 977 Delete type=2 #100104
+2026/06/19-12:38:51.092 969 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
+2026/06/19-12:44:40.922 96d Level-0 table #100121: started
+2026/06/19-12:44:40.938 96d Level-0 table #100121: 581716 bytes OK
+2026/06/19-12:44:40.941 96d Delete type=0 #100119
+2026/06/19-12:54:23.280 96d Level-0 table #100123: started
+2026/06/19-12:54:23.284 96d Level-0 table #100123: 11586 bytes OK
+2026/06/19-12:54:23.286 96d Delete type=0 #100120
+2026/06/19-13:00:12.917 969 Level-0 table #100125: started
+2026/06/19-13:00:12.922 969 Level-0 table #100125: 11886 bytes OK
+2026/06/19-13:00:12.926 969 Delete type=0 #100122
+2026/06/19-13:00:25.594 96d Level-0 table #100127: started
+2026/06/19-13:00:25.605 96d Level-0 table #100127: 580409 bytes OK
+2026/06/19-13:00:25.606 96d Delete type=0 #100124
+2026/06/19-13:00:25.607 96d Compacting 4@0 + 2@1 files
+2026/06/19-13:00:25.640 96d Generated table #100128@0: 34973 keys, 2119634 bytes
+2026/06/19-13:00:25.667 96d Generated table #100129@0: 63038 keys, 1773663 bytes
+2026/06/19-13:00:25.667 96d Compacted 4@0 + 2@1 files => 3893297 bytes
+2026/06/19-13:00:25.668 96d compacted to: files[ 0 5 47 69 0 0 0 ]
+2026/06/19-13:00:25.669 96d Delete type=2 #100127
+2026/06/19-13:00:25.669 96d Delete type=2 #100125
+2026/06/19-13:00:25.669 96d Delete type=2 #100121
+2026/06/19-13:00:25.669 96d Delete type=2 #100117
+2026/06/19-13:00:25.669 96d Delete type=2 #100123
+2026/06/19-13:00:25.669 96d Delete type=2 #100116
+2026/06/19-13:00:25.669 96d Compacting 1@1 + 1@2 files
+2026/06/19-13:00:25.696 96d Generated table #100130@1: 38 keys, 2303051 bytes
+2026/06/19-13:00:25.724 96d Generated table #100131@1: 36 keys, 2195664 bytes
+2026/06/19-13:00:25.724 96d Compacted 1@1 + 1@2 files => 4498715 bytes
+2026/06/19-13:00:25.724 96d compacted to: files[ 0 4 48 69 0 0 0 ]
+2026/06/19-13:00:25.725 96d Delete type=2 #100041
+2026/06/19-13:00:25.725 96d Delete type=2 #99656
+2026/06/19-13:00:25.727 96d Moved #89492 to level-3 2269991 bytes OK: files[ 0 4 47 70 0 0 0 ]
+2026/06/19-13:03:45.607 96d Level-0 table #100133: started
+2026/06/19-13:03:45.612 96d Level-0 table #100133: 11334 bytes OK
+2026/06/19-13:03:45.614 96d Delete type=0 #100126
+2026/06/19-13:08:00.752 969 Level-0 table #100135: started
+2026/06/19-13:08:00.754 969 Level-0 table #100135: 12167 bytes OK
+2026/06/19-13:08:00.756 969 Delete type=0 #100132
+2026/06/19-13:11:18.128 969 Level-0 table #100137: started
+2026/06/19-13:11:18.131 969 Level-0 table #100137: 12376 bytes OK
+2026/06/19-13:11:18.133 969 Delete type=0 #100134

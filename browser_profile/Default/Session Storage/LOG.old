@@ -1,10 +1,29 @@
-2026/06/24-08:20:19.485 968 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
-2026/06/24-08:26:23.092 968 Level-0 table #101638: started
-2026/06/24-08:26:23.112 968 Level-0 table #101638: 581386 bytes OK
-2026/06/24-08:26:23.114 968 Delete type=0 #101636
-2026/06/24-09:16:32.554 96c Level-0 table #101640: started
-2026/06/24-09:16:32.562 96c Level-0 table #101640: 11573 bytes OK
-2026/06/24-09:16:32.564 96c Delete type=0 #101637
-2026/06/24-09:30:01.100 96c Level-0 table #101642: started
-2026/06/24-09:30:01.106 96c Level-0 table #101642: 10255 bytes OK
-2026/06/24-09:30:01.110 96c Delete type=0 #101639
+2026/06/24-09:34:15.525 8a0 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
+2026/06/24-09:40:23.123 8a4 Level-0 table #101646: started
+2026/06/24-09:40:23.137 8a4 Level-0 table #101646: 581604 bytes OK
+2026/06/24-09:40:23.139 8a4 Delete type=0 #101644
+2026/06/24-09:40:23.140 8a4 Compacting 4@0 + 2@1 files
+2026/06/24-09:40:23.167 8a4 Generated table #101647@0: 55992 keys, 2134812 bytes
+2026/06/24-09:40:23.186 8a4 Generated table #101648@0: 63841 keys, 1801562 bytes
+2026/06/24-09:40:23.186 8a4 Compacted 4@0 + 2@1 files => 3936374 bytes
+2026/06/24-09:40:23.194 8a4 compacted to: files[ 0 5 47 78 0 0 0 ]
+2026/06/24-09:40:23.196 8a4 Delete type=2 #101638
+2026/06/24-09:40:23.196 8a4 Delete type=2 #101642
+2026/06/24-09:40:23.196 8a4 Delete type=2 #101646
+2026/06/24-09:40:23.196 8a4 Delete type=2 #101634
+2026/06/24-09:40:23.196 8a4 Delete type=2 #101640
+2026/06/24-09:40:23.196 8a4 Delete type=2 #101633
+2026/06/24-09:40:23.197 8a4 Compacting 1@1 + 1@2 files
+2026/06/24-09:40:23.217 8a4 Generated table #101649@1: 13 keys, 2315909 bytes
+2026/06/24-09:40:23.241 8a4 Generated table #101650@1: 43 keys, 2209580 bytes
+2026/06/24-09:40:23.241 8a4 Compacted 1@1 + 1@2 files => 4525489 bytes
+2026/06/24-09:40:23.245 8a4 compacted to: files[ 0 4 48 78 0 0 0 ]
+2026/06/24-09:40:23.246 8a4 Delete type=2 #101529
+2026/06/24-09:40:23.246 8a4 Delete type=2 #101285
+2026/06/24-09:40:23.247 8a4 Moved #92274 to level-3 2279311 bytes OK: files[ 0 4 47 79 0 0 0 ]
+2026/06/24-09:49:19.606 8a0 Level-0 table #101652: started
+2026/06/24-09:49:19.611 8a0 Level-0 table #101652: 11473 bytes OK
+2026/06/24-09:49:19.613 8a0 Delete type=0 #101645
+2026/06/24-09:53:08.230 8a0 Level-0 table #101654: started
+2026/06/24-09:53:08.236 8a0 Level-0 table #101654: 10330 bytes OK
+2026/06/24-09:53:08.238 8a0 Delete type=0 #101651

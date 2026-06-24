@@ -1,22 +1,19 @@
-2026/06/23-22:29:43.100 973 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/06/23-22:35:44.366 972 Level-0 table #17518: started
-2026/06/23-22:35:44.371 972 Level-0 table #17518: 22218 bytes OK
-2026/06/23-22:35:44.372 972 Delete type=0 #17516
-2026/06/23-22:35:44.372 972 Compacting 4@0 + 1@1 files
-2026/06/23-22:35:44.374 972 Generated table #17519@0: 2061 keys, 57535 bytes
-2026/06/23-22:35:44.375 972 Compacted 4@0 + 1@1 files => 57535 bytes
-2026/06/23-22:35:44.375 972 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/23-22:35:44.375 972 Delete type=2 #17508
-2026/06/23-22:35:44.375 972 Delete type=2 #17510
-2026/06/23-22:35:44.375 972 Delete type=2 #17514
-2026/06/23-22:35:44.375 972 Delete type=2 #17512
-2026/06/23-22:35:44.375 972 Delete type=2 #17518
-2026/06/23-22:39:35.951 972 Level-0 table #17521: started
-2026/06/23-22:39:35.956 972 Level-0 table #17521: 22776 bytes OK
-2026/06/23-22:39:35.957 972 Delete type=0 #17517
-2026/06/23-22:42:45.313 972 Level-0 table #17523: started
-2026/06/23-22:42:45.318 972 Level-0 table #17523: 20702 bytes OK
-2026/06/23-22:42:45.319 972 Delete type=0 #17520
-2026/06/23-22:49:41.358 96e Level-0 table #17525: started
-2026/06/23-22:49:41.361 96e Level-0 table #17525: 19254 bytes OK
-2026/06/23-22:49:41.362 96e Delete type=0 #17522
+2026/06/23-23:43:37.634 89c Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/23-23:48:38.906 8a0 Level-0 table #17529: started
+2026/06/23-23:48:38.909 8a0 Level-0 table #17529: 21642 bytes OK
+2026/06/23-23:48:38.910 8a0 Delete type=0 #17527
+2026/06/23-23:48:38.910 8a0 Compacting 4@0 + 1@1 files
+2026/06/23-23:48:38.911 8a0 Generated table #17530@0: 2063 keys, 57811 bytes
+2026/06/23-23:48:38.911 8a0 Compacted 4@0 + 1@1 files => 57811 bytes
+2026/06/23-23:48:38.912 8a0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/23-23:48:38.912 8a0 Delete type=2 #17529
+2026/06/23-23:48:38.912 8a0 Delete type=2 #17521
+2026/06/23-23:48:38.912 8a0 Delete type=2 #17525
+2026/06/23-23:48:38.912 8a0 Delete type=2 #17523
+2026/06/23-23:48:38.912 8a0 Delete type=2 #17519
+2026/06/23-23:55:38.905 8a0 Level-0 table #17532: started
+2026/06/23-23:55:38.924 8a0 Level-0 table #17532: 21737 bytes OK
+2026/06/23-23:55:38.925 8a0 Delete type=0 #17528
+2026/06/24-00:02:38.906 8a0 Level-0 table #17534: started
+2026/06/24-00:02:38.911 8a0 Level-0 table #17534: 21794 bytes OK
+2026/06/24-00:02:38.911 8a0 Delete type=0 #17531

@@ -3000,10 +3000,26 @@ def _parse_date_text(s: Optional[str]) -> Optional[str]:
     for suf in ["st", "nd", "rd", "th"]:
         t = re.sub(rf"\b(\d+)\s*{suf}\b", r"\1", t)
     try:
-        import dateutil.parser
         from zoneinfo import ZoneInfo
-        # Parse the datetime
-        dt_naive = dateutil.parser.parse(t)
+        dt_naive = None
+        try:
+            import dateutil.parser
+            dt_naive = dateutil.parser.parse(t)
+        except ImportError:
+            # Fallback if dateutil is not installed
+            from datetime import datetime
+            # Remove day suffixes for strptime (e.g. 4th -> 4)
+            t_clean = re.sub(r'(?<=\d)(st|nd|rd|th)\b', '', t)
+            # Try a few common formats
+            formats = ['%b %d, %Y %I:%M %p', '%A, %B %d, %Y %I:%M %p', '%Y-%m-%dT%H:%M:%S%z', '%Y-%m-%d %H:%M:%S']
+            for fmt in formats:
+                try:
+                    dt_naive = datetime.strptime(t_clean, fmt)
+                    break
+                except ValueError:
+                    pass
+            if not dt_naive:
+                raise ValueError(f"Could not parse date: {t}")
         
         # Localize GYG time to Africa/Cairo, then convert to UTC and append 'Z'
         if dt_naive.tzinfo is None:
@@ -3013,7 +3029,9 @@ def _parse_date_text(s: Optional[str]) -> Optional[str]:
             
         dt_utc = dt_cairo.astimezone(ZoneInfo("UTC"))
         return dt_utc.strftime('%Y-%m-%dT%H:%M:00.000Z')
-    except Exception:
+    except Exception as e:
+        import logging
+        logging.getLogger(__name__).error(f"Error parsing date '{t}': {e}")
         return None
 
 def _sanitize_commission(v: Optional[object]) -> Optional[float]:

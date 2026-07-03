@@ -437,7 +437,7 @@ class AirtableManager:
             "Total price EUR": booking.get("total_price_eur"),
             "Retail Price": str(booking.get("retail_price")) if booking.get("retail_price") is not None else None,
             "Revenue": str(booking.get("revenue")) if booking.get("revenue") is not None else None,
-            "Commission Breakdown": float(booking.get("commission_breakdown")) / 100.0 if booking.get("commission_breakdown") is not None else None,
+            "Commission Breakdown": _sanitize_commission(booking.get("commission_breakdown")) / 100.0 if _sanitize_commission(booking.get("commission_breakdown")) is not None else None,
             "Google Maps": booking.get("google_maps"),
             "Hotel Name": booking.get("hotel_name"),
             "Guide": booking.get("guide"),
@@ -693,7 +693,7 @@ class AirtableManager:
                     except Exception:
                         pass
                     if patch.status_code == 422:
-                        self.logger.warning(f"Airtable PATCH 422 for {booking.get('booking_nr')}. Possible schema mismatch or missing column.")
+                        self.logger.warning(f"Airtable PATCH 422 for {booking.get('booking_nr')}. Error: {patch.text}")
                     
                     if patch.status_code in (200, 201):
                         return {"success": True, "record_id": rid}
@@ -2999,28 +2999,18 @@ def _parse_date_text(s: Optional[str]) -> Optional[str]:
     t = s.strip()
     for suf in ["st", "nd", "rd", "th"]:
         t = re.sub(rf"\b(\d+)\s*{suf}\b", r"\1", t)
-    m = re.search(r"([A-Za-z]+),\s+([A-Za-z]+)\s+(\d+),\s+(\d{4})\s+(\d{1,2}):(\d{2})\s*(AM|PM)", t)
-    if not m:
-        return None
-    wk, mon, day, year, hh, mm, ap = m.groups()
-    month_map = {
-        "January":1,"February":2,"March":3,"April":4,"May":5,"June":6,
-        "July":7,"August":8,"September":9,"October":10,"November":11,"December":12
-    }
-    mi = month_map.get(mon, 0)
-    if mi == 0:
-        return None
-    h = int(hh)
-    if ap.upper() == "AM":
-        h = 0 if h == 12 else h
-    else:
-        h = 12 if h == 12 else h + 12
     try:
+        import dateutil.parser
         from zoneinfo import ZoneInfo
+        # Parse the datetime
+        dt_naive = dateutil.parser.parse(t)
+        
         # Localize GYG time to Africa/Cairo, then convert to UTC and append 'Z'
-        # This prevents Airtable API from misinterpreting floating times and causing delta loops.
-        dt_naive = datetime(int(year), mi, int(day), h, int(mm))
-        dt_cairo = dt_naive.replace(tzinfo=ZoneInfo("Africa/Cairo"))
+        if dt_naive.tzinfo is None:
+            dt_cairo = dt_naive.replace(tzinfo=ZoneInfo("Africa/Cairo"))
+        else:
+            dt_cairo = dt_naive.astimezone(ZoneInfo("Africa/Cairo"))
+            
         dt_utc = dt_cairo.astimezone(ZoneInfo("UTC"))
         return dt_utc.strftime('%Y-%m-%dT%H:%M:00.000Z')
     except Exception:

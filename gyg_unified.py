@@ -1576,8 +1576,8 @@ class GYGUnifiedSystem:
                                 elif 'children' in t_lower or 'child' in t_lower: res["chd"] += v
                                 elif 'infant' in t_lower: res["inf"] += v
                                 elif 'youth' in t_lower: res["youth"] += v
-                                # Support generic "people" -> Adult
-                                elif ('people' in t_lower or 'person' in t_lower): res["adt"] += v
+                                # Support generic "people" -> Adult, but strictly match "X people/person" to avoid matching Add-ons like "Transfer (per person)"
+                                elif re.search(r'^\s*\d+\s*(people|person)s?\b', t_lower): res["adt"] += v
                                 else:
                                     is_participant = False # Number found but no keyword match
                         else:
@@ -1588,7 +1588,7 @@ class GYGUnifiedSystem:
                         # Example Add-on: "TutAnghAmoon Tomb entry fee: Adult - €100.00"
                         # Standard line usually starts with number then type.
                         
-                        if nm and v <= 50 and 'total:' not in t_lower and any(k in t_lower for k in ['adult', 'student', 'child', 'infant', 'youth']):
+                        if nm and v <= 50 and 'total:' not in t_lower and (any(k in t_lower for k in ['adult', 'student', 'child', 'infant', 'youth']) or bool(re.search(r'^\s*\d+\s*(people|person)s?\b', t_lower))):
                              is_participant = True
                         
                         if not is_participant and t and 'total:' not in t_lower:
@@ -1780,7 +1780,7 @@ class GYGUnifiedSystem:
                         elif ('people' in tl or 'person' in tl):
                              pass # Handled below
                         
-                        if not is_participant and ('people' in tl or 'person' in tl) and 'total:' not in tl:
+                        if not is_participant and re.search(r'^\s*\d+\s*(people|person)s?\b', tl) and 'total:' not in tl:
                              if adt == 0: adt = v
                              is_participant = True
                              
@@ -1794,7 +1794,7 @@ class GYGUnifiedSystem:
                              elif 'children' in tl or 'child' in tl: chd = 0
                              elif 'infant' in tl: inf = 0
                              elif 'youth' in tl: youth = 0
-                             elif ('people' in tl or 'person' in tl) and 'total:' not in tl: adt = 0
+                             elif re.search(r'^\s*\d+\s*(people|person)s?\b', tl) and 'total:' not in tl: adt = 0
                     
                     # If not a standard participant, treat as add-on
                     if not is_participant and t and 'total:' not in tl:
@@ -2041,22 +2041,37 @@ class GYGUnifiedSystem:
         return items
 
     async def extract_financial_breakdown(self, card, booking_nr: Optional[str] = None) -> Tuple[Optional[float], Optional[float], Optional[float], Optional[float], Optional[float]]:
-        """Extract totals (retail, revenue, commission) from breakdown table footer row.
-        Steps:
-        1. Ensure breakdown is visible (click button if present)
-        2. Wait for table footer total row
-        3. Parse cells 2,3,4 for amounts and percentage
-        4. Parse commission details for supplier/extra rates
+        """Extract totals (retail, revenue, commission).
+        GYG recently removed the 'Show breakdown' button and directly displays pricing.
         """
+        retail = None; revenue = None; commission = None; supplier_rate = None; extra_rate = None
         try:
-            br = await card.query_selector(self.SELECTORS["show_breakdown_btn"]) 
+            # 1. New GYG Layout: direct pricing text under Pricing section
+            pricing_el = await card.query_selector('[data-testid="booking-detail-comission-breakdown"]')
+            if pricing_el:
+                text = await pricing_el.text_content()
+                retail = self.parse_euro_amount(text)
+                commission = self.parse_commission_rate(text)
+                details = self.parse_commission_details(text)
+                supplier_rate = details.get('supplier_rate')
+                extra_rate = details.get('extra_rate')
+                
+                if retail is not None and commission is not None:
+                    revenue = round(retail * (1 - commission / 100), 2)
+                    return retail, revenue, commission, supplier_rate, extra_rate
+        except Exception as e:
+            pass
+
+        # 2. Fallback to Old GYG Layout (table with tfoot tr)
+        try:
+            br = await card.query_selector('button[aria-label="Show breakdown"], button:has-text("Show breakdown")') 
             if br:
                 await br.click()
                 await asyncio.sleep(0.4)
-            await card.wait_for_selector(self.SELECTORS["breakdown_total_row"], timeout=5000)
+            await card.wait_for_selector(self.SELECTORS["breakdown_total_row"], timeout=3000)
         except Exception:
             pass
-        retail = None; revenue = None; commission = None; supplier_rate = None; extra_rate = None
+
         try:
             total_row = await card.query_selector(self.SELECTORS["breakdown_total_row"]) 
             if not total_row:

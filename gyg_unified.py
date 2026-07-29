@@ -1413,8 +1413,18 @@ class GYGUnifiedSystem:
                         self.logger.info(f"AI extracted Add-Ons: {res['add_ons']}")
                     
                     # Merge participants if AI found them and they look valid
+                    # BUT we must protect against AI hallucinating adults from Add-Ons like "Adult Entry Fee"
+                    # If AI extracted Add_ons that contain "Adult" or "Child" etc, we don't blindly trust the AI's adt count
+                    # Only update if AI explicitly returns integer counts and we haven't extracted them yet, OR we trust AI over current
+                    # Since the scraper already extracts adt, std, chd, inf, youth from the main card quite well,
+                    # we should ONLY use AI's participant counts if the current counts (from the card) are 0 or None.
+                    # Wait, the card extraction logic runs BEFORE fetch_details_from_subpage, but we don't pass the card counts to this function.
+                    # So we should only return AI's counts if they are > 0.
+                    # Actually, the user says the correct number is 2 but AI sent 4.
+                    # So we should be VERY careful with AI participant counts. Let's ONLY use them if they are > 0 AND there are no Add-ons confusing it, or just rely on regex fallback for participants in subpage.
+                    # Let's just merge them if they are returned, but we will add logic in the caller to NOT overwrite card counts if card counts exist and subpage AI is confusing.
                     for k in ["adt", "std", "chd", "inf", "youth"]:
-                        if ai_res.get(k) is not None:
+                        if ai_res.get(k) is not None and isinstance(ai_res.get(k), int):
                             res[k] = ai_res.get(k)
                             
                     # Merge email/phone if found
@@ -1830,12 +1840,18 @@ class GYGUnifiedSystem:
                     
                     # Update participant counts if found on subpage
                     # PROTECTIVE LOGIC: Only overwrite if subpage returned actual counts (sum > 0)
-                    # This prevents overwriting valid card data with zeros if subpage fetch failed (e.g. login page)
+                    # And only if the subpage sum isn't wildly different due to AI confusing Add-ons for Adults
                     sub_sum = (details.get("adt") or 0) + (details.get("std") or 0) + (details.get("chd") or 0) + (details.get("inf") or 0) + (details.get("youth") or 0)
+                    current_sum = (adt or 0) + (std or 0) + (chd or 0) + (inf or 0) + (youth or 0)
                     
                     if sub_sum > 0:
-                        adt = details.get("adt"); std = details.get("std"); chd = details.get("chd"); inf = details.get("inf"); youth = details.get("youth")
-                        self.logger.info(f"Updated participants from subpage: A:{adt} S:{std} C:{chd} I:{inf} Y:{youth}")
+                        # If the sub_sum > current_sum and there are Add-Ons, it's highly likely AI counted Add-Ons as people.
+                        # So we only accept the subpage counts if they are <= current_sum, or if current_sum == 0.
+                        if current_sum == 0 or sub_sum <= current_sum or not details.get("add_ons"):
+                            adt = details.get("adt"); std = details.get("std"); chd = details.get("chd"); inf = details.get("inf"); youth = details.get("youth")
+                            self.logger.info(f"Updated participants from subpage: A:{adt} S:{std} C:{chd} I:{inf} Y:{youth}")
+                        else:
+                            self.logger.warning(f"Subpage participant sum ({sub_sum}) exceeds card sum ({current_sum}) with Add-ons present. Ignoring subpage participants to avoid AI hallucination. Keeping: A:{adt} S:{std} C:{chd} I:{inf} Y:{youth}")
                     else:
                         self.logger.warning(f"Subpage returned 0 participants (possible login/error page). Keeping card data: A:{adt} S:{std} C:{chd} I:{inf} Y:{youth}")
                     
@@ -2910,7 +2926,7 @@ def ai_enhance(api_key: str, text: str, breakdown: str, current: Dict) -> Dict:
         prompt = (
             "Given booking card content and price breakdown, extract corrected fields as JSON. "
             "Focus on extracting 'add_ons' which are extra items, fees, or services listed with prices (e.g. 'Entry Fee', 'Pickup', 'Lunch') that are NOT standard adult/child/student participants. "
-            "If the text contains a list like 'Adult - €100.00', treat it as an add-on if the context implies it's a fee, otherwise check if it's a participant count. "
+            "IMPORTANT for participants: DO NOT count Add-ons (like '2 Entry fee: Adult') as participants. The true participant count is usually found at the top near the date (e.g., '2 participants'). "
             "Only output JSON with keys: trip_name, destination, option_selected, date_trip, total_price_eur, "
             "retail_price, revenue, commission_breakdown, customer_name, customer_email, customer_phone, "
             "hotel_name, guide, adt, std, chd, inf, youth, add_ons (string)."

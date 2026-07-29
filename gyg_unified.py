@@ -1817,38 +1817,32 @@ class GYGUnifiedSystem:
                     should_fetch_details = True
                 
                 if should_fetch_details:
-                    # Prefer using the dedicated message link if available, as it is cleaner
-                    msg_btn = await card.query_selector('[data-testid="message-customer"]')
-                    if msg_btn:
-                        href = await msg_btn.get_attribute('href')
-                        if href:
-                            self.logger.info(f"Fetching details for {booking_nr} from subpage (Email missing or AI scan requested)...")
-                            # The user suggests opening in a new tab for better processing
-                            # fetch_details_from_subpage already opens a new context/page, so it effectively does this.
-                            # We just need to ensure we use the correct href.
-                            details = await self.fetch_details_from_subpage(href)
-                            if details.get("email") and not customer_email:
-                                customer_email = details.get("email")
-                                self.logger.info(f"Found email on subpage: {customer_email}")
-                            if details.get("phone") and not customer_phone:
-                                customer_phone = details.get("phone")
-                                self.logger.info(f"Found phone on subpage: {customer_phone}")
-                            
-                            # Update participant counts if found on subpage
-                            # PROTECTIVE LOGIC: Only overwrite if subpage returned actual counts (sum > 0)
-                            # This prevents overwriting valid card data with zeros if subpage fetch failed (e.g. login page)
-                            sub_sum = (details.get("adt") or 0) + (details.get("std") or 0) + (details.get("chd") or 0) + (details.get("inf") or 0) + (details.get("youth") or 0)
-                            
-                            if sub_sum > 0:
-                                adt = details.get("adt"); std = details.get("std"); chd = details.get("chd"); inf = details.get("inf"); youth = details.get("youth")
-                                self.logger.info(f"Updated participants from subpage: A:{adt} S:{std} C:{chd} I:{inf} Y:{youth}")
-                            else:
-                                self.logger.warning(f"Subpage returned 0 participants (possible login/error page). Keeping card data: A:{adt} S:{std} C:{chd} I:{inf} Y:{youth}")
-                            
-                            # Update Add-Ons if found on subpage
-                            if details.get("add_ons"):
-                                add_ons = details.get("add_ons")
-                                self.logger.info(f"Found Add-Ons on subpage: {add_ons}")
+                    # Construct URL directly since GYG often hides or removes the message-customer button
+                    href = f"https://supplier.getyourguide.com/bookings/{booking_nr}"
+                    self.logger.info(f"Fetching details for {booking_nr} from subpage (Email missing or AI scan requested)...")
+                    details = await self.fetch_details_from_subpage(href)
+                    if details.get("email") and not customer_email:
+                        customer_email = details.get("email")
+                        self.logger.info(f"Found email on subpage: {customer_email}")
+                    if details.get("phone") and not customer_phone:
+                        customer_phone = details.get("phone")
+                        self.logger.info(f"Found phone on subpage: {customer_phone}")
+                    
+                    # Update participant counts if found on subpage
+                    # PROTECTIVE LOGIC: Only overwrite if subpage returned actual counts (sum > 0)
+                    # This prevents overwriting valid card data with zeros if subpage fetch failed (e.g. login page)
+                    sub_sum = (details.get("adt") or 0) + (details.get("std") or 0) + (details.get("chd") or 0) + (details.get("inf") or 0) + (details.get("youth") or 0)
+                    
+                    if sub_sum > 0:
+                        adt = details.get("adt"); std = details.get("std"); chd = details.get("chd"); inf = details.get("inf"); youth = details.get("youth")
+                        self.logger.info(f"Updated participants from subpage: A:{adt} S:{std} C:{chd} I:{inf} Y:{youth}")
+                    else:
+                        self.logger.warning(f"Subpage returned 0 participants (possible login/error page). Keeping card data: A:{adt} S:{std} C:{chd} I:{inf} Y:{youth}")
+                    
+                    # Update Add-Ons if found on subpage
+                    if details.get("add_ons"):
+                        add_ons = details.get("add_ons")
+                        self.logger.info(f"Found Add-Ons on subpage: {add_ons}")
             except Exception as e:
                 self.logger.warning(f"Failed to extract customer info or fetch details for {booking_nr}: {e}")
             google_maps = None

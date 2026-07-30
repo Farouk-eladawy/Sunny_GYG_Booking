@@ -1567,6 +1567,8 @@ class GYGUnifiedSystem:
                         t = (await it.text_content() or '').strip()
                         t_lower = t.lower()
                         
+                        is_participant = False
+                        
                         # Match participant counts
                         # Match number at start of string: "2 Adults..." -> 2
                         nm = re.search(r'^(\d+)', t)
@@ -1581,25 +1583,17 @@ class GYGUnifiedSystem:
                             else:
                                 if 'total:' in t_lower:
                                     is_participant = False # Ignore total lines
-                                elif 'adult' in t_lower: res["adt"] += v
-                                elif 'student' in t_lower: res["std"] += v
-                                elif 'children' in t_lower or 'child' in t_lower: res["chd"] += v
-                                elif 'infant' in t_lower: res["inf"] += v
-                                elif 'youth' in t_lower: res["youth"] += v
+                                elif re.search(r'^\s*\d+\s*(x\s*)?adults?\b', t_lower): res["adt"] += v; is_participant = True
+                                elif re.search(r'^\s*\d+\s*(x\s*)?students?\b', t_lower): res["std"] += v; is_participant = True
+                                elif re.search(r'^\s*\d+\s*(x\s*)?(children|child)\b', t_lower): res["chd"] += v; is_participant = True
+                                elif re.search(r'^\s*\d+\s*(x\s*)?infants?\b', t_lower): res["inf"] += v; is_participant = True
+                                elif re.search(r'^\s*\d+\s*(x\s*)?youths?\b', t_lower): res["youth"] += v; is_participant = True
                                 # Support generic "people" -> Adult, but strictly match "X people/person" to avoid matching Add-ons like "Transfer (per person)"
-                                elif re.search(r'^\s*\d+\s*(people|person)s?\b', t_lower): res["adt"] += v
+                                elif re.search(r'^\s*\d+\s*(x\s*)?(people|person)s?\b', t_lower): res["adt"] += v; is_participant = True
                                 else:
                                     is_participant = False # Number found but no keyword match
                         else:
                             is_participant = False
-                        
-                        # Identify Add-Ons
-                        # Logic: If it's not a standard participant line (Adult/Student/Child/Infant/Youth with count), treat as add-on
-                        # Example Add-on: "TutAnghAmoon Tomb entry fee: Adult - €100.00"
-                        # Standard line usually starts with number then type.
-                        
-                        if nm and v <= 50 and 'total:' not in t_lower and (any(k in t_lower for k in ['adult', 'student', 'child', 'infant', 'youth']) or bool(re.search(r'^\s*\d+\s*(people|person)s?\b', t_lower))):
-                             is_participant = True
                         
                         if not is_participant and t and 'total:' not in t_lower:
                              # Clean up price if needed, or keep full text
@@ -1777,34 +1771,28 @@ class GYGUnifiedSystem:
                     if v > 0:
                         if 'total:' in tl:
                              is_participant = False # Ignore total lines
-                        elif 'adult' in tl: 
-                            # If we already set adults from another line, don't overwrite it unless we're combining
+                        elif re.search(r'^\s*\d+\s*(x\s*)?adults?\b', tl):
                             if adt == 0: adt = v
                             is_participant = True
-                        elif 'student' in tl: std = v; is_participant = True
-                        elif 'children' in tl or 'child' in tl: chd = v; is_participant = True
-                        elif 'infant' in tl: inf = v; is_participant = True
-                        elif 'youth' in tl: youth = v; is_participant = True
-                        
-                        # Fix for "Total: 4 people" confusion
-                        elif ('people' in tl or 'person' in tl):
-                             pass # Handled below
-                        
-                        if not is_participant and re.search(r'^\s*\d+\s*(people|person)s?\b', tl) and 'total:' not in tl:
-                             if adt == 0: adt = v
-                             is_participant = True
+                        elif re.search(r'^\s*\d+\s*(x\s*)?students?\b', tl): std = v; is_participant = True
+                        elif re.search(r'^\s*\d+\s*(x\s*)?(children|child)\b', tl): chd = v; is_participant = True
+                        elif re.search(r'^\s*\d+\s*(x\s*)?infants?\b', tl): inf = v; is_participant = True
+                        elif re.search(r'^\s*\d+\s*(x\s*)?youths?\b', tl): youth = v; is_participant = True
+                        elif re.search(r'^\s*\d+\s*(x\s*)?(people|person)s?\b', tl):
+                            if adt == 0: adt = v
+                            is_participant = True
                              
                         # Prevent extracting price (e.g. €20.00) as participant count of 20
                         # Usually participant counts are at the START of the string, e.g. "2 Adults"
                         # If the regex found the number but it's not at the very beginning, and it's a large number, reject it
                         if is_participant and not re.search(r'^\s*\d+', t) and v >= 10:
                              is_participant = False
-                             if 'adult' in tl: adt = 0
-                             elif 'student' in tl: std = 0
-                             elif 'children' in tl or 'child' in tl: chd = 0
-                             elif 'infant' in tl: inf = 0
-                             elif 'youth' in tl: youth = 0
-                             elif re.search(r'^\s*\d+\s*(people|person)s?\b', tl) and 'total:' not in tl: adt = 0
+                             if re.search(r'^\s*\d+\s*(x\s*)?adults?\b', tl): adt = 0
+                             elif re.search(r'^\s*\d+\s*(x\s*)?students?\b', tl): std = 0
+                             elif re.search(r'^\s*\d+\s*(x\s*)?(children|child)\b', tl): chd = 0
+                             elif re.search(r'^\s*\d+\s*(x\s*)?infants?\b', tl): inf = 0
+                             elif re.search(r'^\s*\d+\s*(x\s*)?youths?\b', tl): youth = 0
+                             elif re.search(r'^\s*\d+\s*(x\s*)?(people|person)s?\b', tl): adt = 0
                     
                     # If not a standard participant, treat as add-on
                     if not is_participant and t and 'total:' not in tl:

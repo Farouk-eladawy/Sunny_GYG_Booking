@@ -1,46 +1,58 @@
-2026/07/30-06:23:53.818 864 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/07/30-06:27:54.334 868 Level-0 table #19796: started
-2026/07/30-06:27:54.337 868 Level-0 table #19796: 20399 bytes OK
-2026/07/30-06:27:54.338 868 Delete type=0 #19794
-2026/07/30-06:30:27.082 864 Level-0 table #19798: started
-2026/07/30-06:30:27.087 864 Level-0 table #19798: 22854 bytes OK
-2026/07/30-06:30:27.087 864 Delete type=0 #19795
-2026/07/30-06:33:28.447 868 Level-0 table #19800: started
-2026/07/30-06:33:28.449 868 Level-0 table #19800: 21802 bytes OK
-2026/07/30-06:33:28.451 868 Delete type=0 #19797
-2026/07/30-06:33:28.451 868 Compacting 4@0 + 1@1 files
-2026/07/30-06:33:28.455 868 Generated table #19801@0: 2398 keys, 71045 bytes
-2026/07/30-06:33:28.455 868 Compacted 4@0 + 1@1 files => 71045 bytes
-2026/07/30-06:33:28.457 868 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/07/30-06:33:28.458 868 Delete type=2 #19796
-2026/07/30-06:33:28.458 868 Delete type=2 #19792
-2026/07/30-06:33:28.458 868 Delete type=2 #19798
-2026/07/30-06:33:28.458 868 Delete type=2 #19800
-2026/07/30-06:33:28.458 868 Delete type=2 #19790
-2026/07/30-06:35:54.334 868 Level-0 table #19803: started
-2026/07/30-06:35:54.335 868 Level-0 table #19803: 19217 bytes OK
-2026/07/30-06:35:54.336 868 Delete type=0 #19799
-2026/07/30-06:40:54.334 868 Level-0 table #19805: started
-2026/07/30-06:40:54.336 868 Level-0 table #19805: 20274 bytes OK
-2026/07/30-06:40:54.336 868 Delete type=0 #19802
-2026/07/30-06:45:54.335 868 Level-0 table #19807: started
-2026/07/30-06:45:54.338 868 Level-0 table #19807: 20559 bytes OK
-2026/07/30-06:45:54.339 868 Delete type=0 #19804
-2026/07/30-06:49:54.334 868 Level-0 table #19809: started
-2026/07/30-06:49:54.338 868 Level-0 table #19809: 20233 bytes OK
-2026/07/30-06:49:54.340 868 Delete type=0 #19806
-2026/07/30-06:49:54.340 868 Compacting 4@0 + 1@1 files
-2026/07/30-06:49:54.345 868 Generated table #19810@0: 2398 keys, 71060 bytes
-2026/07/30-06:49:54.345 868 Compacted 4@0 + 1@1 files => 71060 bytes
-2026/07/30-06:49:54.346 868 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/07/30-06:49:54.346 868 Delete type=2 #19807
-2026/07/30-06:49:54.346 868 Delete type=2 #19801
-2026/07/30-06:49:54.346 868 Delete type=2 #19803
-2026/07/30-06:49:54.346 868 Delete type=2 #19809
-2026/07/30-06:49:54.346 868 Delete type=2 #19805
-2026/07/30-06:54:54.335 868 Level-0 table #19812: started
-2026/07/30-06:54:54.338 868 Level-0 table #19812: 20080 bytes OK
-2026/07/30-06:54:54.339 868 Delete type=0 #19808
-2026/07/30-06:58:54.334 868 Level-0 table #19814: started
-2026/07/30-06:58:54.337 868 Level-0 table #19814: 19885 bytes OK
-2026/07/30-06:58:54.338 868 Delete type=0 #19811
+2026/07/30-07:10:05.655 948 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/07/30-07:14:06.147 948 Level-0 table #19818: started
+2026/07/30-07:14:06.157 948 Level-0 table #19818: 20427 bytes OK
+2026/07/30-07:14:06.157 948 Delete type=0 #19816
+2026/07/30-07:17:05.888 94c Level-0 table #19820: started
+2026/07/30-07:17:05.890 94c Level-0 table #19820: 22839 bytes OK
+2026/07/30-07:17:05.891 94c Delete type=0 #19817
+2026/07/30-07:17:05.891 94c Compacting 4@0 + 1@1 files
+2026/07/30-07:17:05.897 94c Generated table #19821@0: 2400 keys, 71054 bytes
+2026/07/30-07:17:05.897 94c Compacted 4@0 + 1@1 files => 71054 bytes
+2026/07/30-07:17:05.897 94c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/30-07:17:05.897 94c Delete type=2 #19820
+2026/07/30-07:17:05.897 94c Delete type=2 #19814
+2026/07/30-07:17:05.897 94c Delete type=2 #19810
+2026/07/30-07:17:05.897 94c Delete type=2 #19818
+2026/07/30-07:17:05.898 94c Delete type=2 #19812
+2026/07/30-07:18:06.148 94c Level-0 table #19823: started
+2026/07/30-07:18:06.149 94c Level-0 table #19823: 20617 bytes OK
+2026/07/30-07:18:06.150 94c Delete type=0 #19819
+2026/07/30-07:21:34.873 94c Level-0 table #19825: started
+2026/07/30-07:21:34.875 94c Level-0 table #19825: 20887 bytes OK
+2026/07/30-07:21:34.876 94c Delete type=0 #19822
+2026/07/30-07:24:06.147 94c Level-0 table #19827: started
+2026/07/30-07:24:06.151 94c Level-0 table #19827: 19520 bytes OK
+2026/07/30-07:24:06.152 94c Delete type=0 #19824
+2026/07/30-07:29:06.147 94c Level-0 table #19829: started
+2026/07/30-07:29:06.148 94c Level-0 table #19829: 20231 bytes OK
+2026/07/30-07:29:06.149 94c Delete type=0 #19826
+2026/07/30-07:29:06.149 94c Compacting 4@0 + 1@1 files
+2026/07/30-07:29:06.151 94c Generated table #19830@0: 2400 keys, 71053 bytes
+2026/07/30-07:29:06.151 94c Compacted 4@0 + 1@1 files => 71053 bytes
+2026/07/30-07:29:06.152 94c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/30-07:29:06.152 94c Delete type=2 #19829
+2026/07/30-07:29:06.152 94c Delete type=2 #19827
+2026/07/30-07:29:06.152 94c Delete type=2 #19823
+2026/07/30-07:29:06.152 94c Delete type=2 #19821
+2026/07/30-07:29:06.152 94c Delete type=2 #19825
+2026/07/30-07:34:06.146 94c Level-0 table #19832: started
+2026/07/30-07:34:06.151 94c Level-0 table #19832: 20279 bytes OK
+2026/07/30-07:34:06.151 94c Delete type=0 #19828
+2026/07/30-07:39:06.147 94c Level-0 table #19834: started
+2026/07/30-07:39:06.153 94c Level-0 table #19834: 20215 bytes OK
+2026/07/30-07:39:06.153 94c Delete type=0 #19831
+2026/07/30-07:44:06.146 948 Level-0 table #19836: started
+2026/07/30-07:44:06.152 948 Level-0 table #19836: 20222 bytes OK
+2026/07/30-07:44:06.153 948 Delete type=0 #19833
+2026/07/30-07:48:06.147 94c Level-0 table #19838: started
+2026/07/30-07:48:06.188 94c Level-0 table #19838: 20262 bytes OK
+2026/07/30-07:48:06.189 94c Delete type=0 #19835
+2026/07/30-07:48:06.189 94c Compacting 4@0 + 1@1 files
+2026/07/30-07:48:06.214 94c Generated table #19839@0: 2400 keys, 71079 bytes
+2026/07/30-07:48:06.214 94c Compacted 4@0 + 1@1 files => 71079 bytes
+2026/07/30-07:48:06.220 94c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/07/30-07:48:06.220 94c Delete type=2 #19836
+2026/07/30-07:48:06.220 94c Delete type=2 #19834
+2026/07/30-07:48:06.220 94c Delete type=2 #19832
+2026/07/30-07:48:06.220 94c Delete type=2 #19830
+2026/07/30-07:48:06.221 94c Delete type=2 #19838

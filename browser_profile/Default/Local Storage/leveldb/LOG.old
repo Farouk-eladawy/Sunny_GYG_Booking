@@ -1,17 +1,16 @@
-2026/08/02-20:47:04.238 946 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/02-20:47:04.244 946 Delete type=2 #21585
-2026/08/02-20:47:04.244 94b Compacting 4@0 + 1@1 files
-2026/08/02-20:47:04.252 94b Generated table #21587@0: 2584 keys, 78712 bytes
-2026/08/02-20:47:04.252 94b Compacted 4@0 + 1@1 files => 78712 bytes
-2026/08/02-20:47:04.253 94b compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/02-20:47:04.253 94b Delete type=2 #21572
-2026/08/02-20:47:04.253 94b Delete type=2 #21578
-2026/08/02-20:47:04.253 94b Delete type=2 #21582
-2026/08/02-20:47:04.253 94b Delete type=2 #21584
-2026/08/02-20:47:04.253 94b Delete type=2 #21576
-2026/08/02-20:51:04.982 94a Level-0 table #21589: started
-2026/08/02-20:51:04.987 94a Level-0 table #21589: 20665 bytes OK
-2026/08/02-20:51:04.987 94a Delete type=0 #21586
-2026/08/02-20:54:30.904 946 Level-0 table #21591: started
-2026/08/02-20:54:30.906 946 Level-0 table #21591: 20063 bytes OK
-2026/08/02-20:54:30.906 946 Delete type=0 #21588
+2026/08/02-21:36:16.507 9e4 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/02-21:40:17.247 9e8 Level-0 table #21595: started
+2026/08/02-21:40:17.255 9e8 Level-0 table #21595: 21073 bytes OK
+2026/08/02-21:40:17.256 9e8 Delete type=0 #21593
+2026/08/02-21:43:48.895 9e4 Level-0 table #21597: started
+2026/08/02-21:43:48.897 9e4 Level-0 table #21597: 20674 bytes OK
+2026/08/02-21:43:48.898 9e4 Delete type=0 #21594
+2026/08/02-21:43:48.898 9e4 Compacting 4@0 + 1@1 files
+2026/08/02-21:43:48.906 9e4 Generated table #21598@0: 2588 keys, 78726 bytes
+2026/08/02-21:43:48.907 9e4 Compacted 4@0 + 1@1 files => 78726 bytes
+2026/08/02-21:43:48.908 9e4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/02-21:43:48.908 9e4 Delete type=2 #21597
+2026/08/02-21:43:48.908 9e4 Delete type=2 #21589
+2026/08/02-21:43:48.908 9e4 Delete type=2 #21587
+2026/08/02-21:43:48.908 9e4 Delete type=2 #21591
+2026/08/02-21:43:48.908 9e4 Delete type=2 #21595

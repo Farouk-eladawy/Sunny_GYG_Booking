@@ -1,4 +1,37 @@
-2026/08/02-23:14:46.049 946 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/02-23:18:46.691 94a Level-0 table #21606: started
-2026/08/02-23:18:46.696 94a Level-0 table #21606: 20889 bytes OK
-2026/08/02-23:18:46.696 94a Delete type=0 #21604
+2026/08/03-00:03:50.955 924 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/03-00:07:51.483 928 Level-0 table #21610: started
+2026/08/03-00:07:51.487 928 Level-0 table #21610: 20659 bytes OK
+2026/08/03-00:07:51.488 928 Delete type=0 #21608
+2026/08/03-00:10:19.683 928 Level-0 table #21612: started
+2026/08/03-00:10:19.685 928 Level-0 table #21612: 19751 bytes OK
+2026/08/03-00:10:19.687 928 Delete type=0 #21609
+2026/08/03-00:10:19.687 928 Compacting 4@0 + 1@1 files
+2026/08/03-00:10:19.691 928 Generated table #21613@0: 2592 keys, 78839 bytes
+2026/08/03-00:10:19.691 928 Compacted 4@0 + 1@1 files => 78839 bytes
+2026/08/03-00:10:19.691 928 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/03-00:10:19.691 928 Delete type=2 #21606
+2026/08/03-00:10:19.691 928 Delete type=2 #21610
+2026/08/03-00:10:19.692 928 Delete type=2 #21602
+2026/08/03-00:10:19.692 928 Delete type=2 #21598
+2026/08/03-00:10:19.692 928 Delete type=2 #21612
+2026/08/03-00:12:51.484 928 Level-0 table #21615: started
+2026/08/03-00:12:51.485 928 Level-0 table #21615: 22401 bytes OK
+2026/08/03-00:12:51.486 928 Delete type=0 #21611
+2026/08/03-00:14:51.483 928 Level-0 table #21617: started
+2026/08/03-00:14:51.488 928 Level-0 table #21617: 19758 bytes OK
+2026/08/03-00:14:51.489 928 Delete type=0 #21614
+2026/08/03-00:18:51.482 928 Level-0 table #21619: started
+2026/08/03-00:18:51.484 928 Level-0 table #21619: 20244 bytes OK
+2026/08/03-00:18:51.484 928 Delete type=0 #21616
+2026/08/03-00:22:38.871 929 Level-0 table #21621: started
+2026/08/03-00:22:38.874 929 Level-0 table #21621: 20013 bytes OK
+2026/08/03-00:22:38.875 929 Delete type=0 #21618
+2026/08/03-00:22:38.875 928 Compacting 4@0 + 1@1 files
+2026/08/03-00:22:38.885 928 Generated table #21622@0: 2592 keys, 78843 bytes
+2026/08/03-00:22:38.885 928 Compacted 4@0 + 1@1 files => 78843 bytes
+2026/08/03-00:22:38.886 928 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/03-00:22:38.886 928 Delete type=2 #21613
+2026/08/03-00:22:38.886 928 Delete type=2 #21617
+2026/08/03-00:22:38.886 928 Delete type=2 #21621
+2026/08/03-00:22:38.886 928 Delete type=2 #21619
+2026/08/03-00:22:38.886 928 Delete type=2 #21615

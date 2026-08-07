@@ -1,19 +1,16 @@
-2026/08/07-14:10:45.689 987 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/07-14:14:46.236 98b Level-0 table #22684: started
-2026/08/07-14:14:46.243 98b Level-0 table #22684: 21003 bytes OK
-2026/08/07-14:14:46.243 98b Delete type=0 #22682
-2026/08/07-14:14:46.244 987 Compacting 4@0 + 1@1 files
-2026/08/07-14:14:46.247 987 Generated table #22685@0: 2783 keys, 81976 bytes
-2026/08/07-14:14:46.248 987 Compacted 4@0 + 1@1 files => 81976 bytes
-2026/08/07-14:14:46.248 987 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/07-14:14:46.248 987 Delete type=2 #22676
-2026/08/07-14:14:46.248 987 Delete type=2 #22678
-2026/08/07-14:14:46.248 987 Delete type=2 #22684
-2026/08/07-14:14:46.248 987 Delete type=2 #22680
-2026/08/07-14:14:46.248 987 Delete type=2 #22674
-2026/08/07-14:17:46.237 98b Level-0 table #22687: started
-2026/08/07-14:17:46.241 98b Level-0 table #22687: 20374 bytes OK
-2026/08/07-14:17:46.241 98b Delete type=0 #22683
-2026/08/07-14:20:30.613 98b Level-0 table #22689: started
-2026/08/07-14:20:30.619 98b Level-0 table #22689: 22048 bytes OK
-2026/08/07-14:20:30.622 98b Delete type=0 #22686
+2026/08/07-15:49:30.523 964 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/07-15:53:31.037 968 Level-0 table #22693: started
+2026/08/07-15:53:31.038 968 Level-0 table #22693: 21175 bytes OK
+2026/08/07-15:53:31.039 968 Delete type=0 #22691
+2026/08/07-15:57:31.036 968 Level-0 table #22695: started
+2026/08/07-15:57:31.039 968 Level-0 table #22695: 20524 bytes OK
+2026/08/07-15:57:31.040 968 Delete type=0 #22692
+2026/08/07-15:57:31.040 968 Compacting 4@0 + 1@1 files
+2026/08/07-15:57:31.045 968 Generated table #22696@0: 2785 keys, 82214 bytes
+2026/08/07-15:57:31.046 968 Compacted 4@0 + 1@1 files => 82214 bytes
+2026/08/07-15:57:31.046 968 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/07-15:57:31.047 968 Delete type=2 #22685
+2026/08/07-15:57:31.047 968 Delete type=2 #22695
+2026/08/07-15:57:31.047 968 Delete type=2 #22693
+2026/08/07-15:57:31.047 968 Delete type=2 #22689
+2026/08/07-15:57:31.047 968 Delete type=2 #22687

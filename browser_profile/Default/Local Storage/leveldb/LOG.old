@@ -1,19 +1,16 @@
-2026/08/15-09:34:18.603 916 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/15-09:38:19.572 91a Level-0 table #24567: started
-2026/08/15-09:38:19.578 91a Level-0 table #24567: 22129 bytes OK
-2026/08/15-09:38:19.579 91a Delete type=0 #24565
-2026/08/15-09:38:19.579 91a Compacting 4@0 + 1@1 files
-2026/08/15-09:38:19.582 91a Generated table #24568@0: 3189 keys, 90416 bytes
-2026/08/15-09:38:19.582 91a Compacted 4@0 + 1@1 files => 90416 bytes
-2026/08/15-09:38:19.583 91a compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/15-09:38:19.583 91a Delete type=2 #24563
-2026/08/15-09:38:19.583 91a Delete type=2 #24559
-2026/08/15-09:38:19.583 91a Delete type=2 #24555
-2026/08/15-09:38:19.583 91a Delete type=2 #24561
-2026/08/15-09:38:19.583 91a Delete type=2 #24567
-2026/08/15-09:40:56.714 91b Level-0 table #24570: started
-2026/08/15-09:40:56.717 91b Level-0 table #24570: 20783 bytes OK
-2026/08/15-09:40:56.719 91b Delete type=0 #24566
-2026/08/15-09:42:19.573 91a Level-0 table #24572: started
-2026/08/15-09:42:19.581 91a Level-0 table #24572: 20215 bytes OK
-2026/08/15-09:42:19.581 91a Delete type=0 #24569
+2026/08/15-10:23:49.088 91a Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/15-10:28:49.585 91e Level-0 table #24576: started
+2026/08/15-10:28:49.586 91e Level-0 table #24576: 21870 bytes OK
+2026/08/15-10:28:49.587 91e Delete type=0 #24574
+2026/08/15-10:30:49.585 91e Level-0 table #24578: started
+2026/08/15-10:30:49.589 91e Level-0 table #24578: 20495 bytes OK
+2026/08/15-10:30:49.590 91e Delete type=0 #24575
+2026/08/15-10:30:49.590 91e Compacting 4@0 + 1@1 files
+2026/08/15-10:30:49.604 91e Generated table #24579@0: 3192 keys, 90470 bytes
+2026/08/15-10:30:49.604 91e Compacted 4@0 + 1@1 files => 90470 bytes
+2026/08/15-10:30:49.604 91e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/15-10:30:49.604 91e Delete type=2 #24568
+2026/08/15-10:30:49.605 91e Delete type=2 #24578
+2026/08/15-10:30:49.605 91e Delete type=2 #24570
+2026/08/15-10:30:49.605 91e Delete type=2 #24572
+2026/08/15-10:30:49.605 91e Delete type=2 #24576

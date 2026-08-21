@@ -1,10 +1,37 @@
-2026/08/21-03:43:55.410 91e Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/21-03:47:00.170 91e Level-0 table #26400: started
-2026/08/21-03:47:00.175 91e Level-0 table #26400: 21678 bytes OK
-2026/08/21-03:47:00.176 91e Delete type=0 #26398
-2026/08/21-03:50:31.392 91a Level-0 table #26402: started
-2026/08/21-03:50:31.393 91a Level-0 table #26402: 21993 bytes OK
-2026/08/21-03:50:31.394 91a Delete type=0 #26399
-2026/08/21-03:52:00.170 91e Level-0 table #26404: started
-2026/08/21-03:52:00.178 91e Level-0 table #26404: 20852 bytes OK
-2026/08/21-03:52:00.179 91e Delete type=0 #26401
+2026/08/21-04:33:07.573 8d8 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/21-04:37:08.668 8dc Level-0 table #26408: started
+2026/08/21-04:37:08.673 8dc Level-0 table #26408: 21361 bytes OK
+2026/08/21-04:37:08.674 8dc Delete type=0 #26406
+2026/08/21-04:37:08.674 8dc Compacting 4@0 + 1@1 files
+2026/08/21-04:37:08.677 8dc Generated table #26409@0: 3431 keys, 94903 bytes
+2026/08/21-04:37:08.677 8dc Compacted 4@0 + 1@1 files => 94903 bytes
+2026/08/21-04:37:08.678 8dc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/21-04:37:08.679 8dc Delete type=2 #26402
+2026/08/21-04:37:08.679 8dc Delete type=2 #26396
+2026/08/21-04:37:08.679 8dc Delete type=2 #26404
+2026/08/21-04:37:08.679 8dc Delete type=2 #26400
+2026/08/21-04:37:08.679 8dc Delete type=2 #26408
+2026/08/21-04:40:00.486 8dc Level-0 table #26411: started
+2026/08/21-04:40:00.491 8dc Level-0 table #26411: 21256 bytes OK
+2026/08/21-04:40:00.492 8dc Delete type=0 #26407
+2026/08/21-04:42:08.669 8dc Level-0 table #26413: started
+2026/08/21-04:42:08.672 8dc Level-0 table #26413: 20335 bytes OK
+2026/08/21-04:42:08.673 8dc Delete type=0 #26410
+2026/08/21-04:44:13.350 8dc Level-0 table #26415: started
+2026/08/21-04:44:13.351 8dc Level-0 table #26415: 20775 bytes OK
+2026/08/21-04:44:13.352 8dc Delete type=0 #26412
+2026/08/21-04:48:08.669 8dc Level-0 table #26417: started
+2026/08/21-04:48:08.674 8dc Level-0 table #26417: 21794 bytes OK
+2026/08/21-04:48:08.675 8dc Delete type=0 #26414
+2026/08/21-04:48:08.675 8dc Compacting 4@0 + 1@1 files
+2026/08/21-04:48:08.679 8dc Generated table #26418@0: 3432 keys, 94911 bytes
+2026/08/21-04:48:08.679 8dc Compacted 4@0 + 1@1 files => 94911 bytes
+2026/08/21-04:48:08.679 8dc compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/21-04:48:08.679 8dc Delete type=2 #26413
+2026/08/21-04:48:08.679 8dc Delete type=2 #26417
+2026/08/21-04:48:08.679 8dc Delete type=2 #26411
+2026/08/21-04:48:08.680 8dc Delete type=2 #26415
+2026/08/21-04:48:08.680 8dc Delete type=2 #26409
+2026/08/21-04:51:08.669 8dc Level-0 table #26420: started
+2026/08/21-04:51:08.676 8dc Level-0 table #26420: 21344 bytes OK
+2026/08/21-04:51:08.676 8dc Delete type=0 #26416

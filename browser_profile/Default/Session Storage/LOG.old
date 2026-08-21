@@ -1,36 +1,27 @@
-2026/08/21-18:32:13.731 916 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
-2026/08/21-18:34:52.374 916 Level-0 table #110561: started
-2026/08/21-18:34:52.377 916 Level-0 table #110561: 16858 bytes OK
-2026/08/21-18:34:52.381 916 Delete type=0 #110559
-2026/08/21-18:36:54.572 91a Level-0 table #110563: started
-2026/08/21-18:36:54.580 91a Level-0 table #110563: 16541 bytes OK
-2026/08/21-18:36:54.583 91a Delete type=0 #110560
-2026/08/21-18:44:49.561 91a Level-0 table #110565: started
-2026/08/21-18:44:49.571 91a Level-0 table #110565: 14933 bytes OK
-2026/08/21-18:44:49.575 91a Delete type=0 #110562
-2026/08/21-18:44:49.575 91a Compacting 4@0 + 4@1 files
-2026/08/21-18:44:49.609 91a Generated table #110566@0: 1940 keys, 2373142 bytes
-2026/08/21-18:44:49.652 91a Generated table #110567@0: 74440 keys, 2146961 bytes
-2026/08/21-18:44:49.695 91a Generated table #110568@0: 74298 keys, 2145704 bytes
-2026/08/21-18:44:49.725 91a Generated table #110569@0: 61255 keys, 1771034 bytes
-2026/08/21-18:44:49.725 91a Compacted 4@0 + 4@1 files => 8436841 bytes
-2026/08/21-18:44:49.725 91a compacted to: files[ 0 5 45 134 0 0 0 ]
-2026/08/21-18:44:49.727 91a Delete type=2 #110563
-2026/08/21-18:44:49.727 91a Delete type=2 #110561
-2026/08/21-18:44:49.727 91a Delete type=2 #110555
-2026/08/21-18:44:49.727 91a Delete type=2 #110552
-2026/08/21-18:44:49.727 91a Delete type=2 #110565
-2026/08/21-18:44:49.727 91a Delete type=2 #110557
-2026/08/21-18:44:49.727 91a Delete type=2 #110553
-2026/08/21-18:44:49.727 91a Delete type=2 #110554
-2026/08/21-18:44:49.729 91a Compacting 1@1 + 1@2 files
-2026/08/21-18:44:49.759 91a Generated table #110570@1: 27 keys, 2343975 bytes
-2026/08/21-18:44:49.791 91a Generated table #110571@1: 52 keys, 2220922 bytes
-2026/08/21-18:44:49.791 91a Compacted 1@1 + 1@2 files => 4564897 bytes
-2026/08/21-18:44:49.792 91a compacted to: files[ 0 4 46 134 0 0 0 ]
-2026/08/21-18:44:49.793 91a Delete type=2 #110469
-2026/08/21-18:44:49.793 91a Delete type=2 #110464
-2026/08/21-18:44:49.794 91a Moved #104441 to level-3 2330496 bytes OK: files[ 0 4 45 135 0 0 0 ]
-2026/08/21-18:51:17.893 91a Level-0 table #110573: started
-2026/08/21-18:51:17.901 91a Level-0 table #110573: 11447 bytes OK
-2026/08/21-18:51:17.904 91a Delete type=0 #110564
+2026/08/21-19:21:29.901 994 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
+2026/08/21-20:04:38.934 998 Level-0 table #110577: started
+2026/08/21-20:04:38.939 998 Level-0 table #110577: 12795 bytes OK
+2026/08/21-20:04:38.942 998 Delete type=0 #110575
+2026/08/21-20:06:44.604 998 Level-0 table #110579: started
+2026/08/21-20:06:44.609 998 Level-0 table #110579: 13194 bytes OK
+2026/08/21-20:06:44.611 998 Delete type=0 #110576
+2026/08/21-20:07:27.879 998 Level-0 table #110581: started
+2026/08/21-20:07:27.888 998 Level-0 table #110581: 592193 bytes OK
+2026/08/21-20:07:27.890 998 Delete type=0 #110578
+2026/08/21-20:07:27.891 998 Compacting 4@0 + 3@1 files
+2026/08/21-20:07:27.930 998 Generated table #110582@0: 53943 keys, 2133130 bytes
+2026/08/21-20:07:27.966 998 Generated table #110583@0: 74344 keys, 2146376 bytes
+2026/08/21-20:07:27.995 998 Generated table #110584@0: 74188 keys, 2146080 bytes
+2026/08/21-20:07:27.998 998 Generated table #110585@0: 8205 keys, 237565 bytes
+2026/08/21-20:07:27.998 998 Compacted 4@0 + 3@1 files => 6663151 bytes
+2026/08/21-20:07:27.998 998 compacted to: files[ 0 5 45 135 0 0 0 ]
+2026/08/21-20:07:28.000 998 Delete type=2 #110579
+2026/08/21-20:07:28.000 998 Delete type=2 #110568
+2026/08/21-20:07:28.000 998 Delete type=2 #110581
+2026/08/21-20:07:28.000 998 Delete type=2 #110573
+2026/08/21-20:07:28.000 998 Delete type=2 #110577
+2026/08/21-20:07:28.000 998 Delete type=2 #110569
+2026/08/21-20:07:28.000 998 Delete type=2 #110567
+2026/08/21-20:09:56.321 998 Level-0 table #110587: started
+2026/08/21-20:09:56.325 998 Level-0 table #110587: 13597 bytes OK
+2026/08/21-20:09:56.327 998 Delete type=0 #110580

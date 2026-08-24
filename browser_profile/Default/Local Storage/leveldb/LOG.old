@@ -1,17 +1,19 @@
-2026/08/24-17:54:43.149 9ad Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/24-17:54:43.157 9ad Delete type=2 #27524
-2026/08/24-17:57:49.025 9b1 Level-0 table #27526: started
-2026/08/24-17:57:49.032 9b1 Level-0 table #27526: 18620 bytes OK
-2026/08/24-17:57:49.033 9b1 Delete type=0 #27524
-2026/08/24-17:57:49.033 9b1 Compacting 4@0 + 1@1 files
-2026/08/24-17:57:49.037 9b1 Generated table #27527@0: 3581 keys, 98967 bytes
-2026/08/24-17:57:49.037 9b1 Compacted 4@0 + 1@1 files => 98967 bytes
-2026/08/24-17:57:49.037 9b1 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/24-17:57:49.037 9b1 Delete type=2 #27520
-2026/08/24-17:57:49.037 9b1 Delete type=2 #27526
-2026/08/24-17:57:49.037 9b1 Delete type=2 #27522
-2026/08/24-17:57:49.037 9b1 Delete type=2 #27518
-2026/08/24-17:57:49.037 9b1 Delete type=2 #27516
-2026/08/24-18:01:44.111 9b1 Level-0 table #27529: started
-2026/08/24-18:01:44.116 9b1 Level-0 table #27529: 18539 bytes OK
-2026/08/24-18:01:44.117 9b1 Delete type=0 #27525
+2026/08/24-18:44:41.483 921 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/24-18:47:45.870 925 Level-0 table #27533: started
+2026/08/24-18:47:45.871 925 Level-0 table #27533: 22348 bytes OK
+2026/08/24-18:47:45.871 925 Delete type=0 #27531
+2026/08/24-18:50:42.015 925 Level-0 table #27535: started
+2026/08/24-18:50:42.016 925 Level-0 table #27535: 18682 bytes OK
+2026/08/24-18:50:42.017 925 Delete type=0 #27532
+2026/08/24-18:51:18.473 921 Level-0 table #27537: started
+2026/08/24-18:51:18.480 921 Level-0 table #27537: 21067 bytes OK
+2026/08/24-18:51:18.481 921 Delete type=0 #27534
+2026/08/24-18:51:18.481 925 Compacting 4@0 + 1@1 files
+2026/08/24-18:51:18.485 925 Generated table #27538@0: 3583 keys, 99122 bytes
+2026/08/24-18:51:18.485 925 Compacted 4@0 + 1@1 files => 99122 bytes
+2026/08/24-18:51:18.485 925 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/24-18:51:18.486 925 Delete type=2 #27529
+2026/08/24-18:51:18.486 925 Delete type=2 #27527
+2026/08/24-18:51:18.486 925 Delete type=2 #27533
+2026/08/24-18:51:18.486 925 Delete type=2 #27537
+2026/08/24-18:51:18.486 925 Delete type=2 #27535

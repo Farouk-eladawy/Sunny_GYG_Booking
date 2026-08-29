@@ -1,12 +1,20 @@
-2026/08/29-18:52:39.714 948 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/29-18:54:41.795 94c Level-0 table #29124: started
-2026/08/29-18:54:41.796 94c Level-0 table #29124: 22776 bytes OK
-2026/08/29-18:54:41.797 94c Delete type=0 #29122
-2026/08/29-18:58:58.459 948 Level-0 table #29126: started
-2026/08/29-18:58:58.461 948 Level-0 table #29126: 23249 bytes OK
-2026/08/29-18:58:58.461 948 Delete type=0 #29123
-2026/08/29-18:59:40.287 94c Level-0 table #29128: started
-2026/08/29-18:59:40.292 94c Level-0 table #29128: 21521 bytes OK
-2026/08/29-18:59:40.292 94c Delete type=0 #29125
-2026/08/29-19:01:55.963 94c Level-0 table #29130: started
-2026/08/29-19:01:55.980 94c Level-0 table #29130: 22546 bytes OK
+2026/08/29-19:43:28.020 940 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/29-19:43:28.029 940 Delete type=2 #29130
+2026/08/29-19:47:28.528 944 Level-0 table #29132: started
+2026/08/29-19:47:28.533 944 Level-0 table #29132: 23221 bytes OK
+2026/08/29-19:47:28.534 944 Delete type=0 #29130
+2026/08/29-19:47:28.534 944 Compacting 4@0 + 1@1 files
+2026/08/29-19:47:28.537 944 Generated table #29133@0: 3788 keys, 103272 bytes
+2026/08/29-19:47:28.537 944 Compacted 4@0 + 1@1 files => 103272 bytes
+2026/08/29-19:47:28.538 944 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/29-19:47:28.538 944 Delete type=2 #29124
+2026/08/29-19:47:28.538 944 Delete type=2 #29132
+2026/08/29-19:47:28.538 944 Delete type=2 #29120
+2026/08/29-19:47:28.538 944 Delete type=2 #29128
+2026/08/29-19:47:28.538 944 Delete type=2 #29126
+2026/08/29-19:50:13.632 945 Level-0 table #29135: started
+2026/08/29-19:50:13.636 945 Level-0 table #29135: 23429 bytes OK
+2026/08/29-19:50:13.637 945 Delete type=0 #29131
+2026/08/29-19:52:53.432 945 Level-0 table #29137: started
+2026/08/29-19:52:53.434 945 Level-0 table #29137: 26420 bytes OK
+2026/08/29-19:52:53.435 945 Delete type=0 #29134

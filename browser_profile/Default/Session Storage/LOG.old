@@ -1,10 +1,54 @@
-2026/08/30-12:38:04.743 948 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
-2026/08/30-12:40:23.579 94c Level-0 table #113833: started
-2026/08/30-12:40:23.585 94c Level-0 table #113833: 17209 bytes OK
-2026/08/30-12:40:23.588 94c Delete type=0 #113831
-2026/08/30-12:42:20.749 948 Level-0 table #113835: started
-2026/08/30-12:42:20.756 948 Level-0 table #113835: 14902 bytes OK
-2026/08/30-12:42:20.762 948 Delete type=0 #113832
-2026/08/30-12:45:53.029 94c Level-0 table #113837: started
-2026/08/30-12:45:53.030 94c Level-0 table #113837: 13630 bytes OK
-2026/08/30-12:45:53.033 94c Delete type=0 #113834
+2026/08/30-13:28:51.072 957 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-094301
+2026/08/30-13:31:15.394 95b Level-0 table #113841: started
+2026/08/30-13:31:15.403 95b Level-0 table #113841: 12371 bytes OK
+2026/08/30-13:31:15.407 95b Delete type=0 #113839
+2026/08/30-13:31:15.407 957 Compacting 4@0 + 4@1 files
+2026/08/30-13:31:15.450 957 Generated table #113842@0: 32759 keys, 2118611 bytes
+2026/08/30-13:31:15.492 957 Generated table #113843@0: 74445 keys, 2145304 bytes
+2026/08/30-13:31:15.530 957 Generated table #113844@0: 74385 keys, 2146943 bytes
+2026/08/30-13:31:15.553 957 Generated table #113845@0: 50663 keys, 1462213 bytes
+2026/08/30-13:31:15.553 957 Compacted 4@0 + 4@1 files => 7873071 bytes
+2026/08/30-13:31:15.554 957 compacted to: files[ 0 5 45 159 0 0 0 ]
+2026/08/30-13:31:15.555 957 Delete type=2 #113841
+2026/08/30-13:31:15.555 957 Delete type=2 #113829
+2026/08/30-13:31:15.556 957 Delete type=2 #113837
+2026/08/30-13:31:15.556 957 Delete type=2 #113828
+2026/08/30-13:31:15.556 957 Delete type=2 #113835
+2026/08/30-13:31:15.556 957 Delete type=2 #113833
+2026/08/30-13:31:15.556 957 Delete type=2 #113826
+2026/08/30-13:31:15.556 957 Delete type=2 #113827
+2026/08/30-13:32:58.108 95b Level-0 table #113847: started
+2026/08/30-13:32:58.131 95b Level-0 table #113847: 603313 bytes OK
+2026/08/30-13:32:58.135 95b Delete type=0 #113840
+2026/08/30-13:35:12.700 957 Level-0 table #113849: started
+2026/08/30-13:35:12.710 957 Level-0 table #113849: 12380 bytes OK
+2026/08/30-13:35:12.712 957 Delete type=0 #113846
+2026/08/30-13:44:25.387 95b Level-0 table #113851: started
+2026/08/30-13:44:25.393 95b Level-0 table #113851: 13551 bytes OK
+2026/08/30-13:44:25.397 95b Delete type=0 #113848
+2026/08/30-13:46:50.150 95b Level-0 table #113853: started
+2026/08/30-13:46:50.177 95b Level-0 table #113853: 602029 bytes OK
+2026/08/30-13:46:50.180 95b Delete type=0 #113850
+2026/08/30-13:46:50.180 95b Compacting 4@0 + 4@1 files
+2026/08/30-13:46:50.218 95b Generated table #113854@0: 11990 keys, 2105712 bytes
+2026/08/30-13:46:50.267 95b Generated table #113855@0: 74431 keys, 2146519 bytes
+2026/08/30-13:46:50.306 95b Generated table #113856@0: 74340 keys, 2146248 bytes
+2026/08/30-13:46:50.337 95b Generated table #113857@0: 71773 keys, 2073598 bytes
+2026/08/30-13:46:50.337 95b Compacted 4@0 + 4@1 files => 8472077 bytes
+2026/08/30-13:46:50.338 95b compacted to: files[ 0 5 45 159 0 0 0 ]
+2026/08/30-13:46:50.340 95b Delete type=2 #113842
+2026/08/30-13:46:50.340 95b Delete type=2 #113847
+2026/08/30-13:46:50.340 95b Delete type=2 #113851
+2026/08/30-13:46:50.340 95b Delete type=2 #113844
+2026/08/30-13:46:50.340 95b Delete type=2 #113845
+2026/08/30-13:46:50.340 95b Delete type=2 #113849
+2026/08/30-13:46:50.340 95b Delete type=2 #113853
+2026/08/30-13:46:50.340 95b Delete type=2 #113843
+2026/08/30-13:46:50.341 95b Compacting 1@1 + 1@2 files
+2026/08/30-13:46:50.371 95b Generated table #113858@1: 45 keys, 2373930 bytes
+2026/08/30-13:46:50.384 95b Generated table #113859@1: 10 keys, 1114459 bytes
+2026/08/30-13:46:50.384 95b Compacted 1@1 + 1@2 files => 3488389 bytes
+2026/08/30-13:46:50.384 95b compacted to: files[ 0 4 46 159 0 0 0 ]
+2026/08/30-13:46:50.386 95b Delete type=2 #113796
+2026/08/30-13:46:50.386 95b Delete type=2 #113809
+2026/08/30-13:46:50.387 95b Moved #107742 to level-3 2331153 bytes OK: files[ 0 4 45 160 0 0 0 ]

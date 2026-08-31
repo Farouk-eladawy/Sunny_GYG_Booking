@@ -1,16 +1,28 @@
-2026/08/31-21:38:02.773 947 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/31-21:41:05.748 94b Level-0 table #29793: started
-2026/08/31-21:41:05.754 94b Level-0 table #29793: 23501 bytes OK
-2026/08/31-21:41:05.754 94b Delete type=0 #29791
-2026/08/31-21:41:05.755 94b Compacting 4@0 + 1@1 files
-2026/08/31-21:41:05.758 94b Generated table #29794@0: 3900 keys, 105347 bytes
-2026/08/31-21:41:05.758 94b Compacted 4@0 + 1@1 files => 105347 bytes
-2026/08/31-21:41:05.758 94b compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/31-21:41:05.758 94b Delete type=2 #29789
-2026/08/31-21:41:05.758 94b Delete type=2 #29783
-2026/08/31-21:41:05.758 94b Delete type=2 #29781
-2026/08/31-21:41:05.758 94b Delete type=2 #29787
-2026/08/31-21:41:05.758 94b Delete type=2 #29793
-2026/08/31-21:45:05.748 94b Level-0 table #29796: started
-2026/08/31-21:45:05.754 94b Level-0 table #29796: 20148 bytes OK
-2026/08/31-21:45:05.755 94b Delete type=0 #29792
+2026/08/31-22:28:43.028 94a Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/31-22:31:45.690 94e Level-0 table #29800: started
+2026/08/31-22:31:45.697 94e Level-0 table #29800: 22998 bytes OK
+2026/08/31-22:31:45.697 94e Delete type=0 #29798
+2026/08/31-22:35:01.069 94a Level-0 table #29802: started
+2026/08/31-22:35:01.071 94a Level-0 table #29802: 23144 bytes OK
+2026/08/31-22:35:01.071 94a Delete type=0 #29799
+2026/08/31-22:36:43.640 94a Level-0 table #29804: started
+2026/08/31-22:36:43.641 94a Level-0 table #29804: 22286 bytes OK
+2026/08/31-22:36:43.642 94a Delete type=0 #29801
+2026/08/31-22:36:43.642 94a Compacting 4@0 + 1@1 files
+2026/08/31-22:36:43.646 94a Generated table #29805@0: 3902 keys, 105619 bytes
+2026/08/31-22:36:43.646 94a Compacted 4@0 + 1@1 files => 105619 bytes
+2026/08/31-22:36:43.646 94a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/31-22:36:43.646 94a Delete type=2 #29800
+2026/08/31-22:36:43.646 94a Delete type=2 #29802
+2026/08/31-22:36:43.646 94a Delete type=2 #29796
+2026/08/31-22:36:43.646 94a Delete type=2 #29794
+2026/08/31-22:36:43.646 94a Delete type=2 #29804
+2026/08/31-22:38:43.640 94e Level-0 table #29807: started
+2026/08/31-22:38:43.642 94e Level-0 table #29807: 22429 bytes OK
+2026/08/31-22:38:43.643 94e Delete type=0 #29803
+2026/08/31-22:41:02.730 94a Level-0 table #29809: started
+2026/08/31-22:41:02.737 94a Level-0 table #29809: 22250 bytes OK
+2026/08/31-22:41:02.738 94a Delete type=0 #29806
+2026/08/31-22:45:43.641 94e Level-0 table #29811: started
+2026/08/31-22:45:43.649 94e Level-0 table #29811: 23204 bytes OK
+2026/08/31-22:45:43.649 94e Delete type=0 #29808

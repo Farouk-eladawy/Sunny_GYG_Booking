@@ -1,85 +1,19 @@
-2026/08/31-13:09:58.766 8d4 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/08/31-13:13:59.364 8d3 Level-0 table #29681: started
-2026/08/31-13:13:59.367 8d3 Level-0 table #29681: 23001 bytes OK
-2026/08/31-13:13:59.368 8d3 Delete type=0 #29679
-2026/08/31-13:16:16.882 8d3 Level-0 table #29683: started
-2026/08/31-13:16:16.884 8d3 Level-0 table #29683: 23151 bytes OK
-2026/08/31-13:16:16.886 8d3 Delete type=0 #29680
-2026/08/31-13:17:32.447 8d3 Level-0 table #29685: started
-2026/08/31-13:17:32.450 8d3 Level-0 table #29685: 21695 bytes OK
-2026/08/31-13:17:32.451 8d3 Delete type=0 #29682
-2026/08/31-13:17:32.451 8d3 Compacting 4@0 + 1@1 files
-2026/08/31-13:17:32.454 8d3 Generated table #29686@0: 3882 keys, 104791 bytes
-2026/08/31-13:17:32.454 8d3 Compacted 4@0 + 1@1 files => 104791 bytes
-2026/08/31-13:17:32.455 8d3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/31-13:17:32.455 8d3 Delete type=2 #29685
-2026/08/31-13:17:32.455 8d3 Delete type=2 #29677
-2026/08/31-13:17:32.455 8d3 Delete type=2 #29675
-2026/08/31-13:17:32.455 8d3 Delete type=2 #29681
-2026/08/31-13:17:32.455 8d3 Delete type=2 #29683
-2026/08/31-13:50:32.812 8d3 Level-0 table #29688: started
-2026/08/31-13:50:32.965 8d3 Level-0 table #29688: 22025 bytes OK
-2026/08/31-13:50:32.965 8d3 Delete type=0 #29684
-2026/08/31-13:51:45.853 8d3 Level-0 table #29690: started
-2026/08/31-13:51:45.855 8d3 Level-0 table #29690: 22420 bytes OK
-2026/08/31-13:51:45.856 8d3 Delete type=0 #29687
-2026/08/31-13:52:38.442 8d3 Level-0 table #29692: started
-2026/08/31-13:52:38.517 8d3 Level-0 table #29692: 23525 bytes OK
-2026/08/31-13:52:38.518 8d3 Delete type=0 #29689
-2026/08/31-13:53:18.690 8d3 Level-0 table #29694: started
-2026/08/31-13:53:18.692 8d3 Level-0 table #29694: 22843 bytes OK
-2026/08/31-13:53:18.693 8d3 Delete type=0 #29691
-2026/08/31-13:53:18.693 8d3 Compacting 4@0 + 1@1 files
-2026/08/31-13:53:18.696 8d3 Generated table #29695@0: 3882 keys, 104793 bytes
-2026/08/31-13:53:18.696 8d3 Compacted 4@0 + 1@1 files => 104793 bytes
-2026/08/31-13:53:18.699 8d3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/31-13:53:18.699 8d3 Delete type=2 #29692
-2026/08/31-13:53:18.699 8d3 Delete type=2 #29690
-2026/08/31-13:53:18.699 8d3 Delete type=2 #29694
-2026/08/31-13:53:18.699 8d3 Delete type=2 #29688
-2026/08/31-13:53:18.699 8d3 Delete type=2 #29686
-2026/08/31-13:54:03.670 8d3 Level-0 table #29697: started
-2026/08/31-13:54:03.672 8d3 Level-0 table #29697: 23152 bytes OK
-2026/08/31-13:54:03.673 8d3 Delete type=0 #29693
-2026/08/31-13:54:49.707 8cf Level-0 table #29699: started
-2026/08/31-13:54:49.711 8cf Level-0 table #29699: 23082 bytes OK
-2026/08/31-13:54:49.718 8cf Delete type=0 #29696
-2026/08/31-13:57:01.578 8d3 Level-0 table #29701: started
-2026/08/31-13:57:01.664 8d3 Level-0 table #29701: 19414 bytes OK
-2026/08/31-13:57:01.666 8d3 Delete type=0 #29698
-2026/08/31-13:58:24.296 8d3 Level-0 table #29703: started
-2026/08/31-13:58:24.298 8d3 Level-0 table #29703: 21744 bytes OK
-2026/08/31-13:58:24.299 8d3 Delete type=0 #29700
-2026/08/31-13:58:24.300 8d3 Compacting 4@0 + 1@1 files
-2026/08/31-13:58:24.303 8d3 Generated table #29704@0: 3882 keys, 104782 bytes
-2026/08/31-13:58:24.303 8d3 Compacted 4@0 + 1@1 files => 104782 bytes
-2026/08/31-13:58:24.304 8d3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/31-13:58:24.304 8d3 Delete type=2 #29701
-2026/08/31-13:58:24.304 8d3 Delete type=2 #29699
-2026/08/31-13:58:24.304 8d3 Delete type=2 #29695
-2026/08/31-13:58:24.304 8d3 Delete type=2 #29703
-2026/08/31-13:58:24.304 8d3 Delete type=2 #29697
-2026/08/31-13:59:57.278 8d3 Level-0 table #29706: started
-2026/08/31-13:59:57.281 8d3 Level-0 table #29706: 21632 bytes OK
-2026/08/31-13:59:57.282 8d3 Delete type=0 #29702
-2026/08/31-14:02:55.971 8cf Level-0 table #29708: started
-2026/08/31-14:02:55.973 8cf Level-0 table #29708: 22289 bytes OK
-2026/08/31-14:02:55.975 8cf Delete type=0 #29705
-2026/08/31-14:04:59.364 8cf Level-0 table #29710: started
-2026/08/31-14:04:59.365 8cf Level-0 table #29710: 22654 bytes OK
-2026/08/31-14:04:59.366 8cf Delete type=0 #29707
-2026/08/31-14:08:59.364 8d3 Level-0 table #29712: started
-2026/08/31-14:08:59.368 8d3 Level-0 table #29712: 22975 bytes OK
-2026/08/31-14:08:59.369 8d3 Delete type=0 #29709
-2026/08/31-14:08:59.369 8d3 Compacting 4@0 + 1@1 files
-2026/08/31-14:08:59.375 8d3 Generated table #29713@0: 3882 keys, 104781 bytes
-2026/08/31-14:08:59.375 8d3 Compacted 4@0 + 1@1 files => 104781 bytes
-2026/08/31-14:08:59.376 8d3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/08/31-14:08:59.377 8d3 Delete type=2 #29708
-2026/08/31-14:08:59.377 8d3 Delete type=2 #29704
-2026/08/31-14:08:59.377 8d3 Delete type=2 #29712
-2026/08/31-14:08:59.377 8d3 Delete type=2 #29710
-2026/08/31-14:08:59.377 8d3 Delete type=2 #29706
-2026/08/31-14:11:33.265 8d4 Level-0 table #29715: started
-2026/08/31-14:11:33.267 8d4 Level-0 table #29715: 19146 bytes OK
-2026/08/31-14:11:33.270 8d4 Delete type=0 #29711
+2026/08/31-14:51:37.269 956 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/08/31-14:55:37.814 95a Level-0 table #29719: started
+2026/08/31-14:55:37.819 95a Level-0 table #29719: 23012 bytes OK
+2026/08/31-14:55:37.820 95a Delete type=0 #29717
+2026/08/31-14:58:23.417 95a Level-0 table #29721: started
+2026/08/31-14:58:23.421 95a Level-0 table #29721: 23019 bytes OK
+2026/08/31-14:58:23.422 95a Delete type=0 #29718
+2026/08/31-14:59:37.815 95a Level-0 table #29723: started
+2026/08/31-14:59:37.817 95a Level-0 table #29723: 21362 bytes OK
+2026/08/31-14:59:37.817 95a Delete type=0 #29720
+2026/08/31-14:59:37.818 95a Compacting 4@0 + 1@1 files
+2026/08/31-14:59:37.820 95a Generated table #29724@0: 3884 keys, 104773 bytes
+2026/08/31-14:59:37.821 95a Compacted 4@0 + 1@1 files => 104773 bytes
+2026/08/31-14:59:37.821 95a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/08/31-14:59:37.821 95a Delete type=2 #29723
+2026/08/31-14:59:37.821 95a Delete type=2 #29721
+2026/08/31-14:59:37.821 95a Delete type=2 #29713
+2026/08/31-14:59:37.821 95a Delete type=2 #29719
+2026/08/31-14:59:37.821 95a Delete type=2 #29715

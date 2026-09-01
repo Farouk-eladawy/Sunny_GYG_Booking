@@ -1,17 +1,16 @@
-2026/09/01-08:37:45.179 94e Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/01-08:37:45.187 94e Delete type=2 #29935
-2026/09/01-08:37:45.188 952 Compacting 4@0 + 1@1 files
-2026/09/01-08:37:45.199 952 Generated table #29937@0: 3924 keys, 105366 bytes
-2026/09/01-08:37:45.199 952 Compacted 4@0 + 1@1 files => 105366 bytes
-2026/09/01-08:37:45.199 952 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/01-08:37:45.200 952 Delete type=2 #29932
-2026/09/01-08:37:45.200 952 Delete type=2 #29926
-2026/09/01-08:37:45.200 952 Delete type=2 #29928
-2026/09/01-08:37:45.200 952 Delete type=2 #29934
-2026/09/01-08:37:45.200 952 Delete type=2 #29922
-2026/09/01-08:41:45.620 952 Level-0 table #29939: started
-2026/09/01-08:41:45.624 952 Level-0 table #29939: 23040 bytes OK
-2026/09/01-08:41:45.624 952 Delete type=0 #29936
-2026/09/01-08:45:45.620 952 Level-0 table #29941: started
-2026/09/01-08:45:45.621 952 Level-0 table #29941: 23430 bytes OK
-2026/09/01-08:45:45.622 952 Delete type=0 #29938
+2026/09/01-09:28:34.476 95b Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/01-09:31:35.060 95b Level-0 table #29945: started
+2026/09/01-09:31:35.067 95b Level-0 table #29945: 23060 bytes OK
+2026/09/01-09:31:35.067 95b Delete type=0 #29943
+2026/09/01-09:34:36.725 95b Level-0 table #29947: started
+2026/09/01-09:34:36.729 95b Level-0 table #29947: 19440 bytes OK
+2026/09/01-09:34:36.730 95b Delete type=0 #29944
+2026/09/01-09:34:36.730 95b Compacting 4@0 + 1@1 files
+2026/09/01-09:34:36.735 95b Generated table #29948@0: 3928 keys, 105812 bytes
+2026/09/01-09:34:36.735 95b Compacted 4@0 + 1@1 files => 105812 bytes
+2026/09/01-09:34:36.735 95b compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/01-09:34:36.736 95b Delete type=2 #29947
+2026/09/01-09:34:36.736 95b Delete type=2 #29941
+2026/09/01-09:34:36.736 95b Delete type=2 #29945
+2026/09/01-09:34:36.736 95b Delete type=2 #29937
+2026/09/01-09:34:36.736 95b Delete type=2 #29939

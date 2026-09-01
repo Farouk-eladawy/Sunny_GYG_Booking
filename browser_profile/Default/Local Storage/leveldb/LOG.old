@@ -1,16 +1,16 @@
-2026/09/01-15:24:22.970 90d Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
-2026/09/01-15:24:22.979 911 Compacting 4@0 + 1@1 files
-2026/09/01-15:24:22.993 911 Generated table #30068@0: 3938 keys, 107061 bytes
-2026/09/01-15:24:22.993 911 Compacted 4@0 + 1@1 files => 107061 bytes
-2026/09/01-15:24:22.995 911 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/01-15:24:22.995 911 Delete type=2 #30065
-2026/09/01-15:24:22.995 911 Delete type=2 #30057
-2026/09/01-15:24:22.995 911 Delete type=2 #30063
-2026/09/01-15:24:22.995 911 Delete type=2 #30059
-2026/09/01-15:24:22.996 911 Delete type=2 #30061
-2026/09/01-15:26:25.745 911 Level-0 table #30070: started
-2026/09/01-15:26:25.749 911 Level-0 table #30070: 19581 bytes OK
-2026/09/01-15:26:25.750 911 Delete type=0 #30067
-2026/09/01-15:30:23.608 911 Level-0 table #30072: started
-2026/09/01-15:30:23.613 911 Level-0 table #30072: 19767 bytes OK
-2026/09/01-15:30:23.614 911 Delete type=0 #30069
+2026/09/01-16:15:13.784 89c Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/09/01-16:18:14.458 8a0 Level-0 table #30076: started
+2026/09/01-16:18:14.465 8a0 Level-0 table #30076: 19818 bytes OK
+2026/09/01-16:18:14.466 8a0 Delete type=0 #30074
+2026/09/01-16:22:14.457 8a0 Level-0 table #30078: started
+2026/09/01-16:22:14.458 8a0 Level-0 table #30078: 20057 bytes OK
+2026/09/01-16:22:14.459 8a0 Delete type=0 #30075
+2026/09/01-16:22:14.459 8a0 Compacting 4@0 + 1@1 files
+2026/09/01-16:22:14.462 8a0 Generated table #30079@0: 3942 keys, 107103 bytes
+2026/09/01-16:22:14.462 8a0 Compacted 4@0 + 1@1 files => 107103 bytes
+2026/09/01-16:22:14.462 8a0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/01-16:22:14.462 8a0 Delete type=2 #30070
+2026/09/01-16:22:14.462 8a0 Delete type=2 #30078
+2026/09/01-16:22:14.462 8a0 Delete type=2 #30076
+2026/09/01-16:22:14.462 8a0 Delete type=2 #30072
+2026/09/01-16:22:14.462 8a0 Delete type=2 #30068

@@ -1,10 +1,22 @@
-2026/09/07-01:38:21.591 893 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/09/07-01:40:23.808 898 Level-0 table #31862: started
-2026/09/07-01:40:23.881 898 Level-0 table #31862: 20699 bytes OK
-2026/09/07-01:40:23.883 898 Delete type=0 #31860
-2026/09/07-01:43:22.227 893 Level-0 table #31864: started
-2026/09/07-01:43:22.236 893 Level-0 table #31864: 20168 bytes OK
-2026/09/07-01:43:22.237 893 Delete type=0 #31861
-2026/09/07-01:46:22.226 898 Level-0 table #31866: started
-2026/09/07-01:46:22.233 898 Level-0 table #31866: 25327 bytes OK
-2026/09/07-01:46:22.234 898 Delete type=0 #31863
+2026/09/07-02:29:01.989 959 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/09/07-02:31:04.408 95d Level-0 table #31870: started
+2026/09/07-02:31:04.412 95d Level-0 table #31870: 20965 bytes OK
+2026/09/07-02:31:04.413 95d Delete type=0 #31868
+2026/09/07-02:31:04.413 95d Compacting 4@0 + 1@1 files
+2026/09/07-02:31:04.417 95d Generated table #31871@0: 4222 keys, 114257 bytes
+2026/09/07-02:31:04.417 95d Compacted 4@0 + 1@1 files => 114257 bytes
+2026/09/07-02:31:04.418 95d compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/07-02:31:04.418 95d Delete type=2 #31858
+2026/09/07-02:31:04.418 95d Delete type=2 #31870
+2026/09/07-02:31:04.418 95d Delete type=2 #31862
+2026/09/07-02:31:04.418 95d Delete type=2 #31864
+2026/09/07-02:31:04.418 95d Delete type=2 #31866
+2026/09/07-02:35:02.644 95d Level-0 table #31873: started
+2026/09/07-02:35:02.649 95d Level-0 table #31873: 20914 bytes OK
+2026/09/07-02:35:02.650 95d Delete type=0 #31869
+2026/09/07-02:35:46.494 959 Level-0 table #31875: started
+2026/09/07-02:35:46.497 959 Level-0 table #31875: 19856 bytes OK
+2026/09/07-02:35:46.498 959 Delete type=0 #31872
+2026/09/07-02:38:02.644 959 Level-0 table #31877: started
+2026/09/07-02:38:02.648 959 Level-0 table #31877: 20188 bytes OK
+2026/09/07-02:38:02.649 959 Delete type=0 #31874

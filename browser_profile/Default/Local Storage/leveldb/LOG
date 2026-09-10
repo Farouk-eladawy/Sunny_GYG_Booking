@@ -1,11 +1,22 @@
-2026/09/10-00:42:42.803 971 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/09/10-00:42:42.812 971 Delete type=2 #32930
-2026/09/10-00:44:45.045 975 Level-0 table #32932: started
-2026/09/10-00:44:45.047 975 Level-0 table #32932: 21733 bytes OK
-2026/09/10-00:44:45.047 975 Delete type=0 #32930
-2026/09/10-00:49:14.077 976 Level-0 table #32934: started
-2026/09/10-00:49:14.079 976 Level-0 table #32934: 28168 bytes OK
-2026/09/10-00:49:14.080 976 Delete type=0 #32931
-2026/09/10-00:49:43.416 975 Level-0 table #32936: started
-2026/09/10-00:49:43.419 975 Level-0 table #32936: 20014 bytes OK
-2026/09/10-00:49:43.419 975 Delete type=0 #32933
+2026/09/10-01:33:21.657 95f Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/09/10-01:36:22.224 959 Level-0 table #32940: started
+2026/09/10-01:36:22.234 959 Level-0 table #32940: 21195 bytes OK
+2026/09/10-01:36:22.236 959 Delete type=0 #32938
+2026/09/10-01:36:22.236 959 Compacting 4@0 + 1@1 files
+2026/09/10-01:36:22.241 959 Generated table #32941@0: 4375 keys, 118173 bytes
+2026/09/10-01:36:22.241 959 Compacted 4@0 + 1@1 files => 118173 bytes
+2026/09/10-01:36:22.241 959 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/10-01:36:22.242 959 Delete type=2 #32932
+2026/09/10-01:36:22.242 959 Delete type=2 #32928
+2026/09/10-01:36:22.242 959 Delete type=2 #32940
+2026/09/10-01:36:22.242 959 Delete type=2 #32934
+2026/09/10-01:36:22.242 959 Delete type=2 #32936
+2026/09/10-01:39:22.224 959 Level-0 table #32943: started
+2026/09/10-01:39:22.227 959 Level-0 table #32943: 21439 bytes OK
+2026/09/10-01:39:22.228 959 Delete type=0 #32939
+2026/09/10-01:40:03.010 955 Level-0 table #32945: started
+2026/09/10-01:40:03.012 955 Level-0 table #32945: 20010 bytes OK
+2026/09/10-01:40:03.013 955 Delete type=0 #32942
+2026/09/10-01:41:38.083 959 Level-0 table #32947: started
+2026/09/10-01:41:38.093 959 Level-0 table #32947: 21115 bytes OK
+2026/09/10-01:41:38.094 959 Delete type=0 #32944

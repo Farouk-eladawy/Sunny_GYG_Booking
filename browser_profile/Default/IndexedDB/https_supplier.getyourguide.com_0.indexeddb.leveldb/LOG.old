@@ -1,13 +1,3 @@
-2026/09/11-19:50:42.909 961 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_supplier.getyourguide.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/09/11-20:43:23.053 961 Level-0 table #20054: started
-2026/09/11-20:43:23.056 961 Level-0 table #20054: 334593 bytes OK
-2026/09/11-20:43:23.057 961 Delete type=0 #20052
-2026/09/11-20:43:23.057 961 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2026/09/11-20:43:23.057 961 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x012\x00s\x00u\x00p\x00p\x00l\x00i\x00e\x00r\x00!\x001\x00:\x001\x001\x003\x006\x003\x003\x002\x000\x000\x005\x003\x005\x00:\x00w\x00e\x00b\x00:\x006\x001\x00f\x00e\x006\x00d\x004\x008\x008\x00f\x00b\x000\x008\x005\x00f\x007\x00f\x004\x00d\x00c\x00d\x002' @ 6303155 : 1
-2026/09/11-20:43:23.057 961 Compacting 1@1 + 1@2 files
-2026/09/11-20:43:23.059 961 Generated table #20055@1: 120 keys, 5909 bytes
-2026/09/11-20:43:23.059 961 Compacted 1@1 + 1@2 files => 5909 bytes
-2026/09/11-20:43:23.059 961 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/09/11-20:43:23.059 961 Delete type=2 #20050
-2026/09/11-20:43:23.060 961 Delete type=2 #20054
-2026/09/11-20:43:23.060 961 Manual compaction at level-1 from '\x00\x03\x01\x02\x012\x00s\x00u\x00p\x00p\x00l\x00i\x00e\x00r\x00!\x001\x00:\x001\x001\x003\x006\x003\x003\x002\x000\x000\x005\x003\x005\x00:\x00w\x00e\x00b\x00:\x006\x001\x00f\x00e\x006\x00d\x004\x008\x008\x00f\x00b\x000\x008\x005\x00f\x007\x00f\x004\x00d\x00c\x00d\x002' @ 6303155 : 1 .. (end); will stop at (end)
+2026/09/11-20:43:23.341 961 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_supplier.getyourguide.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/11-20:43:23.344 961 Recovering log #20053
+2026/09/11-20:43:23.344 961 Reusing old log /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_supplier.getyourguide.com_0.indexeddb.leveldb/020053.log 

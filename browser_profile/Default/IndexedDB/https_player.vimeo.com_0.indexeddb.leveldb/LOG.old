@@ -1,45 +1,27 @@
-2026/09/12-01:02:45.908 998 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_player.vimeo.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/09/12-01:02:45.908 998 Delete type=2 #192
-2026/09/12-01:02:45.913 99d Level-0 table #199: started
-2026/09/12-01:02:45.914 99d Level-0 table #199: 334 bytes OK
-2026/09/12-01:02:45.915 99d Delete type=0 #197
-2026/09/12-01:02:45.915 998 Manual compaction at level-0 from '\x007\x00\x00\x00' @ 72057594037927935 : 1 .. '\x008\x00\x00\x00' @ 0 : 0; will stop at '\x008\x00\x00\x05' @ 1726 : 1
-2026/09/12-01:02:45.915 998 Compacting 1@0 + 1@1 files
-2026/09/12-01:02:45.916 998 Generated table #200@0: 65 keys, 1763 bytes
-2026/09/12-01:02:45.916 998 Compacted 1@0 + 1@1 files => 1763 bytes
-2026/09/12-01:02:45.916 998 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/12-01:02:45.917 998 Delete type=2 #199
-2026/09/12-01:02:45.917 998 Manual compaction at level-0 from '\x008\x00\x00\x05' @ 1726 : 1 .. '\x008\x00\x00\x00' @ 0 : 0; will stop at (end)
-2026/09/12-01:02:46.784 99c Level-0 table #202: started
-2026/09/12-01:02:46.785 99c Level-0 table #202: 503 bytes OK
-2026/09/12-01:02:46.785 99c Delete type=2 #195
-2026/09/12-01:02:46.785 99c Delete type=0 #198
-2026/09/12-01:02:46.785 998 Manual compaction at level-0 from '\x008\x00\x00\x00' @ 72057594037927935 : 1 .. '\x009\x00\x00\x00' @ 0 : 0; will stop at '\x008\x00\x00\x05' @ 1741 : 0
-2026/09/12-01:02:46.786 998 Compacting 1@0 + 1@1 files
-2026/09/12-01:02:46.786 998 Generated table #203@0: 67 keys, 1897 bytes
-2026/09/12-01:02:46.786 998 Compacted 1@0 + 1@1 files => 1897 bytes
-2026/09/12-01:02:46.787 998 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/12-01:02:46.787 998 Delete type=2 #202
-2026/09/12-01:02:46.787 998 Manual compaction at level-0 from '\x008\x00\x00\x05' @ 1741 : 0 .. '\x009\x00\x00\x00' @ 0 : 0; will stop at (end)
-2026/09/12-01:02:47.045 998 Level-0 table #205: started
-2026/09/12-01:02:47.046 998 Level-0 table #205: 542 bytes OK
-2026/09/12-01:02:47.046 998 Delete type=2 #200
-2026/09/12-01:02:47.046 998 Delete type=0 #201
-2026/09/12-01:02:47.046 998 Manual compaction at level-0 from '\x009\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00:\x00\x00\x00' @ 0 : 0; will stop at '\x009\x00\x00\x05' @ 1745 : 1
-2026/09/12-01:02:47.046 998 Compacting 1@0 + 1@1 files
-2026/09/12-01:02:47.047 998 Generated table #206@0: 71 keys, 1935 bytes
-2026/09/12-01:02:47.047 998 Compacted 1@0 + 1@1 files => 1935 bytes
-2026/09/12-01:02:47.047 998 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/12-01:02:47.048 998 Delete type=2 #205
-2026/09/12-01:02:47.048 998 Manual compaction at level-0 from '\x009\x00\x00\x05' @ 1745 : 1 .. '\x00:\x00\x00\x00' @ 0 : 0; will stop at (end)
-2026/09/12-01:02:47.482 99e Level-0 table #208: started
-2026/09/12-01:02:47.483 99e Level-0 table #208: 1560 bytes OK
-2026/09/12-01:02:47.484 99e Delete type=2 #203
-2026/09/12-01:02:47.484 99e Delete type=0 #204
-2026/09/12-01:02:47.484 998 Manual compaction at level-0 from '\x00:\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00;\x00\x00\x00' @ 0 : 0; will stop at '\x00:\x00\x00\x05' @ 1764 : 1
-2026/09/12-01:02:47.484 998 Compacting 1@0 + 1@1 files
-2026/09/12-01:02:47.485 998 Generated table #209@0: 78 keys, 2136 bytes
-2026/09/12-01:02:47.485 998 Compacted 1@0 + 1@1 files => 2136 bytes
-2026/09/12-01:02:47.485 998 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/12-01:02:47.485 998 Delete type=2 #208
-2026/09/12-01:02:47.485 998 Manual compaction at level-0 from '\x00:\x00\x00\x05' @ 1764 : 1 .. '\x00;\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/09/14-07:55:47.459 954 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_player.vimeo.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/14-07:55:47.460 954 Delete type=2 #206
+2026/09/14-07:55:47.468 95a Level-0 table #213: started
+2026/09/14-07:55:47.468 95a Level-0 table #213: 0 bytes OK
+2026/09/14-07:55:47.469 95a Delete type=0 #211
+2026/09/14-07:55:47.470 95c Manual compaction at level-0 from '\x00:\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00;\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/09/14-07:55:48.630 95a Level-0 table #215: started
+2026/09/14-07:55:48.631 95a Level-0 table #215: 1436 bytes OK
+2026/09/14-07:55:48.632 95a Delete type=0 #212
+2026/09/14-07:55:48.632 954 Manual compaction at level-0 from '\x00;\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at '\x00;\x00\x00\x05' @ 1793 : 1
+2026/09/14-07:55:48.632 954 Compacting 1@0 + 1@1 files
+2026/09/14-07:55:48.633 954 Generated table #216@0: 79 keys, 2013 bytes
+2026/09/14-07:55:48.633 954 Compacted 1@0 + 1@1 files => 2013 bytes
+2026/09/14-07:55:48.634 954 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/14-07:55:48.635 954 Delete type=2 #215
+2026/09/14-07:55:48.635 954 Manual compaction at level-0 from '\x00;\x00\x00\x05' @ 1793 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/09/14-07:55:50.046 954 Level-0 table #218: started
+2026/09/14-07:55:50.049 954 Level-0 table #218: 2981 bytes OK
+2026/09/14-07:55:50.050 954 Delete type=0 #214
+2026/09/14-07:55:50.050 954 Delete type=2 #209
+2026/09/14-07:55:50.050 954 Manual compaction at level-0 from '\x00<\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at '\x00<\x00\x00\x05' @ 1820 : 1
+2026/09/14-07:55:50.050 954 Compacting 1@0 + 1@1 files
+2026/09/14-07:55:50.051 954 Generated table #219@0: 79 keys, 2147 bytes
+2026/09/14-07:55:50.051 954 Compacted 1@0 + 1@1 files => 2147 bytes
+2026/09/14-07:55:50.052 954 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/14-07:55:50.053 954 Delete type=2 #218
+2026/09/14-07:55:50.053 954 Manual compaction at level-0 from '\x00<\x00\x00\x05' @ 1820 : 1 .. '\x00=\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,17 +1,19 @@
-2026/09/14-23:56:07.990 8b9 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/09/14-23:56:08.005 8b9 Delete type=2 #34713
-2026/09/14-23:59:08.848 8b9 Level-0 table #34715: started
-2026/09/14-23:59:08.849 8b9 Level-0 table #34715: 22021 bytes OK
-2026/09/14-23:59:08.850 8b9 Delete type=0 #34713
-2026/09/14-23:59:08.850 8b9 Compacting 4@0 + 1@1 files
-2026/09/14-23:59:08.852 8b9 Generated table #34716@0: 4603 keys, 122134 bytes
-2026/09/14-23:59:08.852 8b9 Compacted 4@0 + 1@1 files => 122134 bytes
-2026/09/14-23:59:08.853 8b9 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/14-23:59:08.853 8b9 Delete type=2 #34711
-2026/09/14-23:59:08.853 8b9 Delete type=2 #34703
-2026/09/14-23:59:08.853 8b9 Delete type=2 #34715
-2026/09/14-23:59:08.853 8b9 Delete type=2 #34705
-2026/09/14-23:59:08.853 8b9 Delete type=2 #34709
-2026/09/15-00:02:08.847 8b9 Level-0 table #34718: started
-2026/09/15-00:02:08.855 8b9 Level-0 table #34718: 22626 bytes OK
-2026/09/15-00:02:08.856 8b9 Delete type=0 #34714
+2026/09/15-00:46:52.388 87e Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/09/15-00:49:54.360 87d Level-0 table #34722: started
+2026/09/15-00:49:54.368 87d Level-0 table #34722: 21862 bytes OK
+2026/09/15-00:49:54.369 87d Delete type=0 #34720
+2026/09/15-00:51:54.360 87d Level-0 table #34724: started
+2026/09/15-00:51:54.367 87d Level-0 table #34724: 22449 bytes OK
+2026/09/15-00:51:54.368 87d Delete type=0 #34721
+2026/09/15-00:53:59.107 87d Level-0 table #34726: started
+2026/09/15-00:53:59.114 87d Level-0 table #34726: 21138 bytes OK
+2026/09/15-00:53:59.115 87d Delete type=0 #34723
+2026/09/15-00:53:59.115 87d Compacting 4@0 + 1@1 files
+2026/09/15-00:53:59.117 87d Generated table #34727@0: 4605 keys, 122003 bytes
+2026/09/15-00:53:59.117 87d Compacted 4@0 + 1@1 files => 122003 bytes
+2026/09/15-00:53:59.117 87d compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/15-00:53:59.118 87d Delete type=2 #34716
+2026/09/15-00:53:59.118 87d Delete type=2 #34726
+2026/09/15-00:53:59.118 87d Delete type=2 #34722
+2026/09/15-00:53:59.118 87d Delete type=2 #34724
+2026/09/15-00:53:59.118 87d Delete type=2 #34718

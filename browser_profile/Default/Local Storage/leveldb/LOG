@@ -1,10 +1,22 @@
-2026/09/17-21:18:11.428 959 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/09/17-21:21:12.071 95d Level-0 table #35811: started
-2026/09/17-21:21:12.076 95d Level-0 table #35811: 22791 bytes OK
-2026/09/17-21:21:12.077 95d Delete type=0 #35809
-2026/09/17-21:24:12.072 959 Level-0 table #35813: started
-2026/09/17-21:24:12.080 959 Level-0 table #35813: 23232 bytes OK
-2026/09/17-21:24:12.080 959 Delete type=0 #35810
-2026/09/17-21:26:17.842 95d Level-0 table #35815: started
-2026/09/17-21:26:17.843 95d Level-0 table #35815: 22960 bytes OK
-2026/09/17-21:26:17.844 95d Delete type=0 #35812
+2026/09/17-22:08:58.025 95b Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/09/17-22:11:58.553 95f Level-0 table #35819: started
+2026/09/17-22:11:58.558 95f Level-0 table #35819: 23004 bytes OK
+2026/09/17-22:11:58.559 95f Delete type=0 #35817
+2026/09/17-22:11:58.559 95f Compacting 4@0 + 1@1 files
+2026/09/17-22:11:58.562 95f Generated table #35820@0: 4731 keys, 126359 bytes
+2026/09/17-22:11:58.562 95f Compacted 4@0 + 1@1 files => 126359 bytes
+2026/09/17-22:11:58.562 95f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/17-22:11:58.562 95f Delete type=2 #35807
+2026/09/17-22:11:58.562 95f Delete type=2 #35813
+2026/09/17-22:11:58.562 95f Delete type=2 #35819
+2026/09/17-22:11:58.562 95f Delete type=2 #35815
+2026/09/17-22:11:58.562 95f Delete type=2 #35811
+2026/09/17-22:13:58.553 95f Level-0 table #35822: started
+2026/09/17-22:13:58.557 95f Level-0 table #35822: 22928 bytes OK
+2026/09/17-22:13:58.558 95f Delete type=0 #35818
+2026/09/17-22:15:41.069 95f Level-0 table #35824: started
+2026/09/17-22:15:41.073 95f Level-0 table #35824: 22947 bytes OK
+2026/09/17-22:15:41.074 95f Delete type=0 #35821
+2026/09/17-22:16:58.552 95f Level-0 table #35826: started
+2026/09/17-22:16:58.557 95f Level-0 table #35826: 21839 bytes OK
+2026/09/17-22:16:58.558 95f Delete type=0 #35823

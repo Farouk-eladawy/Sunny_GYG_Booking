@@ -1,16 +1,19 @@
-2026/09/19-15:05:32.237 968 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/09/19-15:08:32.903 96c Level-0 table #36533: started
-2026/09/19-15:08:32.910 96c Level-0 table #36533: 22010 bytes OK
-2026/09/19-15:08:32.911 96c Delete type=0 #36531
-2026/09/19-15:08:32.911 96c Compacting 4@0 + 1@1 files
-2026/09/19-15:08:32.915 96c Generated table #36534@0: 4807 keys, 126405 bytes
-2026/09/19-15:08:32.916 96c Compacted 4@0 + 1@1 files => 126405 bytes
-2026/09/19-15:08:32.916 96c compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/19-15:08:32.916 96c Delete type=2 #36527
-2026/09/19-15:08:32.916 96c Delete type=2 #36529
-2026/09/19-15:08:32.916 96c Delete type=2 #36525
-2026/09/19-15:08:32.916 96c Delete type=2 #36523
-2026/09/19-15:08:32.916 96c Delete type=2 #36533
-2026/09/19-15:12:19.877 96d Level-0 table #36536: started
-2026/09/19-15:12:19.881 96d Level-0 table #36536: 22485 bytes OK
-2026/09/19-15:12:19.882 96d Delete type=0 #36532
+2026/09/19-15:58:39.732 95b Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/09/19-16:01:40.290 95b Level-0 table #36540: started
+2026/09/19-16:01:40.295 95b Level-0 table #36540: 22588 bytes OK
+2026/09/19-16:01:40.296 95b Delete type=0 #36538
+2026/09/19-16:05:40.291 95b Level-0 table #36542: started
+2026/09/19-16:05:40.292 95b Level-0 table #36542: 22701 bytes OK
+2026/09/19-16:05:40.293 95b Delete type=0 #36539
+2026/09/19-16:08:40.290 95b Level-0 table #36544: started
+2026/09/19-16:08:40.294 95b Level-0 table #36544: 21570 bytes OK
+2026/09/19-16:08:40.294 95b Delete type=0 #36541
+2026/09/19-16:08:40.295 95b Compacting 4@0 + 1@1 files
+2026/09/19-16:08:40.298 95b Generated table #36545@0: 4809 keys, 126468 bytes
+2026/09/19-16:08:40.298 95b Compacted 4@0 + 1@1 files => 126468 bytes
+2026/09/19-16:08:40.298 95b compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/19-16:08:40.298 95b Delete type=2 #36536
+2026/09/19-16:08:40.298 95b Delete type=2 #36542
+2026/09/19-16:08:40.298 95b Delete type=2 #36534
+2026/09/19-16:08:40.298 95b Delete type=2 #36544
+2026/09/19-16:08:40.298 95b Delete type=2 #36540

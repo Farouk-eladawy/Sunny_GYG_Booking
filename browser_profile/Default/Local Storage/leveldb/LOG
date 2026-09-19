@@ -1,7 +1,64 @@
-2026/09/19-17:44:56.249 8e9 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/09/19-17:47:57.280 8e9 Level-0 table #36562: started
-2026/09/19-17:47:57.290 8e9 Level-0 table #36562: 22719 bytes OK
-2026/09/19-17:47:57.291 8e9 Delete type=0 #36560
-2026/09/19-17:51:57.280 8e9 Level-0 table #36564: started
-2026/09/19-17:51:57.287 8e9 Level-0 table #36564: 23282 bytes OK
-2026/09/19-17:51:57.288 8e9 Delete type=0 #36561
+2026/09/19-18:38:05.897 c28 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/09/19-18:40:06.508 c2c Level-0 table #36568: started
+2026/09/19-18:40:06.515 c2c Level-0 table #36568: 21899 bytes OK
+2026/09/19-18:40:06.516 c2c Delete type=0 #36566
+2026/09/19-18:40:06.516 c2c Compacting 4@0 + 1@1 files
+2026/09/19-18:40:06.520 c2c Generated table #36569@0: 4815 keys, 126441 bytes
+2026/09/19-18:40:06.520 c2c Compacted 4@0 + 1@1 files => 126441 bytes
+2026/09/19-18:40:06.521 c2c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/19-18:40:06.521 c2c Delete type=2 #36568
+2026/09/19-18:40:06.521 c2c Delete type=2 #36562
+2026/09/19-18:40:06.521 c2c Delete type=2 #36556
+2026/09/19-18:40:06.521 c2c Delete type=2 #36564
+2026/09/19-18:40:06.521 c2c Delete type=2 #36558
+2026/09/19-18:44:06.508 c2c Level-0 table #36571: started
+2026/09/19-18:44:06.512 c2c Level-0 table #36571: 22257 bytes OK
+2026/09/19-18:44:06.513 c2c Delete type=0 #36567
+2026/09/19-18:45:06.508 c2c Level-0 table #36573: started
+2026/09/19-18:45:06.509 c2c Level-0 table #36573: 21694 bytes OK
+2026/09/19-18:45:06.510 c2c Delete type=0 #36570
+2026/09/19-18:47:30.388 c2e Level-0 table #36575: started
+2026/09/19-18:47:30.394 c2e Level-0 table #36575: 20466 bytes OK
+2026/09/19-18:47:30.395 c2e Delete type=0 #36572
+2026/09/19-18:49:06.507 c2c Level-0 table #36577: started
+2026/09/19-18:49:06.511 c2c Level-0 table #36577: 21236 bytes OK
+2026/09/19-18:49:06.512 c2c Delete type=0 #36574
+2026/09/19-18:49:06.512 c2c Compacting 4@0 + 1@1 files
+2026/09/19-18:49:06.516 c2c Generated table #36578@0: 4815 keys, 126471 bytes
+2026/09/19-18:49:06.516 c2c Compacted 4@0 + 1@1 files => 126471 bytes
+2026/09/19-18:49:06.517 c2c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/19-18:49:06.517 c2c Delete type=2 #36569
+2026/09/19-18:49:06.517 c2c Delete type=2 #36575
+2026/09/19-18:49:06.517 c2c Delete type=2 #36573
+2026/09/19-18:49:06.517 c2c Delete type=2 #36571
+2026/09/19-18:49:06.517 c2c Delete type=2 #36577
+2026/09/19-18:50:06.508 c2c Level-0 table #36580: started
+2026/09/19-18:50:06.512 c2c Level-0 table #36580: 20454 bytes OK
+2026/09/19-18:50:06.513 c2c Delete type=0 #36576
+2026/09/19-18:54:06.508 c2c Level-0 table #36582: started
+2026/09/19-18:54:06.513 c2c Level-0 table #36582: 22223 bytes OK
+2026/09/19-18:54:06.513 c2c Delete type=0 #36579
+2026/09/19-18:55:06.508 c2c Level-0 table #36584: started
+2026/09/19-18:55:06.510 c2c Level-0 table #36584: 21681 bytes OK
+2026/09/19-18:55:06.511 c2c Delete type=0 #36581
+2026/09/19-18:57:33.468 c2d Level-0 table #36586: started
+2026/09/19-18:57:33.474 c2d Level-0 table #36586: 20467 bytes OK
+2026/09/19-18:57:33.474 c2d Delete type=0 #36583
+2026/09/19-18:57:33.475 c2d Compacting 4@0 + 1@1 files
+2026/09/19-18:57:33.482 c2d Generated table #36587@0: 4815 keys, 126464 bytes
+2026/09/19-18:57:33.482 c2d Compacted 4@0 + 1@1 files => 126464 bytes
+2026/09/19-18:57:33.483 c2d compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/19-18:57:33.483 c2d Delete type=2 #36578
+2026/09/19-18:57:33.483 c2d Delete type=2 #36580
+2026/09/19-18:57:33.483 c2d Delete type=2 #36586
+2026/09/19-18:57:33.483 c2d Delete type=2 #36582
+2026/09/19-18:57:33.483 c2d Delete type=2 #36584
+2026/09/19-18:59:06.508 c2c Level-0 table #36589: started
+2026/09/19-18:59:06.509 c2c Level-0 table #36589: 21880 bytes OK
+2026/09/19-18:59:06.510 c2c Delete type=0 #36585
+2026/09/19-19:02:06.508 c2c Level-0 table #36591: started
+2026/09/19-19:02:06.513 c2c Level-0 table #36591: 21536 bytes OK
+2026/09/19-19:02:06.513 c2c Delete type=0 #36588
+2026/09/19-19:06:06.507 c2c Level-0 table #36593: started
+2026/09/19-19:06:06.512 c2c Level-0 table #36593: 22291 bytes OK
+2026/09/19-19:06:06.513 c2c Delete type=0 #36590

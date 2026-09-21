@@ -1,7 +1,27 @@
-2026/09/21-00:02:35.605 879 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
-2026/09/21-00:06:08.875 87d Level-0 table #121953: started
-2026/09/21-00:06:08.892 87d Level-0 table #121953: 603503 bytes OK
-2026/09/21-00:06:08.895 87d Delete type=0 #121951
-2026/09/21-00:19:17.221 879 Level-0 table #121955: started
-2026/09/21-00:19:17.238 879 Level-0 table #121955: 12724 bytes OK
-2026/09/21-00:19:17.243 879 Delete type=0 #121952
+2026/09/21-00:55:55.230 889 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
+2026/09/21-00:58:20.655 889 Level-0 table #121959: started
+2026/09/21-00:58:20.660 889 Level-0 table #121959: 16192 bytes OK
+2026/09/21-00:58:20.663 889 Delete type=0 #121957
+2026/09/21-00:58:20.663 889 Compacting 4@0 + 5@1 files
+2026/09/21-00:58:20.758 889 Generated table #121960@0: 53263 keys, 2133687 bytes
+2026/09/21-00:58:20.861 889 Generated table #121961@0: 74635 keys, 2146505 bytes
+2026/09/21-00:58:20.888 889 Generated table #121962@0: 74614 keys, 2146049 bytes
+2026/09/21-00:58:20.969 889 Generated table #121963@0: 74482 keys, 2147008 bytes
+2026/09/21-00:58:20.973 889 Generated table #121964@0: 11696 keys, 336512 bytes
+2026/09/21-00:58:20.973 889 Compacted 4@0 + 5@1 files => 8909761 bytes
+2026/09/21-00:58:20.974 889 compacted to: files[ 0 5 45 213 0 0 0 ]
+2026/09/21-00:58:20.975 889 Delete type=2 #121953
+2026/09/21-00:58:20.975 889 Delete type=2 #121949
+2026/09/21-00:58:20.975 889 Delete type=2 #121943
+2026/09/21-00:58:20.975 889 Delete type=2 #121944
+2026/09/21-00:58:20.975 889 Delete type=2 #121959
+2026/09/21-00:58:20.975 889 Delete type=2 #121945
+2026/09/21-00:58:20.975 889 Delete type=2 #121946
+2026/09/21-00:58:20.975 889 Delete type=2 #121955
+2026/09/21-00:58:20.975 889 Delete type=2 #121947
+2026/09/21-01:00:44.100 88d Level-0 table #121966: started
+2026/09/21-01:00:44.399 88d Level-0 table #121966: 15418 bytes OK
+2026/09/21-01:00:44.404 88d Delete type=0 #121958
+2026/09/21-01:02:47.422 88d Level-0 table #121968: started
+2026/09/21-01:02:47.427 88d Level-0 table #121968: 16232 bytes OK
+2026/09/21-01:02:47.430 88d Delete type=0 #121965

@@ -1,10 +1,23 @@
-2026/09/22-18:39:40.075 8d7 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
-2026/09/22-18:51:34.956 8db Level-0 table #123094: started
-2026/09/22-18:51:34.958 8db Level-0 table #123094: 13337 bytes OK
-2026/09/22-18:51:34.961 8db Delete type=0 #123092
-2026/09/22-18:54:44.116 8db Level-0 table #123096: started
-2026/09/22-18:54:44.125 8db Level-0 table #123096: 610935 bytes OK
-2026/09/22-18:54:44.127 8db Delete type=0 #123093
-2026/09/22-18:59:03.228 8db Level-0 table #123098: started
-2026/09/22-18:59:03.238 8db Level-0 table #123098: 605670 bytes OK
-2026/09/22-18:59:03.240 8db Delete type=0 #123095
+2026/09/22-19:33:15.167 888 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
+2026/09/22-19:36:50.768 88c Level-0 table #123102: started
+2026/09/22-19:36:50.780 88c Level-0 table #123102: 603053 bytes OK
+2026/09/22-19:36:50.785 88c Delete type=0 #123100
+2026/09/22-19:36:50.788 88c Compacting 4@0 + 5@1 files
+2026/09/22-19:36:50.838 88c Generated table #123103@0: 42 keys, 2396113 bytes
+2026/09/22-19:36:50.869 88c Generated table #123104@0: 74643 keys, 2146197 bytes
+2026/09/22-19:36:50.899 88c Generated table #123105@0: 74682 keys, 2144873 bytes
+2026/09/22-19:36:50.929 88c Generated table #123106@0: 74619 keys, 2145948 bytes
+2026/09/22-19:36:50.949 88c Generated table #123107@0: 69765 keys, 2004825 bytes
+2026/09/22-19:36:50.949 88c Compacted 4@0 + 5@1 files => 10837956 bytes
+2026/09/22-19:36:50.949 88c compacted to: files[ 0 5 46 219 0 0 0 ]
+2026/09/22-19:36:50.951 88c Delete type=2 #123102
+2026/09/22-19:36:50.951 88c Delete type=2 #123088
+2026/09/22-19:36:50.951 88c Delete type=2 #123094
+2026/09/22-19:36:50.951 88c Delete type=2 #123098
+2026/09/22-19:36:50.951 88c Delete type=2 #123090
+2026/09/22-19:36:50.951 88c Delete type=2 #123087
+2026/09/22-19:36:50.951 88c Delete type=2 #123096
+2026/09/22-19:36:50.951 88c Delete type=2 #123089
+2026/09/22-19:36:50.951 88c Delete type=2 #123086
+2026/09/22-19:36:50.953 88c Moved #123103 to level-2 2396113 bytes OK: files[ 0 4 47 219 0 0 0 ]
+2026/09/22-19:36:50.953 88c Moved #116601 to level-3 2378655 bytes OK: files[ 0 4 46 220 0 0 0 ]

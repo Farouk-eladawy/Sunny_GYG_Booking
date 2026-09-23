@@ -1,21 +1,11 @@
-2026/09/22-22:13:04.505 8f2 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/09/22-22:16:05.217 8f2 Level-0 table #37763: started
-2026/09/22-22:16:05.218 8f2 Level-0 table #37763: 23161 bytes OK
-2026/09/22-22:16:05.219 8f2 Delete type=0 #37761
-2026/09/22-22:19:06.837 8f2 Level-0 table #37765: started
-2026/09/22-22:19:06.839 8f2 Level-0 table #37765: 29205 bytes OK
-2026/09/22-22:19:06.839 8f2 Delete type=0 #37762
-2026/09/22-22:20:40.539 8f3 Level-0 table #37767: started
-2026/09/22-22:20:40.541 8f3 Level-0 table #37767: 21660 bytes OK
-2026/09/22-22:20:40.542 8f3 Delete type=0 #37764
-2026/09/22-22:20:40.542 8f3 Compacting 4@0 + 1@1 files
-2026/09/22-22:20:40.544 8f3 Generated table #37768@0: 4979 keys, 131820 bytes
-2026/09/22-22:20:40.544 8f3 Compacted 4@0 + 1@1 files => 131820 bytes
-2026/09/22-22:20:40.545 8f3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/22-22:20:40.545 8f3 Delete type=2 #37757
-2026/09/22-22:20:40.545 8f3 Delete type=2 #37763
-2026/09/22-22:20:40.545 8f3 Delete type=2 #37759
-2026/09/22-22:20:40.545 8f3 Delete type=2 #37765
-2026/09/22-22:20:40.545 8f3 Delete type=2 #37767
-2026/09/22-22:22:17.329 8f3 Level-0 table #37770: started
-2026/09/22-22:22:17.338 8f3 Level-0 table #37770: 23391 bytes OK
+2026/09/22-23:06:23.660 966 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/09/22-23:06:23.664 966 Delete type=2 #37770
+2026/09/22-23:09:24.166 966 Level-0 table #37772: started
+2026/09/22-23:09:24.169 966 Level-0 table #37772: 23962 bytes OK
+2026/09/22-23:09:24.170 966 Delete type=0 #37770
+2026/09/22-23:12:24.165 96a Level-0 table #37774: started
+2026/09/22-23:12:24.167 96a Level-0 table #37774: 23457 bytes OK
+2026/09/22-23:12:24.168 96a Delete type=0 #37771
+2026/09/22-23:15:54.322 96b Level-0 table #37776: started
+2026/09/22-23:15:54.324 96b Level-0 table #37776: 23791 bytes OK
+2026/09/22-23:15:54.325 96b Delete type=0 #37773

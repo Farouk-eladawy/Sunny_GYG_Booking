@@ -1,16 +1,19 @@
-2026/09/23-07:05:34.812 888 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/09/23-07:08:36.773 888 Level-0 table #37922: started
-2026/09/23-07:08:36.775 888 Level-0 table #37922: 23427 bytes OK
-2026/09/23-07:08:36.775 888 Delete type=0 #37920
-2026/09/23-07:08:36.775 888 Compacting 4@0 + 1@1 files
-2026/09/23-07:08:36.778 888 Generated table #37923@0: 4999 keys, 132669 bytes
-2026/09/23-07:08:36.778 888 Compacted 4@0 + 1@1 files => 132669 bytes
-2026/09/23-07:08:36.778 888 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/09/23-07:08:36.778 888 Delete type=2 #37912
-2026/09/23-07:08:36.778 888 Delete type=2 #37916
-2026/09/23-07:08:36.778 888 Delete type=2 #37922
-2026/09/23-07:08:36.778 888 Delete type=2 #37918
-2026/09/23-07:08:36.778 888 Delete type=2 #37914
-2026/09/23-07:11:36.774 888 Level-0 table #37925: started
-2026/09/23-07:11:36.779 888 Level-0 table #37925: 18733 bytes OK
-2026/09/23-07:11:36.780 888 Delete type=0 #37921
+2026/09/23-07:59:00.579 8a5 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/09/23-08:02:01.380 8a9 Level-0 table #37929: started
+2026/09/23-08:02:01.384 8a9 Level-0 table #37929: 23148 bytes OK
+2026/09/23-08:02:01.385 8a9 Delete type=0 #37927
+2026/09/23-08:06:01.380 8a9 Level-0 table #37931: started
+2026/09/23-08:06:01.385 8a9 Level-0 table #37931: 24154 bytes OK
+2026/09/23-08:06:01.397 8a9 Delete type=0 #37928
+2026/09/23-08:07:25.265 8a5 Level-0 table #37933: started
+2026/09/23-08:07:25.266 8a5 Level-0 table #37933: 22090 bytes OK
+2026/09/23-08:07:25.267 8a5 Delete type=0 #37930
+2026/09/23-08:07:25.267 8a5 Compacting 4@0 + 1@1 files
+2026/09/23-08:07:25.275 8a5 Generated table #37934@0: 5001 keys, 132522 bytes
+2026/09/23-08:07:25.276 8a5 Compacted 4@0 + 1@1 files => 132522 bytes
+2026/09/23-08:07:25.278 8a5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/23-08:07:25.278 8a5 Delete type=2 #37923
+2026/09/23-08:07:25.278 8a5 Delete type=2 #37929
+2026/09/23-08:07:25.278 8a5 Delete type=2 #37933
+2026/09/23-08:07:25.278 8a5 Delete type=2 #37925
+2026/09/23-08:07:25.278 8a5 Delete type=2 #37931

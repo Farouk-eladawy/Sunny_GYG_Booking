@@ -1,10 +1,21 @@
-2026/09/30-07:16:41.415 8ff Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
-2026/09/30-07:18:54.261 8ff Level-0 table #126678: started
-2026/09/30-07:18:54.266 8ff Level-0 table #126678: 17291 bytes OK
-2026/09/30-07:18:54.271 8ff Delete type=0 #126676
-2026/09/30-07:20:54.550 904 Level-0 table #126680: started
-2026/09/30-07:20:54.557 904 Level-0 table #126680: 17502 bytes OK
-2026/09/30-07:20:54.560 904 Delete type=0 #126677
-2026/09/30-07:22:56.321 903 Level-0 table #126682: started
-2026/09/30-07:22:56.323 903 Level-0 table #126682: 17546 bytes OK
-2026/09/30-07:22:56.326 903 Delete type=0 #126679
+2026/09/30-08:07:45.313 992 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
+2026/09/30-08:11:33.994 996 Level-0 table #126686: started
+2026/09/30-08:11:34.006 996 Level-0 table #126686: 614166 bytes OK
+2026/09/30-08:11:34.009 996 Delete type=0 #126684
+2026/09/30-08:11:34.010 996 Compacting 4@0 + 1@1 files
+2026/09/30-08:11:34.025 996 Generated table #126687@0: 12784 keys, 967431 bytes
+2026/09/30-08:11:34.025 996 Compacted 4@0 + 1@1 files => 967431 bytes
+2026/09/30-08:11:34.026 996 compacted to: files[ 0 5 46 243 0 0 0 ]
+2026/09/30-08:11:34.028 996 Delete type=2 #126674
+2026/09/30-08:11:34.028 996 Delete type=2 #126680
+2026/09/30-08:11:34.028 996 Delete type=2 #126682
+2026/09/30-08:11:34.028 996 Delete type=2 #126686
+2026/09/30-08:11:34.028 996 Delete type=2 #126678
+2026/09/30-08:11:34.029 996 Compacting 1@1 + 1@2 files
+2026/09/30-08:11:34.058 996 Generated table #126688@1: 45 keys, 2417195 bytes
+2026/09/30-08:11:34.080 996 Generated table #126689@1: 21 keys, 2271708 bytes
+2026/09/30-08:11:34.080 996 Compacted 1@1 + 1@2 files => 4688903 bytes
+2026/09/30-08:11:34.080 996 compacted to: files[ 0 4 47 243 0 0 0 ]
+2026/09/30-08:11:34.082 996 Delete type=2 #126580
+2026/09/30-08:11:34.082 996 Delete type=2 #126237
+2026/09/30-08:11:34.084 996 Moved #119998 to level-3 2395604 bytes OK: files[ 0 4 46 244 0 0 0 ]

@@ -1,1 +1,13 @@
-2026/10/01-11:26:54.629 96f Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_supplier.getyourguide.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/01-13:10:16.851 a07 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/IndexedDB/https_supplier.getyourguide.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/01-14:00:32.226 a05 Level-0 table #20079: started
+2026/10/01-14:00:32.228 a05 Level-0 table #20079: 308820 bytes OK
+2026/10/01-14:00:32.229 a05 Delete type=0 #20077
+2026/10/01-14:00:32.229 a05 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/10/01-14:00:32.229 a05 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x06\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 6315928 : 1
+2026/10/01-14:00:32.229 a05 Compacting 1@1 + 1@2 files
+2026/10/01-14:00:32.231 a05 Generated table #20080@1: 120 keys, 5909 bytes
+2026/10/01-14:00:32.231 a05 Compacted 1@1 + 1@2 files => 5909 bytes
+2026/10/01-14:00:32.231 a05 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/10/01-14:00:32.231 a05 Delete type=2 #20075
+2026/10/01-14:00:32.231 a05 Delete type=2 #20079
+2026/10/01-14:00:32.231 a05 Manual compaction at level-1 from '\x00\x06\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 6315928 : 1 .. (end); will stop at (end)

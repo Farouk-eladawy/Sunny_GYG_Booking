@@ -1,7 +1,24 @@
-2026/10/01-17:38:38.954 995 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
-2026/10/01-17:42:27.784 999 Level-0 table #127237: started
-2026/10/01-17:42:27.794 999 Level-0 table #127237: 614295 bytes OK
-2026/10/01-17:42:27.797 999 Delete type=0 #127235
-2026/10/01-17:46:56.809 999 Level-0 table #127239: started
-2026/10/01-17:46:56.819 999 Level-0 table #127239: 614750 bytes OK
-2026/10/01-17:46:56.822 999 Delete type=0 #127236
+2026/10/01-18:29:34.539 9eb Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
+2026/10/01-18:41:20.067 9ef Level-0 table #127243: started
+2026/10/01-18:41:20.070 9ef Level-0 table #127243: 13955 bytes OK
+2026/10/01-18:41:20.075 9ef Delete type=0 #127241
+2026/10/01-18:41:20.076 9ef Compacting 4@0 + 1@1 files
+2026/10/01-18:41:20.101 9ef Generated table #127244@0: 16661 keys, 1075695 bytes
+2026/10/01-18:41:20.101 9ef Compacted 4@0 + 1@1 files => 1075695 bytes
+2026/10/01-18:41:20.102 9ef compacted to: files[ 0 5 46 248 0 0 0 ]
+2026/10/01-18:41:20.105 9ef Delete type=2 #127237
+2026/10/01-18:41:20.105 9ef Delete type=2 #127231
+2026/10/01-18:41:20.105 9ef Delete type=2 #127233
+2026/10/01-18:41:20.105 9ef Delete type=2 #127239
+2026/10/01-18:41:20.105 9ef Delete type=2 #127243
+2026/10/01-18:41:20.106 9ef Compacting 1@1 + 1@2 files
+2026/10/01-18:41:20.140 9ef Generated table #127245@1: 16 keys, 2433740 bytes
+2026/10/01-18:41:20.166 9ef Generated table #127246@1: 21 keys, 2270112 bytes
+2026/10/01-18:41:20.166 9ef Compacted 1@1 + 1@2 files => 4703852 bytes
+2026/10/01-18:41:20.167 9ef compacted to: files[ 0 4 47 248 0 0 0 ]
+2026/10/01-18:41:20.171 9ef Delete type=2 #126979
+2026/10/01-18:41:20.171 9ef Delete type=2 #127135
+2026/10/01-18:41:20.172 9ef Moved #121087 to level-3 2403765 bytes OK: files[ 0 4 46 249 0 0 0 ]
+2026/10/01-18:45:13.869 9ef Level-0 table #127248: started
+2026/10/01-18:45:13.877 9ef Level-0 table #127248: 623323 bytes OK
+2026/10/01-18:45:13.880 9ef Delete type=0 #127242

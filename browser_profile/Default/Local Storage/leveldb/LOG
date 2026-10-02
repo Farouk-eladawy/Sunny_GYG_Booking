@@ -1,20 +1,19 @@
-2026/10/02-00:25:46.732 993 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/10/02-00:25:46.741 993 Delete type=2 #41205
-2026/10/02-00:25:46.741 997 Compacting 4@0 + 1@1 files
-2026/10/02-00:25:46.751 997 Generated table #41207@0: 5421 keys, 139153 bytes
-2026/10/02-00:25:46.751 997 Compacted 4@0 + 1@1 files => 139153 bytes
-2026/10/02-00:25:46.751 997 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/02-00:25:46.751 997 Delete type=2 #41196
-2026/10/02-00:25:46.751 997 Delete type=2 #41200
-2026/10/02-00:25:46.751 997 Delete type=2 #41202
-2026/10/02-00:25:46.751 997 Delete type=2 #41194
-2026/10/02-00:25:46.751 997 Delete type=2 #41204
-2026/10/02-00:28:52.124 997 Level-0 table #41209: started
-2026/10/02-00:28:52.126 997 Level-0 table #41209: 23853 bytes OK
-2026/10/02-00:28:52.126 997 Delete type=0 #41206
-2026/10/02-00:31:47.623 997 Level-0 table #41211: started
-2026/10/02-00:31:47.625 997 Level-0 table #41211: 23750 bytes OK
-2026/10/02-00:31:47.626 997 Delete type=0 #41208
-2026/10/02-00:32:52.124 997 Level-0 table #41213: started
-2026/10/02-00:32:52.126 997 Level-0 table #41213: 23773 bytes OK
-2026/10/02-00:32:52.126 997 Delete type=0 #41210
+2026/10/02-01:16:39.108 8bb Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/10/02-01:19:39.993 8bf Level-0 table #41217: started
+2026/10/02-01:19:40.001 8bf Level-0 table #41217: 23835 bytes OK
+2026/10/02-01:19:40.002 8bf Delete type=0 #41215
+2026/10/02-01:19:40.002 8bf Compacting 4@0 + 1@1 files
+2026/10/02-01:19:40.006 8bf Generated table #41218@0: 5423 keys, 139113 bytes
+2026/10/02-01:19:40.006 8bf Compacted 4@0 + 1@1 files => 139113 bytes
+2026/10/02-01:19:40.006 8bf compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/02-01:19:40.006 8bf Delete type=2 #41213
+2026/10/02-01:19:40.006 8bf Delete type=2 #41209
+2026/10/02-01:19:40.006 8bf Delete type=2 #41217
+2026/10/02-01:19:40.006 8bf Delete type=2 #41207
+2026/10/02-01:19:40.006 8bf Delete type=2 #41211
+2026/10/02-01:21:44.330 8bf Level-0 table #41220: started
+2026/10/02-01:21:44.335 8bf Level-0 table #41220: 24005 bytes OK
+2026/10/02-01:21:44.336 8bf Delete type=0 #41216
+2026/10/02-01:24:32.906 8bb Level-0 table #41222: started
+2026/10/02-01:24:32.907 8bb Level-0 table #41222: 23177 bytes OK
+2026/10/02-01:24:32.907 8bb Delete type=0 #41219

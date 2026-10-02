@@ -1,12 +1,20 @@
-2026/10/01-23:35:00.595 98c Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/10/01-23:38:01.137 990 Level-0 table #41200: started
-2026/10/01-23:38:01.138 990 Level-0 table #41200: 23817 bytes OK
-2026/10/01-23:38:01.139 990 Delete type=0 #41198
-2026/10/01-23:41:01.138 990 Level-0 table #41202: started
-2026/10/01-23:41:01.140 990 Level-0 table #41202: 23773 bytes OK
-2026/10/01-23:41:01.140 990 Delete type=0 #41199
-2026/10/01-23:43:23.246 98c Level-0 table #41204: started
-2026/10/01-23:43:23.248 98c Level-0 table #41204: 28916 bytes OK
-2026/10/01-23:43:23.249 98c Delete type=0 #41201
-2026/10/01-23:43:23.249 990 Compacting 4@0 + 1@1 files
-2026/10/01-23:43:23.256 990 compacted to: files[ 4 1 1 0 0 0 0 ]
+2026/10/02-00:25:46.732 993 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/10/02-00:25:46.741 993 Delete type=2 #41205
+2026/10/02-00:25:46.741 997 Compacting 4@0 + 1@1 files
+2026/10/02-00:25:46.751 997 Generated table #41207@0: 5421 keys, 139153 bytes
+2026/10/02-00:25:46.751 997 Compacted 4@0 + 1@1 files => 139153 bytes
+2026/10/02-00:25:46.751 997 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/02-00:25:46.751 997 Delete type=2 #41196
+2026/10/02-00:25:46.751 997 Delete type=2 #41200
+2026/10/02-00:25:46.751 997 Delete type=2 #41202
+2026/10/02-00:25:46.751 997 Delete type=2 #41194
+2026/10/02-00:25:46.751 997 Delete type=2 #41204
+2026/10/02-00:28:52.124 997 Level-0 table #41209: started
+2026/10/02-00:28:52.126 997 Level-0 table #41209: 23853 bytes OK
+2026/10/02-00:28:52.126 997 Delete type=0 #41206
+2026/10/02-00:31:47.623 997 Level-0 table #41211: started
+2026/10/02-00:31:47.625 997 Level-0 table #41211: 23750 bytes OK
+2026/10/02-00:31:47.626 997 Delete type=0 #41208
+2026/10/02-00:32:52.124 997 Level-0 table #41213: started
+2026/10/02-00:32:52.126 997 Level-0 table #41213: 23773 bytes OK
+2026/10/02-00:32:52.126 997 Delete type=0 #41210

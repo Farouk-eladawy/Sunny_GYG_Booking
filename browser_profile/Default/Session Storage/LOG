@@ -1,20 +1,30 @@
-2026/10/04-15:58:31.976 989 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
-2026/10/04-16:00:48.732 98d Level-0 table #128345: started
-2026/10/04-16:00:48.734 98d Level-0 table #128345: 16540 bytes OK
-2026/10/04-16:00:48.739 98d Delete type=0 #128343
-2026/10/04-16:02:53.478 98d Level-0 table #128347: started
-2026/10/04-16:02:53.481 98d Level-0 table #128347: 16782 bytes OK
-2026/10/04-16:02:53.485 98d Delete type=0 #128344
-2026/10/04-16:02:53.485 98d Compacting 4@0 + 1@1 files
-2026/10/04-16:02:53.521 98d Generated table #128348@0: 11613 keys, 2104977 bytes
-2026/10/04-16:02:53.530 98d Generated table #128349@0: 14356 keys, 406943 bytes
-2026/10/04-16:02:53.530 98d Compacted 4@0 + 1@1 files => 2511920 bytes
-2026/10/04-16:02:53.531 98d compacted to: files[ 0 5 45 259 0 0 0 ]
-2026/10/04-16:02:53.535 98d Delete type=2 #128337
-2026/10/04-16:02:53.535 98d Delete type=2 #128345
-2026/10/04-16:02:53.535 98d Delete type=2 #128341
-2026/10/04-16:02:53.535 98d Delete type=2 #128347
-2026/10/04-16:02:53.535 98d Delete type=2 #128335
-2026/10/04-16:06:20.146 98e Level-0 table #128351: started
-2026/10/04-16:06:20.148 98e Level-0 table #128351: 15122 bytes OK
-2026/10/04-16:06:20.153 98e Delete type=0 #128346
+2026/10/04-16:49:13.950 8b0 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
+2026/10/04-16:51:09.917 8b4 Level-0 table #128355: started
+2026/10/04-16:51:09.922 8b4 Level-0 table #128355: 16861 bytes OK
+2026/10/04-16:51:09.927 8b4 Delete type=0 #128353
+2026/10/04-16:52:46.797 8b0 Level-0 table #128357: started
+2026/10/04-16:52:46.811 8b0 Level-0 table #128357: 616087 bytes OK
+2026/10/04-16:52:46.815 8b0 Delete type=0 #128354
+2026/10/04-16:54:32.338 8b4 Level-0 table #128359: started
+2026/10/04-16:54:32.341 8b4 Level-0 table #128359: 15748 bytes OK
+2026/10/04-16:54:32.347 8b4 Delete type=0 #128356
+2026/10/04-16:54:32.348 8b4 Compacting 4@0 + 2@1 files
+2026/10/04-16:54:32.385 8b4 Generated table #128360@0: 11901 keys, 2104414 bytes
+2026/10/04-16:54:32.390 8b4 Generated table #128361@0: 14491 keys, 410443 bytes
+2026/10/04-16:54:32.390 8b4 Compacted 4@0 + 2@1 files => 2514857 bytes
+2026/10/04-16:54:32.391 8b4 compacted to: files[ 0 5 45 259 0 0 0 ]
+2026/10/04-16:54:32.394 8b4 Delete type=2 #128349
+2026/10/04-16:54:32.394 8b4 Delete type=2 #128355
+2026/10/04-16:54:32.394 8b4 Delete type=2 #128359
+2026/10/04-16:54:32.394 8b4 Delete type=2 #128348
+2026/10/04-16:54:32.394 8b4 Delete type=2 #128351
+2026/10/04-16:54:32.394 8b4 Delete type=2 #128357
+2026/10/04-17:03:43.506 8b4 Level-0 table #128363: started
+2026/10/04-17:03:43.511 8b4 Level-0 table #128363: 15711 bytes OK
+2026/10/04-17:03:43.516 8b4 Delete type=0 #128358
+2026/10/04-17:05:35.903 8b4 Level-0 table #128365: started
+2026/10/04-17:05:35.908 8b4 Level-0 table #128365: 16162 bytes OK
+2026/10/04-17:05:35.912 8b4 Delete type=0 #128362
+2026/10/04-17:10:03.392 8b4 Level-0 table #128367: started
+2026/10/04-17:10:03.409 8b4 Level-0 table #128367: 609880 bytes OK
+2026/10/04-17:10:03.414 8b4 Delete type=0 #128364

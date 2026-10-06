@@ -1,62 +1,40 @@
-2026/10/06-17:59:13.711 996 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/10/06-17:59:13.717 996 Delete type=2 #43413
-2026/10/06-18:01:16.921 996 Level-0 table #43415: started
-2026/10/06-18:01:16.923 996 Level-0 table #43415: 23710 bytes OK
-2026/10/06-18:01:16.923 996 Delete type=0 #43413
-2026/10/06-18:04:14.323 996 Level-0 table #43417: started
-2026/10/06-18:04:14.325 996 Level-0 table #43417: 18146 bytes OK
-2026/10/06-18:04:14.325 996 Delete type=0 #43414
-2026/10/06-18:04:14.325 996 Compacting 4@0 + 1@1 files
-2026/10/06-18:04:14.329 996 Generated table #43418@0: 5646 keys, 143164 bytes
-2026/10/06-18:04:14.329 996 Compacted 4@0 + 1@1 files => 143164 bytes
-2026/10/06-18:04:14.329 996 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/06-18:04:14.329 996 Delete type=2 #43417
-2026/10/06-18:04:14.329 996 Delete type=2 #43415
-2026/10/06-18:04:14.329 996 Delete type=2 #43409
-2026/10/06-18:04:14.329 996 Delete type=2 #43407
-2026/10/06-18:04:14.329 996 Delete type=2 #43411
-2026/10/06-18:05:47.808 996 Level-0 table #43420: started
-2026/10/06-18:05:47.811 996 Level-0 table #43420: 23782 bytes OK
-2026/10/06-18:05:47.811 996 Delete type=0 #43416
-2026/10/06-18:06:37.597 996 Level-0 table #43422: started
-2026/10/06-18:06:37.598 996 Level-0 table #43422: 22172 bytes OK
-2026/10/06-18:06:37.598 996 Delete type=0 #43419
-2026/10/06-18:09:30.880 992 Level-0 table #43424: started
-2026/10/06-18:09:30.882 992 Level-0 table #43424: 22871 bytes OK
-2026/10/06-18:09:30.882 992 Delete type=0 #43421
-2026/10/06-18:10:01.576 996 Level-0 table #43426: started
-2026/10/06-18:10:01.578 996 Level-0 table #43426: 22873 bytes OK
-2026/10/06-18:10:01.579 996 Delete type=0 #43423
-2026/10/06-18:10:01.579 996 Compacting 4@0 + 1@1 files
-2026/10/06-18:10:01.582 996 Generated table #43427@0: 5646 keys, 143282 bytes
-2026/10/06-18:10:01.582 996 Compacted 4@0 + 1@1 files => 143282 bytes
-2026/10/06-18:10:01.582 996 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/06-18:10:01.582 996 Delete type=2 #43424
-2026/10/06-18:10:01.582 996 Delete type=2 #43422
-2026/10/06-18:10:01.582 996 Delete type=2 #43426
-2026/10/06-18:10:01.582 996 Delete type=2 #43418
-2026/10/06-18:10:01.582 996 Delete type=2 #43420
-2026/10/06-18:11:14.323 996 Level-0 table #43429: started
-2026/10/06-18:11:14.325 996 Level-0 table #43429: 22882 bytes OK
-2026/10/06-18:11:14.325 996 Delete type=0 #43425
-2026/10/06-18:13:00.442 997 Level-0 table #43431: started
-2026/10/06-18:13:00.444 997 Level-0 table #43431: 18164 bytes OK
-2026/10/06-18:13:00.444 997 Delete type=0 #43428
-2026/10/06-18:15:14.323 996 Level-0 table #43433: started
-2026/10/06-18:15:14.325 996 Level-0 table #43433: 18899 bytes OK
-2026/10/06-18:15:14.325 996 Delete type=0 #43430
-2026/10/06-18:17:14.323 996 Level-0 table #43435: started
-2026/10/06-18:17:14.325 996 Level-0 table #43435: 18089 bytes OK
-2026/10/06-18:17:14.325 996 Delete type=0 #43432
-2026/10/06-18:17:14.325 996 Compacting 4@0 + 1@1 files
-2026/10/06-18:17:14.329 996 Generated table #43436@0: 5646 keys, 143417 bytes
-2026/10/06-18:17:14.329 996 Compacted 4@0 + 1@1 files => 143417 bytes
-2026/10/06-18:17:14.329 996 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/10/06-18:17:14.329 996 Delete type=2 #43433
-2026/10/06-18:17:14.329 996 Delete type=2 #43435
-2026/10/06-18:17:14.329 996 Delete type=2 #43427
-2026/10/06-18:17:14.329 996 Delete type=2 #43429
-2026/10/06-18:17:14.329 996 Delete type=2 #43431
-2026/10/06-18:19:14.323 996 Level-0 table #43438: started
-2026/10/06-18:19:14.325 996 Level-0 table #43438: 18247 bytes OK
-2026/10/06-18:19:14.325 996 Delete type=0 #43434
+2026/10/06-18:50:05.366 9a8 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/10/06-18:52:06.003 9ac Level-0 table #43442: started
+2026/10/06-18:52:06.005 9ac Level-0 table #43442: 18090 bytes OK
+2026/10/06-18:52:06.005 9ac Delete type=0 #43440
+2026/10/06-18:55:06.003 9ac Level-0 table #43444: started
+2026/10/06-18:55:06.005 9ac Level-0 table #43444: 18249 bytes OK
+2026/10/06-18:55:06.006 9ac Delete type=0 #43441
+2026/10/06-18:56:36.790 9ac Level-0 table #43446: started
+2026/10/06-18:56:36.792 9ac Level-0 table #43446: 23107 bytes OK
+2026/10/06-18:56:36.793 9ac Delete type=0 #43443
+2026/10/06-18:56:36.793 9ac Compacting 4@0 + 1@1 files
+2026/10/06-18:56:36.798 9ac Generated table #43447@0: 5648 keys, 143745 bytes
+2026/10/06-18:56:36.798 9ac Compacted 4@0 + 1@1 files => 143745 bytes
+2026/10/06-18:56:36.798 9ac compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/06-18:56:36.798 9ac Delete type=2 #43444
+2026/10/06-18:56:36.798 9ac Delete type=2 #43438
+2026/10/06-18:56:36.798 9ac Delete type=2 #43436
+2026/10/06-18:56:36.798 9ac Delete type=2 #43446
+2026/10/06-18:56:36.798 9ac Delete type=2 #43442
+2026/10/06-18:57:20.583 9a8 Level-0 table #43449: started
+2026/10/06-18:57:20.585 9a8 Level-0 table #43449: 22160 bytes OK
+2026/10/06-18:57:20.585 9a8 Delete type=0 #43445
+2026/10/06-18:59:04.001 9ac Level-0 table #43451: started
+2026/10/06-18:59:04.003 9ac Level-0 table #43451: 22256 bytes OK
+2026/10/06-18:59:04.004 9ac Delete type=0 #43448
+2026/10/06-18:59:47.825 9a8 Level-0 table #43453: started
+2026/10/06-18:59:47.828 9a8 Level-0 table #43453: 22249 bytes OK
+2026/10/06-18:59:47.829 9a8 Delete type=0 #43450
+2026/10/06-19:02:06.002 9ac Level-0 table #43455: started
+2026/10/06-19:02:06.004 9ac Level-0 table #43455: 23501 bytes OK
+2026/10/06-19:02:06.004 9ac Delete type=0 #43452
+2026/10/06-19:02:06.004 9ac Compacting 4@0 + 1@1 files
+2026/10/06-19:02:06.007 9ac Generated table #43456@0: 5648 keys, 143753 bytes
+2026/10/06-19:02:06.007 9ac Compacted 4@0 + 1@1 files => 143753 bytes
+2026/10/06-19:02:06.008 9ac compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/06-19:02:06.008 9ac Delete type=2 #43455
+2026/10/06-19:02:06.008 9ac Delete type=2 #43447
+2026/10/06-19:02:06.008 9ac Delete type=2 #43451
+2026/10/06-19:02:06.008 9ac Delete type=2 #43453
+2026/10/06-19:02:06.008 9ac Delete type=2 #43449

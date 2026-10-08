@@ -1,21 +1,44 @@
-2026/10/08-09:51:10.535 996 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
-2026/10/08-09:53:17.646 996 Level-0 table #129807: started
-2026/10/08-09:53:17.648 996 Level-0 table #129807: 16328 bytes OK
-2026/10/08-09:53:17.653 996 Delete type=0 #129805
-2026/10/08-09:55:17.065 99a Level-0 table #129809: started
-2026/10/08-09:55:17.066 99a Level-0 table #129809: 16545 bytes OK
-2026/10/08-09:55:17.072 99a Delete type=0 #129806
-2026/10/08-09:57:34.539 996 Level-0 table #129811: started
-2026/10/08-09:57:34.541 996 Level-0 table #129811: 15417 bytes OK
-2026/10/08-09:57:34.545 996 Delete type=0 #129808
-2026/10/08-09:57:34.545 996 Compacting 4@0 + 2@1 files
-2026/10/08-09:57:34.590 996 Generated table #129812@0: 1678 keys, 2447758 bytes
-2026/10/08-09:57:34.620 996 Generated table #129813@0: 35389 keys, 1607997 bytes
-2026/10/08-09:57:34.620 996 Compacted 4@0 + 2@1 files => 4055755 bytes
-2026/10/08-09:57:34.620 996 compacted to: files[ 0 4 43 272 0 0 0 ]
-2026/10/08-09:57:34.624 996 Delete type=2 #129803
-2026/10/08-09:57:34.624 996 Delete type=2 #129809
-2026/10/08-09:57:34.624 996 Delete type=2 #129800
-2026/10/08-09:57:34.624 996 Delete type=2 #129801
-2026/10/08-09:57:34.624 996 Delete type=2 #129807
-2026/10/08-09:57:34.624 996 Delete type=2 #129811
+2026/10/08-10:41:58.381 8b2 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
+2026/10/08-10:45:43.858 8b6 Level-0 table #129817: started
+2026/10/08-10:45:43.868 8b6 Level-0 table #129817: 615395 bytes OK
+2026/10/08-10:45:43.872 8b6 Delete type=0 #129815
+2026/10/08-11:24:47.258 8b2 Level-0 table #129819: started
+2026/10/08-11:24:47.259 8b2 Level-0 table #129819: 15078 bytes OK
+2026/10/08-11:24:47.263 8b2 Delete type=0 #129816
+2026/10/08-11:26:44.009 8b6 Level-0 table #129821: started
+2026/10/08-11:26:44.011 8b6 Level-0 table #129821: 16285 bytes OK
+2026/10/08-11:26:44.015 8b6 Delete type=0 #129818
+2026/10/08-11:28:42.150 8b6 Level-0 table #129823: started
+2026/10/08-11:28:42.152 8b6 Level-0 table #129823: 16210 bytes OK
+2026/10/08-11:28:42.155 8b6 Delete type=0 #129820
+2026/10/08-11:28:42.155 8b6 Compacting 4@0 + 1@1 files
+2026/10/08-11:28:42.299 8b6 Generated table #129824@0: 35925 keys, 1618060 bytes
+2026/10/08-11:28:42.299 8b6 Compacted 4@0 + 1@1 files => 1618060 bytes
+2026/10/08-11:28:42.300 8b6 compacted to: files[ 0 4 43 272 0 0 0 ]
+2026/10/08-11:28:42.303 8b6 Delete type=2 #129819
+2026/10/08-11:28:42.303 8b6 Delete type=2 #129821
+2026/10/08-11:28:42.303 8b6 Delete type=2 #129817
+2026/10/08-11:28:42.303 8b6 Delete type=2 #129813
+2026/10/08-11:28:42.303 8b6 Delete type=2 #129823
+2026/10/08-11:34:22.429 8b2 Level-0 table #129826: started
+2026/10/08-11:34:22.495 8b2 Level-0 table #129826: 15387 bytes OK
+2026/10/08-11:34:22.499 8b2 Delete type=0 #129822
+2026/10/08-11:36:12.239 8b6 Level-0 table #129828: started
+2026/10/08-11:36:12.241 8b6 Level-0 table #129828: 16152 bytes OK
+2026/10/08-11:36:12.255 8b6 Delete type=0 #129825
+2026/10/08-11:40:34.902 8b7 Level-0 table #129830: started
+2026/10/08-11:40:34.905 8b7 Level-0 table #129830: 13893 bytes OK
+2026/10/08-11:40:34.910 8b7 Delete type=0 #129827
+2026/10/08-11:40:42.540 8b2 Level-0 table #129832: started
+2026/10/08-11:40:42.547 8b2 Level-0 table #129832: 611030 bytes OK
+2026/10/08-11:40:42.554 8b2 Delete type=0 #129829
+2026/10/08-11:40:42.557 8b2 Compacting 4@0 + 1@1 files
+2026/10/08-11:40:42.622 8b2 Generated table #129833@0: 32270 keys, 2117783 bytes
+2026/10/08-11:40:42.624 8b2 Generated table #129834@0: 4050 keys, 114672 bytes
+2026/10/08-11:40:42.624 8b2 Compacted 4@0 + 1@1 files => 2232455 bytes
+2026/10/08-11:40:42.624 8b2 compacted to: files[ 0 5 43 272 0 0 0 ]
+2026/10/08-11:40:42.627 8b2 Delete type=2 #129826
+2026/10/08-11:40:42.627 8b2 Delete type=2 #129828
+2026/10/08-11:40:42.627 8b2 Delete type=2 #129830
+2026/10/08-11:40:42.627 8b2 Delete type=2 #129832
+2026/10/08-11:40:42.627 8b2 Delete type=2 #129824

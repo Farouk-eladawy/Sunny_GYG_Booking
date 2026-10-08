@@ -1,10 +1,22 @@
-2026/10/08-21:45:01.260 990 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
-2026/10/08-21:47:06.939 994 Level-0 table #44369: started
-2026/10/08-21:47:06.941 994 Level-0 table #44369: 18448 bytes OK
-2026/10/08-21:47:06.942 994 Delete type=0 #44367
-2026/10/08-21:50:01.962 994 Level-0 table #44371: started
-2026/10/08-21:50:01.964 994 Level-0 table #44371: 19663 bytes OK
-2026/10/08-21:50:01.964 994 Delete type=0 #44368
-2026/10/08-21:53:01.129 990 Level-0 table #44373: started
-2026/10/08-21:53:01.132 990 Level-0 table #44373: 19422 bytes OK
-2026/10/08-21:53:01.133 990 Delete type=0 #44370
+2026/10/08-22:35:45.828 8d6 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Local Storage/leveldb/MANIFEST-030197
+2026/10/08-22:37:47.218 8da Level-0 table #44377: started
+2026/10/08-22:37:47.219 8da Level-0 table #44377: 18431 bytes OK
+2026/10/08-22:37:47.219 8da Delete type=0 #44375
+2026/10/08-22:37:47.220 8da Compacting 4@0 + 1@1 files
+2026/10/08-22:37:47.222 8da Generated table #44378@0: 5750 keys, 146006 bytes
+2026/10/08-22:37:47.222 8da Compacted 4@0 + 1@1 files => 146006 bytes
+2026/10/08-22:37:47.222 8da compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/08-22:37:47.222 8da Delete type=2 #44377
+2026/10/08-22:37:47.222 8da Delete type=2 #44365
+2026/10/08-22:37:47.222 8da Delete type=2 #44369
+2026/10/08-22:37:47.222 8da Delete type=2 #44373
+2026/10/08-22:37:47.222 8da Delete type=2 #44371
+2026/10/08-22:39:47.217 8da Level-0 table #44380: started
+2026/10/08-22:39:47.218 8da Level-0 table #44380: 18458 bytes OK
+2026/10/08-22:39:47.219 8da Delete type=0 #44376
+2026/10/08-22:41:47.218 8db Level-0 table #44382: started
+2026/10/08-22:41:47.220 8db Level-0 table #44382: 18437 bytes OK
+2026/10/08-22:41:47.221 8db Delete type=0 #44379
+2026/10/08-22:42:51.688 8da Level-0 table #44384: started
+2026/10/08-22:42:51.689 8da Level-0 table #44384: 18438 bytes OK
+2026/10/08-22:42:51.690 8da Delete type=0 #44381

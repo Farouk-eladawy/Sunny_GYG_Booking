@@ -1,7 +1,23 @@
-2026/10/09-16:23:50.837 99b Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
-2026/10/09-16:27:35.702 99b Level-0 table #130095: started
-2026/10/09-16:27:35.725 99b Level-0 table #130095: 615984 bytes OK
-2026/10/09-16:27:35.732 99b Delete type=0 #130093
-2026/10/09-16:31:30.550 99f Level-0 table #130097: started
-2026/10/09-16:31:30.558 99f Level-0 table #130097: 623515 bytes OK
-2026/10/09-16:31:30.562 99f Delete type=0 #130094
+2026/10/09-17:14:45.081 8c6 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
+2026/10/09-17:22:01.547 8ca Level-0 table #130101: started
+2026/10/09-17:22:01.556 8ca Level-0 table #130101: 621128 bytes OK
+2026/10/09-17:22:01.558 8ca Delete type=0 #130099
+2026/10/09-17:22:01.560 8ca Compacting 4@0 + 2@1 files
+2026/10/09-17:22:01.597 8ca Generated table #130102@0: 3969 keys, 2491498 bytes
+2026/10/09-17:22:01.618 8ca Generated table #130103@0: 38897 keys, 1705860 bytes
+2026/10/09-17:22:01.618 8ca Compacted 4@0 + 2@1 files => 4197358 bytes
+2026/10/09-17:22:01.619 8ca compacted to: files[ 0 5 43 274 0 0 0 ]
+2026/10/09-17:22:01.620 8ca Delete type=2 #130095
+2026/10/09-17:22:01.620 8ca Delete type=2 #130088
+2026/10/09-17:22:01.620 8ca Delete type=2 #130089
+2026/10/09-17:22:01.620 8ca Delete type=2 #130091
+2026/10/09-17:22:01.620 8ca Delete type=2 #130097
+2026/10/09-17:22:01.620 8ca Delete type=2 #130101
+2026/10/09-17:22:01.621 8ca Compacting 1@1 + 1@2 files
+2026/10/09-17:22:01.657 8ca Generated table #130104@1: 35 keys, 2412306 bytes
+2026/10/09-17:22:01.686 8ca Generated table #130105@1: 33 keys, 2280447 bytes
+2026/10/09-17:22:01.687 8ca Compacted 1@1 + 1@2 files => 4692753 bytes
+2026/10/09-17:22:01.687 8ca compacted to: files[ 0 4 44 274 0 0 0 ]
+2026/10/09-17:22:01.688 8ca Delete type=2 #129812
+2026/10/09-17:22:01.688 8ca Delete type=2 #129959
+2026/10/09-17:22:01.689 8ca Moved #125150 to level-3 2405933 bytes OK: files[ 0 4 43 275 0 0 0 ]

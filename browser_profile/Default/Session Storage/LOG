@@ -1,17 +1,21 @@
-2026/10/10-17:53:44.494 913 Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
-2026/10/10-18:04:55.995 917 Level-0 table #130286: started
-2026/10/10-18:04:56.021 917 Level-0 table #130286: 12883 bytes OK
-2026/10/10-18:04:56.024 917 Delete type=0 #130284
-2026/10/10-18:04:56.026 917 Compacting 4@0 + 1@1 files
-2026/10/10-18:04:56.071 917 Generated table #130287@0: 32807 keys, 2118631 bytes
-2026/10/10-18:04:56.078 917 Generated table #130288@0: 9051 keys, 255424 bytes
-2026/10/10-18:04:56.078 917 Compacted 4@0 + 1@1 files => 2374055 bytes
-2026/10/10-18:04:56.078 917 compacted to: files[ 0 5 43 276 0 0 0 ]
-2026/10/10-18:04:56.082 917 Delete type=2 #130286
-2026/10/10-18:04:56.082 917 Delete type=2 #130282
-2026/10/10-18:04:56.082 917 Delete type=2 #130274
-2026/10/10-18:04:56.082 917 Delete type=2 #130276
-2026/10/10-18:04:56.082 917 Delete type=2 #130278
-2026/10/10-18:09:38.314 913 Level-0 table #130290: started
-2026/10/10-18:09:38.317 913 Level-0 table #130290: 12126 bytes OK
-2026/10/10-18:09:38.320 913 Delete type=0 #130285
+2026/10/10-18:38:44.218 98d Reusing MANIFEST /home/runner/work/Sunny_GYG_Booking/Sunny_GYG_Booking/browser_profile/Default/Session Storage/MANIFEST-119905
+2026/10/10-18:41:06.367 992 Level-0 table #130294: started
+2026/10/10-18:41:06.370 992 Level-0 table #130294: 16767 bytes OK
+2026/10/10-18:41:06.375 992 Delete type=0 #130292
+2026/10/10-18:43:24.555 991 Level-0 table #130296: started
+2026/10/10-18:43:24.556 991 Level-0 table #130296: 16384 bytes OK
+2026/10/10-18:43:24.560 991 Delete type=0 #130293
+2026/10/10-18:45:43.142 98d Level-0 table #130298: started
+2026/10/10-18:45:43.146 98d Level-0 table #130298: 15882 bytes OK
+2026/10/10-18:45:43.150 98d Delete type=0 #130295
+2026/10/10-18:45:43.151 98d Compacting 4@0 + 2@1 files
+2026/10/10-18:45:43.187 98d Generated table #130299@0: 33015 keys, 2118703 bytes
+2026/10/10-18:45:43.191 98d Generated table #130300@0: 9337 keys, 264176 bytes
+2026/10/10-18:45:43.191 98d Compacted 4@0 + 2@1 files => 2382879 bytes
+2026/10/10-18:45:43.191 98d compacted to: files[ 0 5 43 276 0 0 0 ]
+2026/10/10-18:45:43.194 98d Delete type=2 #130287
+2026/10/10-18:45:43.194 98d Delete type=2 #130290
+2026/10/10-18:45:43.194 98d Delete type=2 #130294
+2026/10/10-18:45:43.194 98d Delete type=2 #130288
+2026/10/10-18:45:43.194 98d Delete type=2 #130298
+2026/10/10-18:45:43.194 98d Delete type=2 #130296
